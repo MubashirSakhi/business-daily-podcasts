@@ -67,8 +67,8 @@ To go back to manual, run `launchctl unload` on the same file. The paste flow ab
 
 The site has never been deployed: the repo has no commits and no GitHub remote yet.
 
-- [ ] Create the GitHub repo (suggested: public, named `podcast-daily`, to match the site's `/podcast-daily` path), make the first commit and push.
+- [ ] Create the GitHub repo `MubashirSakhi/business-daily-podcasts` (public; its name must match `base` in `site/astro.config.mjs`), make the first commit and push.
 - [ ] On GitHub, go to Settings → Pages → Source and choose **GitHub Actions**.
-- [ ] Check that the first deploy goes live at `https://<your-username>.github.io/podcast-daily/`.
+- [ ] Check that the first deploy goes live at `https://mubashirsakhi.github.io/business-daily-podcasts/`.
 - [ ] Decide whether the manual flow pushes only after you say "ship" (suggested) or pushes straight away.
 - [ ] Optional: set up option A from the section above.

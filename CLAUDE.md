@@ -78,5 +78,5 @@ New show ⇒ add it to `SHOWS` in `content.config.ts`, `SHOW_BADGE` in `src/lib.
 `--xxx` colour + `.badge.xxx` rule in `src/layouts/Base.astro`.
 
 URLs: `/YYYY/MM/DD/` (edition), `/YYYY/MM/DD/<title-slug>/` (episode), `/tags/<slug>/`,
-`/topics/<slug>/`, `/search/`, `/rss.xml`, all under the `/podcast-daily` base. Slugs come from
+`/topics/<slug>/`, `/search/`, `/rss.xml`, all under the `/business-daily-podcasts` base. Slugs come from
 titles, so don't rename a published episode's title; that breaks shared links.
