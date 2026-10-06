@@ -1,0 +1,20 @@
+---
+import { SHOW_BADGE, prettyDate, slug, url, type Episode } from '../lib';
+interface Props { items: { text: string; category: string; topics: string[]; episode: Episode }[]; }
+const { items } = Astro.props;
+---
+<ul class="hl">
+  {items.map((h) => (
+    <li>
+      <div>{h.text}</div>
+      <div class="meta">
+        <span class="badge" class:list={[SHOW_BADGE[h.episode.show]]}>{h.episode.show}</span>
+        {' '}<a href={url(h.episode.path)}>{h.episode.title}</a> · {prettyDate(h.episode.date)}
+      </div>
+      <ul class="chips">
+        <li><a class="chip tag" href={url(`tags/${slug(h.category)}/`)}>{h.category}</a></li>
+        {h.topics.map((t) => <li><a class="chip" href={url(`topics/${slug(t)}/`)}>{t}</a></li>)}
+      </ul>
+    </li>
+  ))}
+</ul>

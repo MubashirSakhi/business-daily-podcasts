@@ -1,0 +1,103 @@
+---
+import { SHOW_BADGE, md, prettyDate, slug, url, type Episode } from '../lib';
+interface Props { ep: Episode; full?: boolean; }
+const { ep, full = false } = Astro.props;
+const Heading = full ? 'h1' : 'h2';
+const words = [...ep.recap, ...ep.fun_facts, ...ep.discussion_questions].join(' ').split(/\s+/).length;
+---
+<article class:list={['episode', SHOW_BADGE[ep.show], { full }]} id={ep.slug}>
+  <header class="ep-head">
+    <p class="ep-meta">
+      <span class="glass" data-pagefind-filter="show">{ep.show}</span>
+      {full && <a href={url(ep.date.replace(/-/g, '/') + '/')}>{prettyDate(ep.date)}</a>}
+    </p>
+    <Heading>{full ? ep.title : <a href={url(ep.path)}>{ep.title}</a>}</Heading>
+    <ul class="ep-tags">
+      {ep.tags.map((t) => <li><a class="glass" href={url(`tags/${slug(t)}/`)} data-pagefind-filter="tag">{t}</a></li>)}
+    </ul>
+    <p class="ep-actions">
+      <a class="listen-btn" href={ep.url} target="_blank" rel="noopener">
+        <svg viewBox="0 0 24 24" width="14" height="14" fill="currentColor" aria-hidden="true"><path d="M7 4v16l13-8z" /></svg>
+        Listen on {ep.show}
+      </a>
+      <span>{Math.max(1, Math.round(words / 230))} min read</span>
+    </p>
+  </header>
+
+  <div class="prose">{ep.recap.map((p) => <p set:html={md(p)} />)}</div>
+
+  {ep.fun_facts.length > 0 && (
+    <section class="facts">
+      <h2 class="sec">Fun side facts</h2>
+      <ul>{ep.fun_facts.map((f) => <li set:html={md(f)} />)}</ul>
+    </section>
+  )}
+  {ep.discussion_questions.length > 0 && (
+    <section class="questions">
+      <h2 class="sec">Discussion questions</h2>
+      <ol>{ep.discussion_questions.map((q) => <li set:html={md(q)} />)}</ol>
+    </section>
+  )}
+  {full && (
+    <section>
+      <h2 class="sec">Highlights</h2>
+      <ul class="quotes">
+        {ep.highlights.map((h) => (
+          <li>
+            <blockquote>{h.text}</blockquote>
+            <ul class="ep-tags">
+              <li><a class="pill" href={url(`tags/${slug(h.category)}/`)}><i />{h.category}</a></li>
+              {h.topics.map((t) => <li><a class="pill topic" href={url(`topics/${slug(t)}/`)} data-pagefind-filter="topic">{t}</a></li>)}
+            </ul>
+          </li>
+        ))}
+      </ul>
+    </section>
+  )}
+</article>
+
+<style>
+  .episode { margin: 0 0 56px; }
+  .ep-head { background-color: var(--show); border-radius: 28px; padding: 28px 32px 32px; margin-bottom: 32px;
+    background-image: radial-gradient(rgb(28 36 51 / 0.09) 1px, transparent 1.4px); background-size: 11px 11px; }
+  .ep-meta { display: flex; flex-wrap: wrap; align-items: center; gap: 8px 14px; margin: 0 0 18px; font: 600 13px var(--sans); }
+  .ep-meta a { text-decoration: none; } .ep-meta a:hover { text-decoration: underline; }
+  .ep-head :is(h1, h2) { font: 800 clamp(1.9rem, 4.6vw, 2.8rem)/1.08 var(--sans); letter-spacing: -0.035em; margin: 0 0 18px; text-wrap: balance; }
+  .ep-head h2 { font-size: clamp(1.6rem, 3.6vw, 2.1rem); }
+  .ep-head h2 a { text-decoration: none; } .ep-head h2 a:hover { text-decoration: underline; text-decoration-thickness: 2px; }
+
+  .ep-tags { list-style: none; display: flex; flex-wrap: wrap; gap: 6px; margin: 0; padding: 0; }
+  .glass { display: inline-block; font: 600 12px/1 var(--sans); padding: 7px 11px; border-radius: 999px; color: var(--ink); text-decoration: none;
+    background: rgb(255 255 255 / 0.5); border: 1px solid rgb(255 255 255 / 0.7); backdrop-filter: blur(6px); -webkit-backdrop-filter: blur(6px); }
+  a.glass:hover { background: #fff; }
+
+  .ep-actions { display: flex; flex-wrap: wrap; align-items: center; gap: 10px 16px; margin: 24px 0 0; font: 600 13px var(--sans); color: rgb(28 36 51 / 0.75); }
+  .listen-btn { display: inline-flex; align-items: center; gap: 8px; padding: 12px 20px; border-radius: 999px; background: var(--ink); color: #fff;
+    font: 700 14px var(--sans); text-decoration: none; box-shadow: 0 8px 20px -8px rgb(28 36 51 / 0.5); transition: transform 0.2s; }
+  .listen-btn:hover { transform: translateY(-1px); }
+
+  .prose p { margin: 0 0 1.1em; }
+  .prose :global(strong) { font-family: var(--sans); font-weight: 700; font-size: 0.92em; letter-spacing: -0.01em; }
+
+  .sec { font: 700 1.35rem var(--sans); letter-spacing: -0.02em; margin: 40px 0 14px; }
+  .facts { background: color-mix(in srgb, var(--show) 28%, var(--card)); border-radius: 24px; padding: 4px 28px 22px; margin-top: 36px; }
+  .facts .sec { margin-top: 22px; }
+  .facts ul, .questions ol { margin: 0; padding-left: 1.2em; }
+  .facts li, .questions li { margin-bottom: 10px; }
+  .facts li::marker { color: rgb(28 36 51 / 0.45); }
+  .questions li::marker { font: 800 0.9em var(--sans); }
+
+  .quotes { list-style: none; margin: 0; padding: 0; display: grid; gap: 12px; }
+  .quotes > li { background: var(--card); border-radius: 20px; padding: 20px 22px; border: 1px solid rgb(28 36 51 / 0.07);
+    box-shadow: 0 1px 2px rgb(28 36 51 / 0.04), 0 8px 22px -16px rgb(28 36 51 / 0.25); }
+  .quotes blockquote { margin: 0 0 14px; font-size: 1.05rem; line-height: 1.5; }
+  .quotes blockquote::before { content: '“'; display: block; font: 800 2rem/0.5 var(--sans); margin: 6px 0 4px; color: var(--show); -webkit-text-stroke: 0.5px rgb(28 36 51 / 0.3); }
+  .pill { display: inline-flex; align-items: center; gap: 6px; font: 600 12px/1 var(--sans); padding: 7px 11px; border-radius: 999px;
+    background: var(--chip); color: var(--chip-ink); text-decoration: none; }
+  .pill i { width: 7px; height: 7px; border-radius: 50%; background: var(--show); }
+  .pill.topic { background: none; box-shadow: inset 0 0 0 1px var(--rule); }
+  .pill:hover { box-shadow: inset 0 0 0 1px var(--ink); }
+
+  @media (max-width: 480px) { .ep-head { padding: 22px 20px 24px; border-radius: 22px; } .facts { padding: 2px 20px 18px; } }
+  @media (prefers-reduced-motion: reduce) { .listen-btn { transition: none; } }
+</style>

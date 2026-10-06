@@ -1,0 +1,14 @@
+---
+import Base from '../../layouts/Base.astro';
+import { getHighlights, slug, topicNames, url } from '../../lib';
+const hs = await getHighlights();
+const count = (t: string) => hs.filter((h) => h.topics.includes(t)).length;
+---
+<Base title="Topics" description="Every subject the shows have covered, A to Z.">
+  <p class="kicker">Browse</p>
+  <h1>Topics</h1>
+  <p class="lede">{topicNames.length} subjects, A to Z.</p>
+  <ul class="az">
+    {topicNames.map((t) => <li><a href={url(`topics/${slug(t)}/`)}>{t}</a> <span class="n">{count(t)}</span></li>)}
+  </ul>
+</Base>

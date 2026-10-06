@@ -1,0 +1,9 @@
+# Artifact working copies: the Claude Artifacts platform owns these
+podcast-daily-timeline/
+podcast-knowledge-chat/
+podcast-digest-state/
+
+site/node_modules/
+site/dist/
+site/.astro/
+.DS_Store

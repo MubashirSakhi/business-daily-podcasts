@@ -1,0 +1,97 @@
+{
+  "date": "2026-08-25",
+  "episodes": [
+    {
+      "show": "My First Million",
+      "title": "3 low competition businesses with massive demand in America",
+      "url": "https://www.youtube.com/watch?v=6beIgBr9QL0",
+      "recap": [
+        "**Hot Plate figured out how to sell food without ever touching a kitchen.** Rishi Talati's company has powered over $100 million in sales for home bakers, pop-up chefs, and Instagram-famous cookie guys — essentially by being the storefront-slash-logistics layer that sellers like the old Pop-Up Bagels crew (now a near-billion-dollar business) used to go from apartment-window pickups to real operations. The trick to the business model: Hot Plate charges the customer a small fee at checkout, and the chef only eats payment processing costs, which makes it an easy yes for sellers who are already drowning in Venmo requests and Instagram DMs. Rishi's line landed hardest: \"there's two kinds of businesses — food businesses that do marketing, and marketing businesses that sell food.\" If you're the second kind, he says, price sensitivity basically disappears.",
+        "**Cottage food laws are quietly legalizing an entire underground economy.** Texas now has \"food freedom\" laws letting people sell almost anything out of their house, and Arizona's loosened dairy rules have spawned a wave of home coffee shops in places like Yuma. It's the regulatory tailwind nobody's talking about, and it's why Hot Plate is seeing six-and-seven-figure home businesses that never touch a storefront — like a Minnesota ice cream seller doing 40-50% margins with a three-person team.",
+        "**Tolan is an AI \"friend\" app, and its most loyal users are suburban moms, not tech bros.** Ajay Mehta's company has 100,000+ paying subscribers, mostly at $25/month, putting it at seven figures monthly — and the core demographic turned out to be 35-45 year old Midwestern women, which even Ajay admits nobody predicted. The pitch isn't intelligence (that's just borrowed from GPT-class models underneath); it's a persistent memory and personality layer that remembers your stressful week and follows up on it, which is the difference between \"wrapper around a chatbot\" and something people crochet plush dolls of.",
+        "**Overlap is trying to make AI agents replace human video editors and, eventually, the ad-buying budget itself.** Jonathan Baer's company uses a fine-tuned video-understanding model (not just a transcript) to autonomously find, clip, caption, and post the best moments from long-form content, and claims to have generated over 2 billion impressions without a human involved. Jonathan's bigger bet: as agents get good enough at producing and distributing content, a meaningful slice of the $90 billion a year spent on Meta, YouTube, and TikTok ads migrates from paid impressions to paying agents for organic performance instead.",
+        "**The best growth advice of the episode wasn't from the guests — it was a story about Twitch.** When Ajay sat down with an early Twitch investor, he learned the platform's whole strategy was built around four things streamers needed: money, fame, love, and inspiration — and that even small validation (a $10 payout) mattered more than people expected. Sam applied the same lens to Hot Plate: don't just build a discovery app, make your top 50 sellers famous the way Twitch made streamers famous."
+      ],
+      "fun_facts": [
+        "Hot Plate's origin story runs through Pop-Up Bagels — a Connecticut husband-and-wife team selling bagels out of their apartment window during COVID, which Hot Plate powered early on.",
+        "Tolan users have crocheted and 3D-printed physical dolls of their personal AI companions; the app's subreddit's top posts are homemade merch, not feature requests.",
+        "Jonathan's company pivoted away from an earlier idea — a \"TikTok for podcasts\" — before landing on Overlap's current autonomous-clipping business.",
+        "Celebrity divorce lawyer James Sexton reportedly uses Overlap's CPM-based clipping service to build public fame ahead of launching a prenup-focused legal-tech product.",
+        "Sam admits he built his own Claude-powered clip-and-post pipeline for MFM using Typefully — but concedes it's \"not automated,\" just \"fine.\""
+      ],
+      "discussion_questions": [
+        "Hot Plate takes its cut entirely from the customer, not the chef — as sellers scale into six and seven figures and switching costs rise, does that \"free to sellers\" model remain a moat, or does it eventually leave money on the table that a competitor could capture?",
+        "If Overlap's thesis is right and AI agents start pulling ad dollars away from platforms like Meta and TikTok toward \"paying for organic performance,\" what happens to the platforms whose entire business model depends on selling impressions rather than rewarding agent-driven reach?"
+      ],
+      "highlights": [
+        {
+          "text": "Hot Plate charges the customer a small checkout fee and lets chefs keep everything else (minus payment processing) — removing seller-side friction became its growth lever versus traditional food-tech platforms.",
+          "category": "Business Model",
+          "topics": [
+            "Pricing",
+            "Marketplaces",
+            "Food & Beverage"
+          ]
+        },
+        {
+          "text": "The 'money, fame, love, inspiration' framework (borrowed from Twitch's early creator strategy) explains why platforms should focus on making their best users famous, not just paying them, to drive organic growth.",
+          "category": "Marketing/Growth",
+          "topics": [
+            "Creator Economy"
+          ]
+        },
+        {
+          "text": "Cottage food laws and new 'food freedom' laws in states like Texas and Arizona are quietly enabling a wave of legal home-based food and coffee businesses — an under-the-radar regulatory tailwind worth building around.",
+          "category": "Startup Idea",
+          "topics": [
+            "Regulation",
+            "Food & Beverage",
+            "Niche Businesses"
+          ]
+        },
+        {
+          "text": "Tolan's core paying demo is 35-45 year old Midwestern moms paying $25/month for an AI companion — proof that consumer AI's biggest markets may not be the 'heavy AI user' crowd Silicon Valley expects.",
+          "category": "Business Model",
+          "topics": [
+            "AI",
+            "Consumer Behavior",
+            "Consumer AI"
+          ]
+        },
+        {
+          "text": "Tolan's edge over generic chatbots isn't the underlying LLM — it's a dedicated long-term memory and personalization layer that lets the AI reference a user's life details unprompted, which is what makes it feel 'real.'",
+          "category": "Technical Wisdom",
+          "topics": [
+            "AI",
+            "Consumer AI"
+          ]
+        },
+        {
+          "text": "Users have crocheted and 3D-printed physical dolls of their personal Tolan AI companions, and the app's subreddit's top posts are fan-made merch, not feature requests.",
+          "category": "Trivia",
+          "topics": [
+            "AI",
+            "Creator Economy",
+            "Consumer AI"
+          ]
+        },
+        {
+          "text": "Overlap's thesis: as AI agents get better at producing and distributing organic video content, a meaningful share of the ~$90 billion/year spent on Meta, YouTube, and TikTok ads will shift toward paying for agent-driven organic performance instead.",
+          "category": "Investing",
+          "topics": [
+            "AI",
+            "Creator Economy"
+          ]
+        },
+        {
+          "text": "In enterprise sales, buyers care less about ROI than about whether the product will make them look good and get them promoted — trust and personal upside close bigger deals than a pure numbers pitch.",
+          "category": "Life/Career Advice",
+          "topics": [
+            "Enterprise Tech",
+            "Sales"
+          ]
+        }
+      ]
+    }
+  ]
+}

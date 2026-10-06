@@ -1,0 +1,300 @@
+{
+  "date": "2026-09-14",
+  "episodes": [
+    {
+      "show": "Planet Money",
+      "title": "The loan at the heart of a new foreclosure crisis",
+      "url": "https://www.npr.org/2026/09/11/nx-s1-5966574/baltimore-foreclosure-crisis-dscr-loan",
+      "recap": [
+        "**A tip about \"two big investor foreclosures\" turned into a $100 million mystery.** Baltimore Banner reporter Jack Bologna got a cryptic text and, working with colleague Hallie Miller, found that two people nobody in Baltimore had ever heard of had quietly assembled one of the largest private real estate portfolios in the city: more than 700 homes, financed with roughly $100 million they'd borrowed — a number so big the reporters ran it more than once just to believe it.",
+        "**The loan that makes this possible skips income checks entirely.** DSCR (Debt Service Coverage Ratio) loans don't check your job, income, or tax returns — only whether the property's expected rent covers the mortgage. They dodge post-2008 mortgage rules because they're legally classified as business loans for landlords, not personal home loans, reviving something that looks a lot like the \"NINJA loans\" blamed for the last financial crisis.",
+        "**How a niche fix-and-flip product went mainstream.** Lender Roc360 connected thousands of small local hard-money lenders to Wall Street capital, turning a cottage industry into a securitized pipeline. DSCR originations roughly doubled from about $20 billion (2021) to $50 billion (2025), even though they're still only about 2% of new single-family mortgages.",
+        "**A likely fraud pattern hiding behind \"no income verification.\"** The reporters' working theory: two connected people trade a home back and forth at an inflated price to justify an oversized loan, repeatable hundreds of times, until the borrower just stops paying. The FBI has since opened an investigation into both central figures.",
+        "**The human cost is a burned-out rowhouse and a \"Monopoly game.\"** On Etting Street, homes bought and later foreclosed by one of the landlords now sit boarded up, one burned the week reporters visited. Longtime resident Lisa Revlon — who turns out to be an actual ballroom-scene legend — describes watching her block decline once out-of-town owners stopped maintaining it."
+      ],
+      "fun_facts": [
+        "Lisa Revlon, interviewed on Etting Street, turns out to be the real ballroom legend \"Lisa Revlon\" of the House of Revlon.",
+        "DSCR loans went from ~$20B to ~$50B in originations in just four years, despite still being only ~2% of new single-family mortgages.",
+        "\"NINJA loan\" stood for No Income, No Job, no Assets — effectively outlawed after 2008, but DSCR loans achieve something similar via a business-loan classification."
+      ],
+      "discussion_questions": [
+        "DSCR loans exist in a regulatory gap because they're classified as business loans rather than personal mortgages. Is that a legitimate distinction since rental income backs the debt, or a loophole that should be closed?",
+        "Private lenders pulled out of Baltimore altogether after the fraud surfaced, making it harder to finance repairs on the vacant homes left behind. When a market overcorrects like that, who ends up bearing the cost?"
+      ],
+      "highlights": [
+        {
+          "text": "DSCR (Debt Service Coverage Ratio) loans let you get a mortgage with zero income or job verification because they're legally classified as business loans, not personal mortgages.",
+          "category": "Trivia",
+          "topics": [
+            "Housing & Mortgages",
+            "Debt & Credit"
+          ]
+        },
+        {
+          "text": "DSCR loan originations roughly doubled from about $20 billion in 2021 to $50 billion in 2025, even though they're still only about 2% of new single-family mortgages.",
+          "category": "Investing",
+          "topics": [
+            "Housing & Mortgages"
+          ]
+        },
+        {
+          "text": "Lender Roc360 built a business connecting thousands of small local hard-money lenders to Wall Street capital, effectively securitizing mom-and-pop landlord loans.",
+          "category": "Startup Idea",
+          "topics": [
+            "Housing & Mortgages",
+            "Debt & Credit"
+          ]
+        },
+        {
+          "text": "Pre-2008 'NINJA loans' (No Income, No Job, no Assets) were outlawed after the financial crisis — DSCR loans achieve something similar today via a business-loan classification.",
+          "category": "Trivia",
+          "topics": [
+            "Housing & Mortgages",
+            "Debt & Credit",
+            "Regulation"
+          ]
+        },
+        {
+          "text": "A likely fraud pattern: two connected people inflate a home's sale price to each other to justify an oversized loan, then simply stop paying once the cash is out.",
+          "category": "Technical Wisdom",
+          "topics": [
+            "Housing & Mortgages",
+            "Fraud"
+          ]
+        },
+        {
+          "text": "Two Baltimore Banner reporters cracked the case just by building a spreadsheet of every loan amount and running the total more than once because it seemed too big to be real.",
+          "category": "Life/Career Advice",
+          "topics": [
+            "Fraud"
+          ]
+        }
+      ]
+    },
+    {
+      "show": "Masters of Scale",
+      "title": "IBM's $10 billion bet on what comes after AI",
+      "url": "https://mastersofscale.com/ibms-10-billion-bet-on-what-comes-after-ai/",
+      "recap": [
+        "**\"We're using an 18-wheeler to go milk shopping.\"** Arvind Krishna's bet: foundation models are becoming commodities within a year or three, while token costs keep climbing to justify the capital behind them. Most companies are using giant, expensive general models for tasks a much smaller, cheaper model could handle — IBM's play is helping enterprises pick the right-sized \"vehicle\" for each job.",
+        "**\"Day zero\" means start now, not everywhere.** Krishna's advice: pick 3-5 AI use cases, learn to run them at scale, then expand. IBM's own AI rollout cost more than it saved in year one, hit roughly 10x return by year two, and is on track for $5B+ in cumulative savings by year four.",
+        "**Productivity up, headcount... also up, mostly.** IBM's developers are ~40% more productive thanks to AI, yet the company tripled entry-level hiring this year — cheaper development unlocks products that weren't viable before. The catch: he estimates ~30% of pure back-office headcount could shrink over the next few years even as the other 80% of the enterprise grows.",
+        "**The AI capex math \"doesn't add up.\"** Krishna does the arithmetic live: the ~125 gigawatts of promised AI data centers implies $8-12 trillion in capex, which implies roughly $4 trillion in new revenue appearing from somewhere. He doesn't see where that comes from for all the players chasing it, and thinks only three or four foundation-model companies really win in a commodity world.",
+        "**Quantum computing is IBM's next big bet.** IBM and the U.S. government are backing a $10B quantum buildout; simulation capability jumped from a 5-atom molecule (summer 2025) to a 12,000-atom protein fragment (spring 2026) — fast enough that Krishna expects real drug-discovery-scale simulation within months."
+      ],
+      "fun_facts": [
+        "In 1993, Time magazine ran \"The Death of the Mainframe\" with a mainframe dressed as a dinosaur — 34 years before mainframes became relevant again for AI workloads.",
+        "Underlying GPU pricing has roughly doubled in the last six months on a per-hour basis, per Krishna.",
+        "Krishna's stat: humans get customer service right ~85% of the time; a properly constrained AI is closer to 95%."
+      ],
+      "discussion_questions": [
+        "Krishna predicts a \"20-80\" split where 20% of companies capture nearly all near-term AI returns. If that power-law pattern holds for a decade, what does the resulting competitive landscape look like?",
+        "If foundation models really do become commodities within one to three years, what happens to the trillion-dollar valuations built on today's leading labs keeping a durable technical edge?"
+      ],
+      "highlights": [
+        {
+          "text": "Arvind Krishna argues foundation models will become commodities within one to three years as token prices rise to justify the capital spent building them.",
+          "category": "Investing",
+          "topics": [
+            "AI",
+            "Enterprise Tech"
+          ]
+        },
+        {
+          "text": "Krishna: the math behind the ~$8-12 trillion in planned AI data-center capex doesn't add up without roughly $4 trillion in new annual revenue appearing from somewhere.",
+          "category": "Investing",
+          "topics": [
+            "AI",
+            "Macroeconomics"
+          ]
+        },
+        {
+          "text": "IBM's AI-adoption advice: pick 3-5 use cases and learn to run them at scale before expanding to 10, then 20 — don't spread thin across 100 pilots.",
+          "category": "Technical Wisdom",
+          "topics": [
+            "AI",
+            "Enterprise Tech"
+          ]
+        },
+        {
+          "text": "IBM's own AI rollout cost more than it saved in year one, then returned roughly 10x costs by year two, and is on pace for $5B+ in cumulative savings by year four.",
+          "category": "Business Model",
+          "topics": [
+            "AI",
+            "Enterprise Tech"
+          ]
+        },
+        {
+          "text": "Krishna's line on corporate risk: 'the riskiest route is taking zero risk' — because zero-risk companies just get copied and out-innovated from below.",
+          "category": "Life/Career Advice",
+          "topics": [
+            "Leadership",
+            "Innovation"
+          ]
+        },
+        {
+          "text": "In 1993, Time magazine depicted the mainframe as a dinosaur under the headline 'The Death of the Mainframe' — 34 years before mainframes came roaring back for AI workloads.",
+          "category": "Trivia",
+          "topics": [
+            "Enterprise Tech",
+            "History",
+            "Semiconductors & Hardware"
+          ]
+        },
+        {
+          "text": "IBM's quantum computers went from simulating a 5-atom molecule (summer 2025) to a 12,000-atom protein fragment (spring 2026) in under a year.",
+          "category": "Technical Wisdom",
+          "topics": [
+            "Quantum Computing",
+            "Semiconductors & Hardware"
+          ]
+        }
+      ]
+    },
+    {
+      "show": "What's Your Problem",
+      "title": "Can a Robot Kill Fish Humanely?",
+      "url": "https://www.iheart.com/podcast/1297-whats-your-problem-93024648/episode/can-a-robot-kill-fish-humanely-343565897",
+      "recap": [
+        "**A philosophy essay started a fish company.** Saif Khawaja read Peter Singer's \"If Fish Could Scream\" as an engineering student, which argues most fish die slowly by suffocation after being caught. That sent him into ikejime, a Japanese technique using a spike through the fish's brain for an instant kill — one believed to also improve texture and shelf life. Shinkei is built on that two-for-one: kinder and better.",
+        "**Why they skipped the \"humane\" stunning step, on purpose.** Academic ikejime guidance recommends an electric stunning step first, but Shinkei rejected it: wild fish vary too much in size for one safe voltage — too high damages the meat, too low leaves the fish conscious. What's more humane in a controlled farm setting becomes impractical in the real, uncontrolled one.",
+        "**The business model: give away the razor, own the fish.** Shinkei gives kill-machines to fishermen for free (a $0 lease), then buys the fish it processes at a premium and sells under its own brand. Because fishing runs on fixed quotas, paying more per fish raises fisherman income without requiring more fish caught.",
+        "**Proving \"quality\" meant building the whole supply chain themselves.** Rather than sell the tech and hope buyers took quality claims on faith, Shinkei built its own 16,000-sq-ft plant in Tacoma, WA, to hand retailers real traceability data instead of a pitch deck.",
+        "**Repositioning from Michelin dreams to everyday premium.** Shinkei moved from chasing three-Michelin-star kitchens toward \"premium, not luxury\" — paying more for genuine utility (better shelf life, less waste) rather than pure experience."
+      ],
+      "fun_facts": [
+        "Old sailor superstition, per Khawaja: never bring a banana on a boat — supposedly because bananas attract fruit flies.",
+        "Shinkei's whole pitch to retailers is mountains of traceability paperwork and shelf-life studies, the opposite of \"no questions asked\" lending."
+      ],
+      "discussion_questions": [
+        "Shinkei's pay-fishermen-more model works because quotas are fixed. Could that same lever fix incentive problems in other quota-capped industries?",
+        "Khawaja rejected the \"more humane\" stunning step because it doesn't work at wild-fishing scale. What does that suggest about porting animal-welfare tech from controlled to uncontrolled environments?"
+      ],
+      "highlights": [
+        {
+          "text": "Saif Khawaja turned Peter Singer's essay 'If Fish Could Scream' into Shinkei, a company building humane fish-killing machines for industrial fishing boats.",
+          "category": "Startup Idea",
+          "topics": [
+            "Robotics",
+            "Fishing",
+            "Animal Welfare"
+          ]
+        },
+        {
+          "text": "Shinkei gives its fish-killing machines to fishermen for free (a $0 lease), then buys the resulting catch at a premium and sells it under its own brand.",
+          "category": "Business Model",
+          "topics": [
+            "Pricing",
+            "Fishing"
+          ]
+        },
+        {
+          "text": "Because commercial fishing runs on fixed quotas, paying fishermen more per fish raises their income without requiring them to catch more fish.",
+          "category": "Business Model",
+          "topics": [
+            "Pricing",
+            "Fishing"
+          ]
+        },
+        {
+          "text": "Shinkei skipped the standard 'humane' electric stunning step because wild fish vary too much in size for one safe voltage — too high damages the meat, too low leaves the fish conscious.",
+          "category": "Technical Wisdom",
+          "topics": [
+            "Robotics",
+            "Fishing",
+            "Animal Welfare"
+          ]
+        },
+        {
+          "text": "Shinkei built its own 16,000-sq-ft processing plant in Tacoma, WA, to hand retailers real traceability and shelf-life data instead of asking them to take quality claims on faith.",
+          "category": "Marketing/Growth",
+          "topics": [
+            "Fishing"
+          ]
+        },
+        {
+          "text": "Khawaja distinguishes 'premium' (paying more for real utility like shelf life) from 'luxury' (paying for pure experience), and repositioned Shinkei away from chasing Michelin three-star kitchens toward broader premium retail.",
+          "category": "Marketing/Growth",
+          "topics": [
+            "Pricing",
+            "Fishing"
+          ]
+        },
+        {
+          "text": "Old sailor superstition, per Khawaja: never bring a banana on a boat — supposedly because bananas attract fruit flies.",
+          "category": "Trivia",
+          "topics": [
+            "Fishing"
+          ]
+        }
+      ]
+    },
+    {
+      "show": "Stuff You Should Know",
+      "title": "The Odyssey Episode",
+      "url": "https://www.iheart.com/podcast/1119-stuff-you-should-know-26940277/episode/the-odyssey-episode-343576840",
+      "recap": [
+        "**A 2,700-year-old story just got a new movie, and that's the whole hook.** Chuck opens by raving about Christopher Nolan's new Odyssey film, which sends the hosts chasing the real question: why does this story still work on a 2026 audience?",
+        "**Nobody actually knows who \"Homer\" was.** Dated to roughly the 700s BCE, the poem's authorship is inferred entirely from internal clues (its Ionic Greek dialect points to an author from Ionia) — essentially the Shakespeare authorship debate, two and a half millennia older.",
+        "**It was a spoken performance for centuries before it was ever written down.** Bards memorized and slightly altered the epic with each retelling — a very long game of telephone — before it solidified into a fixed written text.",
+        "**The plot runs on two very Greek values: hospitality and homecoming.** Xenia (guest-host hospitality, enforced by Zeus) and nostos (the ache to get home) structure the whole 24-book journey, including the Cyclops, Circe, the Sirens, and Scylla and Charybdis — the actual origin of \"caught between a rock and a hard place.\"",
+        "**Translating it has been a headache for 500-plus years.** The first Greek print edition didn't appear until 1488; the first English translation came in 1616 (George Chapman). Emily Wilson's 2017 translation is now the modern standard — and the one Nolan's film draws from."
+      ],
+      "fun_facts": [
+        "\"Caught between a rock and a hard place\" traces directly back to Scylla and Charybdis.",
+        "The first printed Greek edition of the Odyssey didn't exist until 1488 — nearly 2,200 years after it was composed.",
+        "There's a lost ancient sequel, the Telegony, in which Odysseus is killed by a son he never knew he had."
+      ],
+      "discussion_questions": [
+        "Xenia was serious social infrastructure in the Odyssey's world. What's the closest modern equivalent, and would a story built around violating it still land with a 2026 audience?",
+        "How much of \"what a classic means\" is really just a function of who happens to be translating it at the time?"
+      ],
+      "highlights": [
+        {
+          "text": "The phrase 'caught between a rock and a hard place' traces back to the Odyssey's Scylla and Charybdis.",
+          "category": "Trivia",
+          "topics": [
+            "Myths & Legends"
+          ]
+        },
+        {
+          "text": "The first printed edition of the Odyssey (in its original Ionic Greek) didn't appear until 1488; the first English translation came almost 130 years later, in 1616.",
+          "category": "Trivia",
+          "topics": [
+            "History",
+            "Books & Publishing"
+          ]
+        },
+        {
+          "text": "There was a lost ancient sequel to the Odyssey, the Telegony, in which Odysseus is killed by a son he never knew about.",
+          "category": "Trivia",
+          "topics": [
+            "Myths & Legends"
+          ]
+        },
+        {
+          "text": "The Odyssey survived for centuries as spoken performance before being written down, with bards altering it slightly each retelling — essentially a very long game of telephone.",
+          "category": "Technical Wisdom",
+          "topics": [
+            "History",
+            "Myths & Legends"
+          ]
+        },
+        {
+          "text": "Scholars infer nearly everything about 'Homer' from internal clues in the text itself (like its Ionic dialect), since there are no real biographical records — much like the Shakespeare authorship debate.",
+          "category": "Life/Career Advice",
+          "topics": [
+            "Myths & Legends"
+          ]
+        },
+        {
+          "text": "Emily Wilson's 2017 translation is now considered the modern gold standard, and it's the version Christopher Nolan's new film draws from.",
+          "category": "Marketing/Growth",
+          "topics": [
+            "Books & Publishing"
+          ]
+        }
+      ]
+    }
+  ]
+}

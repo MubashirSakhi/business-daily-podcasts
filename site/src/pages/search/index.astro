@@ -1,0 +1,28 @@
+---
+import Base from '../../layouts/Base.astro';
+import { url } from '../../lib';
+---
+<Base title="Search" description="Search every episode recap and highlight.">
+  <link slot="head" href={url('pagefind/pagefind-ui.css')} rel="stylesheet" />
+  <p class="kicker">Search</p>
+  <h1>Search the archive</h1>
+  <p class="lede">Narrow results by show, tag and topic with the filters.</p>
+  <div id="search"></div>
+  <p class="meta" id="search-dev" hidden>Search runs on the built site: <code>npm run build && npm run preview</code>.</p>
+  <script is:inline define:vars={{ ui: url('pagefind/pagefind-ui.js') }}>
+    const s = document.createElement('script');
+    s.src = ui;
+    s.onload = () => {
+      const pf = new PagefindUI({ element: '#search', showSubResults: true, showImages: false, openFilters: ['show', 'tag'] });
+      const q = new URLSearchParams(location.search).get('q');
+      if (q) pf.triggerSearch(q);
+    };
+    s.onerror = () => { document.getElementById('search-dev').hidden = false; };
+    document.head.append(s);
+  </script>
+</Base>
+
+<style is:global>
+  #search { --pagefind-ui-font: var(--sans); --pagefind-ui-primary: var(--ink); --pagefind-ui-text: var(--ink);
+    --pagefind-ui-background: var(--card); --pagefind-ui-border: var(--rule); --pagefind-ui-tag: var(--chip); }
+</style>

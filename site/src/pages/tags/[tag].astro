@@ -1,0 +1,18 @@
+---
+import Base from '../../layouts/Base.astro';
+import HighlightList from '../../components/HighlightList.astro';
+import { getHighlights, slug } from '../../lib';
+import { CATEGORIES } from '../../content.config';
+
+export async function getStaticPaths() {
+  const hs = await getHighlights();
+  return CATEGORIES.map((c) => ({ params: { tag: slug(c) }, props: { name: c, items: hs.filter((h) => h.category === c) } }));
+}
+const { name, items } = Astro.props;
+---
+<Base title={`#${name}`} description={`${items.length} podcast highlights tagged ${name}.`}>
+  <p class="kicker">Tag</p>
+  <h1>#{name}</h1>
+  <p class="lede">{items.length} highlights, newest first.</p>
+  <HighlightList items={items} />
+</Base>

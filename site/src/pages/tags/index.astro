@@ -1,0 +1,14 @@
+---
+import Base from '../../layouts/Base.astro';
+import { getHighlights, slug, url } from '../../lib';
+import { CATEGORIES } from '../../content.config';
+const hs = await getHighlights();
+---
+<Base title="Tags" description="Every highlight, grouped into seven tags.">
+  <p class="kicker">Browse</p>
+  <h1>Tags</h1>
+  <p class="lede">Every highlight carries exactly one of these seven tags.</p>
+  <ul class="az">
+    {CATEGORIES.map((c) => <li><a href={url(`tags/${slug(c)}/`)}>{c}</a> <span class="n">{hs.filter((h) => h.category === c).length}</span></li>)}
+  </ul>
+</Base>

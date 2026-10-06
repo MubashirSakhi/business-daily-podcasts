@@ -1,0 +1,25 @@
+---
+import Base from '../../../../layouts/Base.astro';
+import Episode from '../../../../components/Episode.astro';
+import { getEditions, prettyDate, url } from '../../../../lib';
+
+export async function getStaticPaths() {
+  const eds = await getEditions();
+  return eds.map((ed, i) => {
+    const [y, m, d] = ed.date.split('-');
+    return { params: { y, m, d }, props: { ed, newer: eds[i - 1], older: eds[i + 1] } };
+  });
+}
+const { ed, newer, older } = Astro.props;
+---
+<Base title={prettyDate(ed.date)} description={ed.episodes.map((e) => e.title).join(' · ')}>
+  <header class="edition-head">
+    <h1>{prettyDate(ed.date)}</h1>
+    <p class="meta">
+      {older && <a href={url(older.path)}>← {prettyDate(older.date)}</a>}
+      {older && newer && ' · '}
+      {newer && <a href={url(newer.path)}>{prettyDate(newer.date)} →</a>}
+    </p>
+  </header>
+  {ed.episodes.map((ep) => <Episode ep={ep} />)}
+</Base>

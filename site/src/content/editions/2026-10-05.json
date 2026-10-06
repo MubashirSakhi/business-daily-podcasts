@@ -1,0 +1,451 @@
+{
+  "date": "2026-10-05",
+  "episodes": [
+    {
+      "show": "My First Million",
+      "title": "Sam Altman's coach destroys your limiting beliefs for 86 minutes straight",
+      "url": "https://www.youtube.com/watch?v=bi23y0x-MhA",
+      "recap": [
+        "**The grind is a belief, not a law of physics.** Sam's own operating system — suffer now, grind hard, be happy after the exit — gets split by Joe into two separate beliefs, and he knocks both down. He says he knows plenty of wildly successful people who barely grind, and that he has never seen a startup die from lack of effort. What actually kills companies is bad relationships and bad decisions — and exhausted, anxious founders make worse versions of both. That reframes \"work harder\" from a virtue into a risk factor.",
+        "**The self-reliance trap and the \"golden algorithm.\"** A huge share of founders learned as kids that nobody was coming to take care of them — a critical, depressed or alcoholic parent will do it. As adults they can't ask for help, can't say what they want, and have a weird relationship with authority. Joe's \"golden algorithm\" is the brutal twist: the emotion you're trying to avoid is the one you invite, through the very method you use to avoid it. Grind to avoid feeling helpless → burn out → make bad calls → feel helpless. The fix isn't more willpower; it's learning to treat helplessness as a signal (you're not delegating, not accepting help, or obeying a fake limit) — \"fall in love with the emotions you're avoiding,\" like learning to enjoy the burn in a workout.",
+        "**Insight is cheap; your nervous system needs reps.** Joe says real change has to land at three levels — the intellectual (prefrontal cortex), the emotional (\"the heart\"), and the nervous system. Most smart people only work the first level, which is why reading a great book changes almost nothing. The nervous system only updates through repetition: let yourself feel more pleasure (it signals safety and resets your baseline), and when a \"can we talk?\" text spikes you, pause one or two seconds and just notice what it's like to be you, without trying to manage the anxiety.",
+        "**Rehearse the funeral so you can stop walking on eggshells.** Samurai, Tibetan practices and the Stoics all rehearse loss, and Joe uses it everywhere. When he and his wife (married 27 years) hit a rough patch, they fully grieve and imagine the divorce — after that, they can talk honestly because the fear is gone. He walks founders through the death of their company; the most common founder fear is ending up homeless. His point: we don't fear events, we fear the emotions attached to them. Do it until the fear is actually gone — depth beats frequency. Shaan connects it to Georges St-Pierre's coach rehearsing walkouts with the opponent's music, lights and even matching gloves.",
+        "**Measure a company by how fast it fights.** Joe's two health metrics for any team: how quickly hard conversations happen, and how quickly they get resolved. Both the yelling CEO and the avoidant CEO fail. His playbook: don't solve the problem for the other person — ask them for a plan; ask open questions so they feel heard; and be vulnerable about your own state (\"I've lost trust, and that's hard for me\") instead of indicting them. The real lever is the internal state you deliver it from — calm, unthreatened \"vagal authority.\"",
+        "**You don't have to fix your inner critic — just change how you answer it.** Abusive self-talk isn't only overt criticism; it hides in constant \"you have to\" and even anxious pep talks (\"you've got this,\" which quietly implies doubt). Healthy thought is sparse and arrives like epiphanies; abusive thought loops. Rather than rewrite the voice, change your reaction: compassion, humor, or \"prove it,\" rotated as a new experiment every two days. Or list the 20 things your critic says most and find several ways each is untrue.",
+        "**One fun experiment a week beats a giant self-improvement to-do list.** Shaan admits he gets inspired, then exhausted. Joe says that's what happens when growth becomes homework. His upcoming book has 52 experiments — enjoy whatever you're doing 10% more without changing it, do only what you enjoy for a week (he learned to love taking out the trash), thank five people a day (which directly erodes self-reliance). He frames everything as an experiment for a reason: the brain's habenula discourages repeating \"failures,\" but an experiment can't fail.",
+        "**The billion-dollar idea is the one you wouldn't sell for a billion.** \"What's my purpose?\" is often self-abuse in disguise. Joe and his wife realized they wouldn't sell their business for a billion dollars if it meant never doing the work again — and his daughter flipped that into a definition. Working for money, approval or winning can build huge companies, but not contentment. Sam adds that having kids made his old ambitions matter less — and Joe notes he's still effective without that identity.",
+        "**What the people at the top actually look like.** Fast-moving operators rarely second-guess themselves; investors can afford more self-doubt. Many high performers feel simultaneously better than everyone and secretly broken, and work to prove they're not broken. On AI, Joe (who coaches people across the major labs, including OpenAI research leads) says when researchers placed themselves on an AGI-risk spectrum they were spread everywhere — suggesting their views track upbringing more than evidence — and that collective clicks and spending will shape AI more than any single leader."
+      ],
+      "fun_facts": [
+        "Joe lived in 26 places by age 28, was a punk skateboarder, got expelled from one college and was valedictorian at another.",
+        "His wife required therapy, a 10-day silent retreat and six months of travel before she'd marry him.",
+        "Eight seconds of samadhi on day three of a Vipassana retreat sent him into seven years of meditating many hours a day — on credit cards.",
+        "He ran clean-tech venture investing for a wealthy family around 2006, and calls himself a mediocre investor because he \"needed to be needed.\"",
+        "Joe cited Descartes' Error as ~2012; it was actually published in 1994. People with damaged emotional brain regions keep their IQ but can't make simple decisions."
+      ],
+      "discussion_questions": [
+        "If the emotion you avoid is the one your avoidance strategy creates, what's the specific feeling your current work habits are designed to dodge — and where is it already showing up anyway?",
+        "Joe's company-health metric is \"time to hard conversation\" and \"time to resolution.\" What's the oldest unresolved hard conversation on your team right now, and what's actually keeping it unopened?"
+      ],
+      "highlights": [
+        {
+          "text": "Joe has never seen a startup die from lack of effort. Bad relationships and bad decisions kill companies, and exhausted, anxious founders make worse versions of both.",
+          "category": "Life/Career Advice",
+          "topics": [
+            "Psychology",
+            "Decision Making"
+          ]
+        },
+        {
+          "text": "The 'golden algorithm': the emotion you try to avoid is the one you invite, through the very method you use to avoid it. Grind to avoid helplessness, burn out, make bad calls, feel helpless.",
+          "category": "Life/Career Advice",
+          "topics": [
+            "Psychology"
+          ]
+        },
+        {
+          "text": "Real change lands at three levels: intellect, emotion and the nervous system. Only repetition updates the nervous system, which is why reading a great book changes almost nothing.",
+          "category": "Technical Wisdom",
+          "topics": [
+            "Psychology",
+            "Productivity"
+          ]
+        },
+        {
+          "text": "Rehearse the loss you fear until the fear is gone. We don't fear events, we fear the emotions attached to them, and depth beats frequency.",
+          "category": "Life/Career Advice",
+          "topics": [
+            "Psychology",
+            "Decision Making"
+          ]
+        },
+        {
+          "text": "Two health metrics for any team: how quickly hard conversations happen, and how quickly they get resolved.",
+          "category": "Business Model",
+          "topics": [
+            "Leadership"
+          ]
+        },
+        {
+          "text": "In a hard conversation, ask the other person for a plan instead of solving it for them, and say how you feel instead of indicting them.",
+          "category": "Life/Career Advice",
+          "topics": [
+            "Leadership",
+            "Psychology"
+          ]
+        },
+        {
+          "text": "Frame self-improvement as experiments, one a week. The brain's habenula discourages repeating failures, but an experiment can't fail.",
+          "category": "Technical Wisdom",
+          "topics": [
+            "Productivity",
+            "Psychology"
+          ]
+        },
+        {
+          "text": "Joe's definition of purpose: the business you wouldn't sell for a billion dollars if it meant never doing the work again.",
+          "category": "Life/Career Advice",
+          "topics": [
+            "Purpose"
+          ]
+        },
+        {
+          "text": "Joe lived in 26 places by 28, got expelled from one college and was valedictorian at another, then meditated hours a day for seven years on credit cards.",
+          "category": "Trivia",
+          "topics": [
+            "Career Paths"
+          ]
+        }
+      ]
+    },
+    {
+      "show": "Planet Money",
+      "title": "Where all those weird new drinks are coming from",
+      "url": "https://www.npr.org/2026/10/02/nx-s1-5989651/flavorman-adaptogens-probiotic-functional-soda-seltzer-drink",
+      "recap": [
+        "**The Cola Wars are over, and the shelf won.** Jeff grew up in a Coke-or-Pepsi world — Whitney Houston on one side, Michael Jackson on the other. Now the beverage aisle has a rainbow wall of seltzers, latte-flavored energy drinks with optional protein, sleepy sodas, gut sodas and Dubai Chocolate Pepsi. The episode's question is simple: where is all this coming from? A lot of it, it turns out, traces back to one quiet company in Louisville, Kentucky — Flavorman — which designs drinks for basically everyone who isn't Coke or Pepsi and has helped launch tens of thousands of beverages (including, yes, a salmon-flavored juice box for aging cats).",
+        "**Reason #1: flavor science got a much bigger paint box.** Flavor is mostly aroma, and a real strawberry's smell is built from hundreds of aroma chemicals. Chief flavorist Tom Gibson builds flavors from those building blocks — and over the past 10–20 years, many of the \"colors\" on his shelves simply didn't exist commercially. Better extraction techniques now capture delicate notes that used to get lost, and bacteria can be engineered to make flavor compounds without harvesting the fruit at all. The result is exaggerated and even pure-fantasy flavors, which shift consumer palates toward wanting weirder stuff, which pushes suppliers to stock more exotic compounds — a \"delicious cycle.\"",
+        "**Dissonance is the secret ingredient.** Tom's party trick: a vial that smells like stinky cheese (the same compound shows up in dairy, sweat and vomit) — and a tiny trace of it is what makes a ripe strawberry taste like a ripe strawberry. Remove it and the berry goes flat. Good flavors aren't pure; they need a little wrongness to feel real.",
+        "**Reason #2: the industry invented new reasons not to drink water.** The human body mostly needs water. So the growth play is to invent new jobs for drinks: energy drinks in the '90s and 2000s, then seltzers, and now \"functional\" beverages — prebiotic sodas built on gum acacia (OLIPOP's go-to), sleep drinks, focus drinks. Gatorade already convinced people to skip the gym water fountain; the next frontier is the glass of water on your nightstand. These new categories are a major reason total beverage sales have grown, even though evidence for noticeable health benefits is thin. Case in point from the lab: a pineapple-flavored beef bone \"sports hydration broth,\" complete with \"bits.\"",
+        "**Reason #3 (the big one): microbreweries accidentally lowered the barrier to entry.** In the old days, Coke and Pepsi owned their plants and contract canners demanded a full truckload minimum — about 12,000 cases, over a quarter million cans. Then the 2010s craft-beer boom scattered canning lines across every city, and as people drink less alcohol, those lines have even more idle capacity to rent out. Today, a few thousand cans of your own drink can cost just a few thousand dollars. Founder Dave Dafoe's punchline: \"It is, but most people don't know they can do it.\"",
+        "**The unit economics of a can.** Dafoe's rule of thumb is roughly $0.60 per can all-in before R&D and shipping: about $0.20–0.30 for flavoring and sweeteners, around $0.20 for the can itself (up from ~$0.10 thanks to inflation and aluminum tariffs), and about $0.20 for the actual mixing and filling. Since most of the drink is water, the real costs are packaging and marketing — and the hard part is no longer making it, but winning a celebrity, a brand story and a shelf slot.",
+        "**Lower barriers = more variety = (economists say) happier consumers.** Upstarts have genuinely taken share from the giants, which is unusual in an economy where incumbents are usually getting stronger. Jeff compares it to music, where laptops and Spotify blew the doors open. Whether anyone needs a jambu-spiked anything is another question, but more choice tailored to individual taste counts as more consumer welfare.",
+        "**What does Planet Money taste like?** Flavorman's answer: a yuzu-elderberry sparkling coconut water — \"the everything bagel soda,\" hitting every current trend (yuzu, elderberry, coconut-water electrolytes). The surprise version adds jambu, a tropical herb traditionally used to numb toothaches, which makes your tongue tingle like you licked a tiny battery. On US labels, that kind of ingredient often just shows up as \"natural flavors.\""
+      ],
+      "fun_facts": [
+        "A dip of your pinky into pure caffeine powder is roughly one serving; the FDA suggests staying under 400 mg a day.",
+        "Jeff's favorite energy drink as a kid was Crunk!!! — three exclamation points.",
+        "Flavorman's lab also served a protein non-alcoholic beer (tasted like pennies) and an Aperol-spritz mocktail that nailed it.",
+        "Jambu is a cousin-in-spirit to Sichuan peppercorn and is sometimes used to make drinks feel more effervescent.",
+        "A listener named Ryan still has no idea what LaCroix's \"Sunshine\" flavor is supposed to be."
+      ],
+      "discussion_questions": [
+        "If a few thousand dollars buys a test run of cans, is the beverage moat now entirely distribution and brand — and which other \"physical product\" categories are about to get the microbrewery treatment?",
+        "Functional drinks grow by inventing new occasions to replace water. Where's the line between creating a real new category and selling a health halo with thin evidence — and should \"natural flavors\" labeling be allowed to hide things like jambu?"
+      ],
+      "highlights": [
+        {
+          "text": "Louisville's Flavorman designs drinks for almost everyone who isn't Coke or Pepsi and has helped launch tens of thousands of beverages, including a salmon-flavored juice box for aging cats.",
+          "category": "Business Model",
+          "topics": [
+            "Food & Beverage",
+            "Niche Businesses"
+          ]
+        },
+        {
+          "text": "Flavor is mostly aroma. A trace of a stinky-cheese compound is what makes a ripe strawberry taste ripe; take it out and the berry goes flat.",
+          "category": "Trivia",
+          "topics": [
+            "Food & Beverage"
+          ]
+        },
+        {
+          "text": "Drinks grow by inventing new jobs for themselves: energy drinks, seltzers, now prebiotic, sleep and focus sodas aimed at replacing the glass of water on your nightstand.",
+          "category": "Marketing/Growth",
+          "topics": [
+            "Food & Beverage",
+            "Consumer Behavior"
+          ]
+        },
+        {
+          "text": "The craft-beer boom scattered canning lines across every city. Contract canners once needed a 12,000-case minimum; now a few thousand cans cost a few thousand dollars.",
+          "category": "Startup Idea",
+          "topics": [
+            "Food & Beverage",
+            "Bootstrapping"
+          ]
+        },
+        {
+          "text": "A can costs about $0.60 all-in: $0.20 to $0.30 for flavor and sweetener, about $0.20 for the can, about $0.20 for mixing and filling. The real costs are packaging and marketing.",
+          "category": "Business Model",
+          "topics": [
+            "Food & Beverage",
+            "Pricing"
+          ]
+        },
+        {
+          "text": "Beverage upstarts have taken real share from the giants, unusual in an economy where incumbents are usually getting stronger.",
+          "category": "Investing",
+          "topics": [
+            "Food & Beverage",
+            "Moats"
+          ]
+        },
+        {
+          "text": "Jambu, a tropical herb once used to numb toothaches, makes your tongue tingle, and on US labels it can hide under 'natural flavors'.",
+          "category": "Trivia",
+          "topics": [
+            "Food & Beverage",
+            "Regulation"
+          ]
+        }
+      ]
+    },
+    {
+      "show": "What's Your Problem",
+      "title": "Can We Defeat Deepfakes?",
+      "url": "https://www.iheart.com/podcast/1297-whats-your-problem-93024648/episode/can-we-defeat-deepfakes-346608840",
+      "recap": [
+        "**Every famous person is being impersonated right now.** Loti tracks about 30,000 celebrity personas, and a little over 20,000 are paying clients — \"pretty much every famous person you can think of, even if you don't remember their name.\" For essentially all of them, there's near-100% odds of active scams online: fake Instagram accounts selling \"VIP tour access,\" romance scams, and deepfaked endorsements for random shampoos. For regular people, the darker version is non-consensual intimate images (NCII) — Luke's preferred term over \"revenge porn\" — which showed up in high schools this year.",
+        "**\"Delete for the internet\" is a real, industrial process.** Loti's pitch fights the idea that anything online lives forever. It downloads roughly 600 million assets a day, runs face recognition over all of it, and when a client shows up somewhere they shouldn't, files a fully automated takedown — tens of thousands per day, no humans in the loop. Social platforms (everyone except X) give Loti API access for takedowns; for adult sites, it leans on their merchant accounts and domain providers. Luke calls it \"an industrial game of whack-a-mole.\"",
+        "**Better deepfakes are easier to catch.** Counterintuitive point: scammers are trying to make AI faces look more like the real person, which aligns perfectly with face recognition. The more convincing the fake, the more confidently Loti's system flags it. The harder problem is context — a \"semantic understanding\" layer judges what's happening in an image, whether there was an expectation of privacy, and whether it matches a client's whitelist of authorized uses.",
+        "**The moat is a trade secret, not a patent.** Nobody built this in 2005 because processing every frame of video was too expensive. Broke and unable to spin up giant server farms, Loti invented a video-processing method it says runs about a thousand times faster than alternatives. It chose trade secret over patent, because patents disclose the method and math is easy to tweak around. Two or three years in, Luke says competitors still \"stumble on video.\"",
+        "**Offense: likeness as an underrated asset class.** Generative AI platforms want to let users put real people and places in their creations, but one-off celebrity deals stall on guardrails (Luke points to OpenAI's Sora–Disney deal, which didn't get a single character out the door before Sora shut down). Loti's clearinghouse lets celebrities block AI entirely or set rules in natural language — no religion, cannabis OK, no crypto except my sponsor, never contradict my Hot Pockets deal. Pricing example: a generation that costs $0.30 might cost $0.35 with a licensed celebrity, with the extra going to the client; Loti charges the AI platforms, not its talent. And if someone uses a \"happy birthday\" clip commercially, the defense side spots it in the wild and takes it down.",
+        "**The law is about to change (and it's weirdly legal right now).** Outside Tennessee — which passed the ELVIS Act — a non-commercial deepfake of, say, George Clooney reciting Shakespeare is generally allowed; put programmatic ads against it and it becomes a right-of-publicity violation. Luke expects the federal NO FAKES Act, with broad bipartisan and industry support, to pass around early next year, requiring authorization from the person depicted, with a First Amendment carve-out for things like clearly labeled satire. He still warns: legal doesn't mean harmless — teachers have lost jobs over deepfakes.",
+        "**Why the platforms can't just do this themselves.** Platforms want more content, not less, so nobody fully trusts them to police it. Worse, the big tech companies have been sued over face recognition (Illinois and Texas), which handicaps their ability to do it, and people don't want to hand Google a biometric release. A company whose only job is protecting your biometrics is an easier trust call. Luke also predicts the next legislative wave targets the training data behind fakes — which will probably act as a moat for incumbents.",
+        "**Luke's big fear: culture stuck at the 2024 average.** Models learn from the fat middle of the bell curve, so they produce the middle — mathematically pruning both the crap and the brilliance in the tails. His optimism: if AI is the paintbrush and not the painter, human taste pushes it somewhere new. He tells his 15-, 13- and 9-year-olds that the world will get very average very quickly — \"which is going to be good for you because you're all very weird.\""
+      ],
+      "fun_facts": [
+        "The \"right of publicity\" became a bigger deal when cameras arrived — people started slapping strangers' photos on cereal boxes.",
+        "Luke's 15-year-old is on a $200-a-month AI plan building apps, but has been told that letting AI do his homework robs him of something.",
+        "Luke's favorite deepfake: the viral bunny rabbits on a trampoline — harmless, funny, and fooled a lot of people.",
+        "He predicts \"authentic performance\" will become a selling point for movies, while AI-made superhero films arrive \"and no one's going to care.\"",
+        "Loti's consumer product was slated for early October, with a freemium tier for ordinary people."
+      ],
+      "discussion_questions": [
+        "If likeness licensing becomes normal, what stops a \"B-list celebrity\" economy where the cheapest famous faces get used for everything — and does that devalue or increase their real-world earning power?",
+        "Luke frames AI as \"paintbrush, not painter.\" In your own work, where's the exact point where AI stops being the brush and starts being the painter — and how would you notice you'd crossed it?"
+      ],
+      "highlights": [
+        {
+          "text": "Loti tracks about 30,000 celebrity personas, over 20,000 of them paying clients, and nearly all of them face active scams online.",
+          "category": "Business Model",
+          "topics": [
+            "AI",
+            "Fraud"
+          ]
+        },
+        {
+          "text": "Loti downloads about 600 million assets a day, runs face recognition over them, and files tens of thousands of fully automated takedowns daily.",
+          "category": "Technical Wisdom",
+          "topics": [
+            "AI",
+            "Automation"
+          ]
+        },
+        {
+          "text": "Better deepfakes are easier to catch: a more convincing fake matches the real face better, so face recognition flags it more confidently.",
+          "category": "Technical Wisdom",
+          "topics": [
+            "AI",
+            "Fraud"
+          ]
+        },
+        {
+          "text": "Loti kept its 1,000x-faster video processing as a trade secret, not a patent, because a patent discloses the method and math is easy to tweak around.",
+          "category": "Startup Idea",
+          "topics": [
+            "Moats",
+            "IP & Royalties"
+          ]
+        },
+        {
+          "text": "Likeness licensing: celebrities set natural-language rules for AI use, and a $0.30 generation might cost $0.35 with a licensed face, the extra going to the celebrity.",
+          "category": "Startup Idea",
+          "topics": [
+            "IP & Royalties",
+            "AI"
+          ]
+        },
+        {
+          "text": "Outside Tennessee's ELVIS Act, a non-commercial deepfake is generally legal. Luke expects the federal NO FAKES Act to require consent from the person depicted.",
+          "category": "Investing",
+          "topics": [
+            "Regulation",
+            "AI"
+          ]
+        },
+        {
+          "text": "Models learn from the fat middle of the bell curve, so they risk freezing culture at the 2024 average. Luke's answer: AI as the paintbrush, not the painter.",
+          "category": "Life/Career Advice",
+          "topics": [
+            "AI"
+          ]
+        }
+      ]
+    },
+    {
+      "show": "Stuff You Should Know",
+      "title": "Selects: How Bras Work",
+      "url": "https://www.iheart.com/podcast/1119-stuff-you-should-know-26940277/episode/selects-how-bras-work-346831149",
+      "recap": [
+        "**A 150-year-old garment with a 2,400-year-old prototype.** The modern bra is only about 150 years old, yet it may be one of the most socially loaded pieces of clothing ever made. Its ancestors go back much further: a Sicilian mosaic from roughly 400–300 BCE (the \"Bikini Girls\") shows athletes in what look exactly like pro beach-volleyball outfits — a cloth band called a strophium or apodesmos. A French royal surgeon wrote around 1300 about women sewing \"breast bags\" into their dresses. And in 2008, an archaeologist excavating Austria's Lengberg Castle found four linen bras 600–700 years old — so recognizable that you'd call them bras with zero context.",
+        "**The real innovation: hang it from the shoulders.** Then Europe abandoned bra-like garments for the corset — wood, bone and later steel that cinched the waist, flattened the chest, and messed with breathing and digestion. The key engineering difference is direction: corsets push support up from below, while bras use the shoulders to suspend weight from above. Luman Chapman filed the first modern bra patent in 1863 (soft, stretchy, \"breast puffs\"); Herminie Cadolle cut a corset in two and called the top half the \"Bien-être.\" Neither took off, because skipping the corset still signaled \"loose morals.\"",
+        "**The socialite who sold a fortune for $1,500.** Legend credits 19-year-old Mary Phelps Jacob, tired of whalebone stays poking through a sheer gown, with having her maid stitch a \"backless brassiere\" from silk handkerchiefs and ribbon before a debutante ball. She patented it in 1914 and sold it to the Warner Brothers Corset Company for $1,500 (about $38,000 today); Warner reportedly made around 10,000× that — roughly $225 million in today's money — over the next 30 years. She later moved to Paris as Caresse Crosby, ran the Black Sun publishing house, and wrote commissioned erotica for an Oklahoma oil man.",
+        "**World War I killed the corset — with patriotism.** When the US joined the war and needed steel, women had a perfect excuse to ditch their corsets: doing so freed up around 28,000 tons of steel, enough for two battleships. Elastic and latex hit the market, and the bra took over (with a girdle on the side, because comfort had limits).",
+        "**Fashion swung the bra like a pendulum.** The 1920s flapper look favored Boyshform bras that flattened the chest; Maidenform (founded 1929) branded itself as the opposite — accentuate, don't hide. Then came the bullet/torpedo bras of the Jane Russell and Marilyn Monroe era; Twiggy's '60s and Rudy Gernreich's barely-there \"No Bra\" (1964); and the Wonderbra, which reached the US in the '90s despite being invented in Canada about 30 years earlier. Maidenform's 1949–1963 \"I dreamed…\" ads showed women fighting fires or winning elections in their bras — cringe now, but conceived by three women and arguably more progressive than it looks.",
+        "**Why your bra probably doesn't fit.** Maidenform's founders introduced letter cup sizing: subtract underbust from overbust, and every inch of difference is a cup letter (a 3-inch gap on a 34-inch band = 34C). The underrated part is \"sister sizing\": cup volume is relative to the band, so a 34C holds the same volume as a 32D or a 36B. Most women who go up a band size wrongly keep the cup letter. Worse, the industry built its sizes around one person — fit model Dorothy Galligan, whose \"perfect 34B\" anchored New York's lingerie district for nearly 20 years — and then scaled outward, so anyone off that template was told their body was the problem. The UK's 1990s \"bra fitting\" movement (more measurements, tighter bands) and today's bespoke, measure-with-your-phone brands are finally fixing that.",
+        "**Do women even need bras?** The guys cite a 15-year French study of about 300 women aged 18–35: those who stopped wearing bras developed more supportive muscle tissue, while bra-wearers were more likely to sag — the opposite of conventional wisdom. Still, there's a real social stigma and a psychological security-blanket effect, from training bras for middle schoolers to adults who just feel exposed without one.",
+        "**The bra burning that never happened.** At the 1968 Miss America protest in Atlantic City (organized by feminist Carol Hanisch's group), women tossed bras, false eyelashes and girdles into a \"freedom trash can.\" Nobody lit anything; a reporter's comparison to draft-card burning created the legend. Bonus business history: Victoria's Secret was founded in the 1970s by Roy Raymond, who felt awkward buying lingerie in department stores, and Les Wexner bought it for about $1 million before turning it into a multibillion-dollar brand designed for women, not husbands."
+      ],
+      "fun_facts": [
+        "\"Brassiere\" first appears in print around 1907; in French it can mean \"arm covering\" or a child's vest.",
+        "Two women invented the \"jog bra\" in 1977 by sewing together two jockstraps — effectively opening the door to women's sports after Title IX.",
+        "Roughly 600 million bras are made each year, across about 26,000 patterns with up to 40 parts each; the sports-bra market alone is around $7 billion.",
+        "The Bette Midler bit in Beaches about \"Otto Titzling\" vs. \"Philippe de Brassiere\" is a joke, not history.",
+        "The average American woman supposedly owns six bras across about 20 official styles."
+      ],
+      "discussion_questions": [
+        "The industry anchored its sizing to one fit model's body for decades. What other mass-market products quietly assume a single \"standard\" body (car seats, phone sizes, office temperatures), and who pays the cost?",
+        "Mary Phelps Jacob sold her patent for $1,500 and Warner made ~10,000× that. Was that a bad deal — or is the real value usually in manufacturing and distribution, not the idea?"
+      ],
+      "highlights": [
+        {
+          "text": "Archaeologists at Austria's Lengberg Castle found four linen bras 600 to 700 years old, recognizable as bras with zero context.",
+          "category": "Trivia",
+          "topics": [
+            "History"
+          ]
+        },
+        {
+          "text": "The bra's key engineering change: corsets push support up from below, bras hang weight from the shoulders.",
+          "category": "Technical Wisdom",
+          "topics": [
+            "Invention",
+            "Product Development"
+          ]
+        },
+        {
+          "text": "Mary Phelps Jacob patented the backless brassiere in 1914 and sold it to Warner for $1,500; Warner reportedly made about 10,000x that over 30 years.",
+          "category": "Startup Idea",
+          "topics": [
+            "Invention",
+            "IP & Royalties"
+          ]
+        },
+        {
+          "text": "When the US joined World War I, women ditching corsets freed about 28,000 tons of steel, enough for two battleships.",
+          "category": "Trivia",
+          "topics": [
+            "History"
+          ]
+        },
+        {
+          "text": "Sister sizing: cup volume is relative to the band, so a 34C, 32D and 36B hold the same volume.",
+          "category": "Technical Wisdom",
+          "topics": [
+            "Product Development",
+            "Retail"
+          ]
+        },
+        {
+          "text": "The industry anchored sizing to one fit model's 'perfect 34B' for nearly 20 years, then scaled outward, so anyone off that template was told their body was the problem.",
+          "category": "Business Model",
+          "topics": [
+            "Product Development",
+            "Retail"
+          ]
+        },
+        {
+          "text": "Nobody burned bras at the 1968 Miss America protest; a reporter's comparison to draft-card burning created the legend.",
+          "category": "Trivia",
+          "topics": [
+            "History",
+            "Myths & Legends"
+          ]
+        },
+        {
+          "text": "Les Wexner bought Victoria's Secret for about $1 million and turned it into a multibillion-dollar brand designed for women, not husbands.",
+          "category": "Business Model",
+          "topics": [
+            "Retail",
+            "Exits & Acquisitions"
+          ]
+        }
+      ]
+    },
+    {
+      "show": "Masters of Scale",
+      "title": "The future of EVs — with Rivian's RJ Scaringe",
+      "url": "https://mastersofscale.com/the-future-of-evs/",
+      "recap": [
+        "**A car is 40 million decisions that have to look like one brain made them.** RJ estimates a single vehicle takes about 40 million decisions and millions of engineering hours, with 5,500–6,000 engineers working in parallel at peak — chemists, structural engineers, electronics and software people, plus sales, service, manufacturing and supply chain. The danger is \"a sea of many little islands of culture,\" where manufacturing blames engineering and engineering blames manufacturing. His framing: a car company is \"highly distributed decision-making that's highly coordinated\" — two things that rarely go together — held together by a clear vision, a decision framework, and a rule that once a call is made, everyone aligns.",
+        "**Being broke early was a gift.** RJ founded Rivian at 26, the day after finishing his PhD, and on day one set up a CAD station to design parts himself. He quickly learned that doesn't scale. Because Rivian was badly undercapitalized for years, it grew slowly enough that his mistakes were small and he could learn what a 1-, 10- and 20-person company each needed. His advice: the org chart is just the current best guess at efficiency, it will always be imperfect, and it will keep changing — Rivian now has 17,000 people.",
+        "**The \"you're crazy\" software bet became a $5.8B deal.** Instead of the industry norm of dozens of supplier-made computers each tied to a function (seats, A/C), Rivian consolidated into a few \"zonal computers\" and wrote all the software itself. The board thought he was crazy; he half-joked they might license it one day. About a decade later, Volkswagen Group — after spending heavily trying to build its own — signed a $5.8 billion licensing deal. The first car using it is the ID.1, expected to be Europe's lowest-cost EV, and RJ says teardown benchmarkers will be stunned by how simple the electronics are.",
+        "**Licensing to a competitor isn't cannibalization if the market is starved for choice.** Rivian licensed software, not its self-driving stack or designs. RJ's bigger argument: about 100 million cars sell globally each year, and in the US the ~$50,000 sweet spot had essentially one compelling EV choice — Tesla's Model 3/Y, with 55–60% of the US EV market. That's not a healthy market; it's an underserved one. More choices (theirs or anyone's) grow the pie, and Rivian earns real margin on the software either way.",
+        "**Don't build a Model Y copy.** Rivals failed, RJ says, by tracing Tesla's silhouette and packaging — and if someone wants a Model Y, they'll just buy the Model Y. Rivian's R1S is the best-selling premium electric SUV in the US and outsold the Model X, despite sharing specs on paper (seven seats, four doors, quick) and being completely different in character. He adds that the world's largest automaker holds only ~10% of global demand, so this isn't a winner-take-all game; he expects more than five but maybe fewer than ten big Western players.",
+        "**Autonomy is coming faster than society expects — and Uber is the distribution.** Rivian started with a rules-based, Mobileye-camera system (essentially a pile of if-then statements), then rebuilt everything in-house from 2022 around its own sensors, high in-car compute and a multibillion-parameter foundation model trained on fleet data. The roadmap: supervised point-to-point this year, eyes-off unsupervised next year, then fully empty vehicles (airport drop-offs, school pickups). Rivian will deploy 50,000 robotaxi R2s on Uber starting with paid rides in 2028. RJ compares the shift to phones going from \"just a phone\" to unimaginable-without — and says the 2026–2031 rate of change will be demonstrably faster than the previous five years.",
+        "**Mind Robotics: Rivian was training for this.** RJ spun out a robotics company because industrial labor is roughly a third of global GDP, and he believes the only way to bring manufacturing back to the US isn't asking people to earn an eighth as much for 70-hour weeks — it's robots working alongside people. Expect many robot \"embodiments,\" not just humanoids (a self-driving car is already one). It was spun out to raise more capital than Rivian could put in and to keep total focus. The lesson he carried over: \"make progress, not motion\" — avoid infinite loops of demos and mock-ups built to impress boards, and plan the architecture before spinning up GPUs or CAD stations.",
+        "**Three things drive cost — and the glove box story.** Cheaper vehicles come from (1) engineering the same capability more efficiently, (2) supplier leverage — R1 carried a \"first-time tax\" because suppliers were betting on an unproven company, while R2 benefits from R1's success — and (3) content choices. R1 had no glove box on purpose (more frunk, room for computers, money moved to suspension); people hated it, so R2 has two. To keep those calls coherent, Rivian now caps the first six months of a program at 50 people, after R2 originally launched with thousands and stalled.",
+        "**Comfort in chaos is a core skill.** Rivian launched three products within six months during a pandemic, then spent 2022–23 with RJ flying around begging suppliers for parts. His summary of leadership right now: \"full-contact, multidimensional chess… in the middle of a tornado inside a storm.\" Be convicted on mission, flexible on details, and run a standing process to check whether what you believed six months ago is still true."
+      ],
+      "fun_facts": [
+        "RJ jokes that with unlimited resources, Rivian would buy land, mine raw materials and make its own aluminum — and admits it has since done \"some of that.\"",
+        "Rivian's 2021 IPO raised nearly $14B, the largest worldwide since 2014; Amazon's 100,000-van order is the largest commercial EV order ever.",
+        "RJ contributed 1% of Rivian's pre-IPO equity to launch the climate nonprofit Forever.",
+        "He grew up restoring and building classic cars.",
+        "Host Jeff Berman put down his $100 R2 reservation; RJ's reply: \"It's sitting outside.\""
+      ],
+      "discussion_questions": [
+        "RJ capped early programs at 50 people after thousands of people stalled R2. What's the right \"small team\" ceiling for the defining phase of a product in your world — and what do you do with everyone else meanwhile?",
+        "Licensing your core tech to a competitor grew Rivian's pie. When is helping rivals the right move for a mission-driven company, and when is it just arming them?"
+      ],
+      "highlights": [
+        {
+          "text": "A car takes about 40 million decisions and up to 6,000 engineers in parallel. RJ's model: highly distributed decision-making that's highly coordinated.",
+          "category": "Business Model",
+          "topics": [
+            "Cars & EVs",
+            "Leadership"
+          ]
+        },
+        {
+          "text": "Being undercapitalized early kept Rivian's growth slow enough that RJ's mistakes stayed small. The org chart is only the current best guess and will keep changing.",
+          "category": "Life/Career Advice",
+          "topics": [
+            "Leadership",
+            "Fundraising"
+          ]
+        },
+        {
+          "text": "Rivian's 'crazy' bet on a few zonal computers and in-house software became a $5.8B licensing deal with Volkswagen Group.",
+          "category": "Startup Idea",
+          "topics": [
+            "Cars & EVs",
+            "IP & Royalties"
+          ]
+        },
+        {
+          "text": "Licensing to a competitor isn't cannibalization in an underserved market: the US $50,000 EV segment had essentially one choice, Tesla's Model 3/Y.",
+          "category": "Investing",
+          "topics": [
+            "Cars & EVs",
+            "Moats"
+          ]
+        },
+        {
+          "text": "Don't build a Model Y copy. Rivian's R1S outsold the Model X with similar specs on paper and a completely different character.",
+          "category": "Marketing/Growth",
+          "topics": [
+            "Cars & EVs",
+            "Branding"
+          ]
+        },
+        {
+          "text": "Rivian will deploy 50,000 robotaxi R2s on Uber, starting paid rides in 2028.",
+          "category": "Investing",
+          "topics": [
+            "Cars & EVs",
+            "Automation"
+          ]
+        },
+        {
+          "text": "Industrial labor is about a third of global GDP; RJ spun out Mind Robotics on the bet that robots, not lower wages, bring manufacturing back to the US.",
+          "category": "Startup Idea",
+          "topics": [
+            "Robotics",
+            "Labor & Work"
+          ]
+        },
+        {
+          "text": "Rivian now caps the first six months of a program at 50 people, after R2 launched with thousands and stalled.",
+          "category": "Technical Wisdom",
+          "topics": [
+            "Product Development",
+            "Hiring"
+          ]
+        }
+      ]
+    }
+  ]
+}

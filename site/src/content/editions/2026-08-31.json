@@ -1,0 +1,209 @@
+{
+  "date": "2026-08-31",
+  "episodes": [
+    {
+      "show": "My First Million",
+      "title": "4 wild AI predictions from a $39B tech founder",
+      "url": "https://www.youtube.com/watch?v=3JNYPOS2o5Q",
+      "recap": [
+        "**HARK is Adcock's bet on a \"human in a box\" — an AI that can actually use a computer like you do.** A year into building his new AI lab, Adcock's thesis is that a real AI assistant can't just chat, it has to operate your accounts and apps the way you would — clicking, typing, navigating — because \"only one in a thousand websites have APIs.\" Instead of wiring into APIs or MCP like most computer-use products, HARK spins up a virtual computer per agent and trains it to look at a screen and move a cursor like a person. He claims it's already hard to find something on the internet HARK can't go do, crediting a proprietary reinforcement-learning post-training process.",
+        "**He thinks the phone and computer are headed for the scrap heap, and glasses aren't the replacement.** Adcock's framework: only \"mega devices\" that could plausibly sell a billion units a year matter — right now that's just phones and computers — and everything else (AirPods, watches, glasses) is a minor orbiting accessory. He calls Meta's Ray-Bans \"one of the worst products\" he's bought because they piggyback on a phone network instead of standing alone. HARK's own hardware, in testing now, is meant to replace the phone/computer outright, on the way to what he thinks is the true endgame: brain-computer interfaces.",
+        "**Figure the robotics company is closer to \"boring, profitable, and working\" than the hype suggests.** One live customer deployment has a robot sorting packages at 2.9 seconds each — human speed — for 200 hours straight. But Adcock says the hard problem isn't manufacturing robots at scale, it's making one robot generalize to a house it's never seen — the model goes \"out of distribution\" the same way an LLM would if you deleted every mention of pyramids from its training data.",
+        "**He audited his own January 2026 predictions on the spot, and mostly graded himself \"on track.\"** Unsupervised multi-day humanoid home tasks: on track, with the \"pixels-to-torques\" part already solved and generalization the remaining hurdle. Voice AI with persistent memory: HARK ships its own version within a month, with a full \"human Turing test\" for AI phone calls expected by 2027. Cover's K-12 weapon-detection scanning system: a custom-silicon pivot added about a year of delay, so the full-scale system should launch before year's end but may miss the original school-specific target by a quarter.",
+        "**The AI hiring war is paying 20-somethings more than most people make in a decade, and Adcock says he respects it.** His guess is only 20-30 people in California really know how to build a frontier AI model. He lost a senior infra hire to Meta's $36 million guaranteed stock offer over his own roughly $200 million long-shot equity upside. He says he'd have made the same call as Zuckerberg — buying your way into the race beats losing it slowly — though he doubts \"mercenary\" hires produce genuine breakthroughs."
+      ],
+      "fun_facts": [
+        "Adcock is reportedly worth about $19 billion according to Fortune's tracking across Figure, Archer, and HARK.",
+        "HARK's hardware design lead previously led design for multiple generations of the iPhone and MacBook Pro at Apple.",
+        "Cover's weapon-detection chips are custom-fabricated by a specialist European fabricator — a process that took about a year, with another six months needed for the next batch.",
+        "Figure ran ten mechanical-engineer case-study interviews a week for six months without a single hire, per Adcock."
+      ],
+      "discussion_questions": [
+        "Adcock argues the hardest problem in robotics isn't manufacturing at scale but generalizing a single robot to an unseen environment — does that change how investors should value \"robots shipped per year\" as a headline metric for humanoid robotics companies?",
+        "He says he'd have made the same call as Zuckerberg on buying frontier AI talent, but also doubts that approach produces great products — can both be true, and what would prove him right or wrong within a year or two?"
+      ],
+      "highlights": [
+        {
+          "text": "Adcock lost a senior AI infrastructure hire to Meta's offer of $36 million in guaranteed stock over four years, versus his own roughly $200 million long-shot equity upside — illustrating how guaranteed cash is beating equity bets even for extremely well-funded startups in the current AI talent war.",
+          "category": "Investing",
+          "topics": [
+            "AI",
+            "Hiring"
+          ]
+        },
+        {
+          "text": "Adcock's hiring philosophy leans on 'scar tissue': people who've actually done hard technical work can talk fluently about every layer of it, while people who only watched someone else do it 'get one layer in and instantly blow up' when pressed for detail.",
+          "category": "Life/Career Advice",
+          "topics": [
+            "Hiring"
+          ]
+        },
+        {
+          "text": "Adcock is reportedly worth about $19 billion per Fortune, and HARK's hardware design lead previously led design for multiple generations of the iPhone and MacBook Pro at Apple.",
+          "category": "Trivia",
+          "topics": [
+            "Wealth",
+            "Semiconductors & Hardware"
+          ]
+        },
+        {
+          "text": "Auditing his own January 2026 predictions, Adcock said the 'pixels-to-torques' part of humanoid robotics (camera in, motor commands out) is already solved — the unsolved part is generalizing to environments the model has never seen, the robotics equivalent of an LLM missing a whole topic from its training data.",
+          "category": "Technical Wisdom",
+          "topics": [
+            "AI",
+            "Robotics"
+          ]
+        }
+      ]
+    },
+    {
+      "show": "Planet Money",
+      "title": "Branded fruit: How produce got “Honeycrisp-ified”",
+      "url": "https://www.npr.org/2026/08/28/nx-s1-5947931/tomato-varieties-nixon-apples",
+      "recap": [
+        "**Two laws you've never heard of are why your produce aisle suddenly looks like a luxury brand showcase.** Nixon's 1970 Plant Variety Protection Act let breeders own the rights to new plant varieties for the first time; the 1980 Bayh-Dole Act let federally funded university researchers own and license what they invented, including new fruit. Together, a university breeding a better apple stopped being pure science and started being a business — Minnesota has made $20M+ licensing Honeycrisp, Washington $30M+ on Cosmic Crisp.",
+        "**A cracked, ugly-but-delicious cherry tomato became the seed of a six-year science project.** Rutgers researchers Tom Orton and Pete Nitzsche crossed a sweet but crack-prone bicolor cherry tomato (Isis Candy) with a hardier red grape tomato, spending twelve growing generations over six years selecting for sweetness, color, and toughness. The result, trademarked as the Scarlet Sunrise, was a deliberate branding decision as much as a scientific one.",
+        "**There are only two real ways to escape the \"commodity trap,\" and produce breeders are using both at once.** Cornell economist Miguel Gomez frames it as growers escaping race-to-the-bottom commodity pricing: pure branding with no science (Love Beets, dressing up ordinary beets) versus real genetic IP (the Scarlet Sunrise). His read: apples have already hit market saturation, but tomatoes still have real room to grow.",
+        "**The tomato almost wasn't the real discovery — a stunted plant might matter more.** Orton and Nitzsche noticed one experimental plant was half-sized but produced comparable tomatoes — a bigger deal than the flashy variety itself, since compact plants ripen more evenly and could cut grape-tomato growing costs 25-50% by needing far fewer picking passes.",
+        "**Consumer taste, not just producer strategy, is driving the whole thing.** Gomez argues consumers are the bigger driver than producers, pointing to the rise of food media as evidence people are actively learning to differentiate and pay a premium — a feedback loop that funds ever more differentiation."
+      ],
+      "fun_facts": [
+        "The University of Minnesota has made $20M+ licensing Honeycrisp trees since 1991; Washington's Cosmic Crisp topped $30M.",
+        "Rutgers researchers share roughly 35% of licensing revenue from their patented plant varieties.",
+        "Tomatoes sold with green vine attached aren't actually better — it's mostly a marketing cue, per the Rutgers researchers.",
+        "\"Love Beets\" sells completely non-proprietary, ordinary beets — the differentiation is packaging and branding alone."
+      ],
+      "discussion_questions": [
+        "What would it actually take for a produce category to become \"too saturated\" for a new branded variety to succeed — is that knowable in advance, or only obvious in hindsight?",
+        "The accidental discovery of a cheaper-to-grow tomato plant may matter more economically than the flashy variety itself — how often does \"the boring side effect\" of an R&D project end up being the real win?"
+      ],
+      "highlights": [
+        {
+          "text": "Nixon's 1970 Plant Variety Protection Act and the 1980 Bayh-Dole Act together turned university fruit breeding into a real licensing business — the University of Minnesota has made $20M+ licensing Honeycrisp apple trees since 1991, and the University of Washington topped $30M on the Cosmic Crisp.",
+          "category": "Business Model",
+          "topics": [
+            "Regulation",
+            "Agriculture",
+            "IP & Royalties"
+          ]
+        },
+        {
+          "text": "Rutgers researchers bred the Scarlet Sunrise grape tomato by crossing a sweet but crack-prone bicolor cherry tomato with a hardier red grape tomato, then selecting traits across twelve growing generations over six years to combine flavor, color, and shipping durability.",
+          "category": "Technical Wisdom",
+          "topics": [
+            "Agriculture"
+          ]
+        },
+        {
+          "text": "Cornell economist Miguel Gomez frames produce differentiation as two paths out of the commodity trap: pure branding with no genetic change (Love Beets dressing up ordinary beets) versus real patented genetic IP (the Scarlet Sunrise tomato) — and he believes apples are already market-saturated while tomatoes still have room.",
+          "category": "Business Model",
+          "topics": [
+            "Branding",
+            "Agriculture"
+          ]
+        },
+        {
+          "text": "While breeding the Scarlet Sunrise, Rutgers researchers stumbled on a half-sized tomato plant that yields comparably good fruit — a discovery that could cut grape-tomato growing costs 25-50% since compact plants ripen more evenly and need fewer picking passes, a bigger potential economic impact than the branded tomato itself.",
+          "category": "Startup Idea",
+          "topics": [
+            "Agriculture"
+          ]
+        },
+        {
+          "text": "Rutgers deliberately bred the Scarlet Sunrise to look visually distinct (a red-yellow bicolor) from the flood of generic red grape tomatoes on the market, reasoning that a memorable appearance tied to a good flavor experience would drive repeat purchases — an early, intentional branding decision baked into the plant breeding itself.",
+          "category": "Marketing/Growth",
+          "topics": [
+            "Branding",
+            "Agriculture",
+            "Consumer Behavior"
+          ]
+        },
+        {
+          "text": "Tomatoes sold with green vine still attached aren't actually higher quality — according to the Rutgers researchers who bred the Scarlet Sunrise, it's mostly a marketing cue rather than a real freshness signal.",
+          "category": "Trivia",
+          "topics": [
+            "Retail",
+            "Food & Beverage",
+            "Consumer Behavior"
+          ]
+        }
+      ]
+    },
+    {
+      "show": "Stuff You Should Know",
+      "title": "Selects: Flagpole Sitting: A Real Fad",
+      "url": "https://www.iheart.com/podcast/1119-stuff-you-should-know-26940277/episode/selects-flagpole-sitting-a-real-fad-342625919/",
+      "recap": [
+        "**One guy sat on a flagpole for 13 hours in 1924 and accidentally invented a national fad.** Alvin \"Shipwreck\" Kelly climbed a Hollywood flagpole as a movie promotion stunt and stayed up 13 hours, 13 minutes — modest next to later competitors who pushed it to 16, 51, even 312 hours — but newspapers nationwide made him instantly famous, exactly the fuel a 1920s fad needed.",
+        "**Shipwreck Kelly turned sitting on a pole into an actual full-time business, and he was shockingly good at it.** He reportedly made $100-500 a day by relentlessly self-promoting to reporters. The setup was elaborate: a padded seat drilled with thumb-holes to wake him if he slumped, a tethered ankle, and a ground crew running food and waste up and down by bucket and rope while he fasted on broth, coffee, and cigarettes.",
+        "**His whole biography reads like a guy who understood mythology better than most novelists.** Orphaned in Hell's Kitchen, he bounced between relatives and orphanages, ran off to sea at 13, and worked as a stunt double, boxer, high diver, and steeplejack before flagpole sitting made him famous — and claimed to have survived the Titanic despite not being on its passenger roster.",
+        "**Flagpole sitting had a grim twin fad running in parallel: dance marathons.** Alma Cummings danced 27 straight hours in 1923, kicking off a craze broken nine times within three weeks. Unlike flagpole sitting, dance marathons turned genuinely dark during the Depression — some entered purely for guaranteed food and shelter, with rest periods shrinking to zero near the end of multi-week events.",
+        "**The Depression killed flagpole sitting as fast as newspapers had made it famous.** Kelly was arrested for public nuisance in 1935, later worked as a paid dance partner, and did his final sit in 1952 at almost 60, suffering two heart attacks during the buildup. He died of a third heart attack a week later, found on a sidewalk clutching a scrapbook of his own old clippings."
+      ],
+      "fun_facts": [
+        "Cosmopolitan magazine mocked the craze as \"competitive imbecility\" at its height.",
+        "Only one death is directly attributed to flagpole sitting in the episode: Kelly contemporary Dixie Blandy.",
+        "Kelly's nickname likely traces to reporters mocking his mediocre boxing record as \"often adrift and ready to sink.\"",
+        "One Depression-era Madison Square Garden dance marathon ran 10+ days before health officials shut it down."
+      ],
+      "discussion_questions": [
+        "Both fads were fueled by newspapers rewarding novelty with fame — what's the modern equivalent fad-fuel, and does it reward genuine novelty the same way?",
+        "Dance marathon promoters exploited real Depression-era desperation while marketing it as entertainment — where do you see that same dynamic playing out in a current entertainment format?"
+      ],
+      "highlights": [
+        {
+          "text": "The flagpole-sitting fad traces to Alvin 'Shipwreck' Kelly, who sat atop a Hollywood flagpole for 13 hours and 13 minutes in January 1924 as a movie promotion stunt — modest compared to later competitors who pushed the record past 300 hours and even 51 days.",
+          "category": "Trivia",
+          "topics": [
+            "Fads & Stunts",
+            "History"
+          ]
+        },
+        {
+          "text": "Shipwreck Kelly turned flagpole sitting into an actual full-time business, reportedly earning $100-500 a day by relentlessly self-promoting to reporters and tipping them off about which hotel he was staying at in case anyone wanted to hire him for a publicity stunt.",
+          "category": "Business Model",
+          "topics": [
+            "Fads & Stunts"
+          ]
+        },
+        {
+          "text": "Kelly built a self-mythologizing personal brand out of an unverifiable backstory — claiming to have survived 32 shipwrecks and even the Titanic (he wasn't on its passenger roster) — a reminder that in an era before fact-checking, a good story could function as a career asset regardless of its truth.",
+          "category": "Life/Career Advice",
+          "topics": [
+            "Branding"
+          ]
+        },
+        {
+          "text": "Flagpole sitting had a grim parallel fad in dance marathons, kicked off when Alma Cummings danced 27 straight hours in 1923; during the Depression, some contestants entered marathons purely because they guaranteed a place to sleep and eat for a week when they had no home or food otherwise.",
+          "category": "Trivia",
+          "topics": [
+            "Fads & Stunts"
+          ]
+        },
+        {
+          "text": "Kelly's flagpole seat was drilled with holes near his thumbs so that as he began to slump forward in his sleep, the pressure would cut into his skin just enough to wake him and let him readjust — an early example of using deliberate mild discomfort as an involuntary safety mechanism.",
+          "category": "Technical Wisdom",
+          "topics": [
+            "Fads & Stunts",
+            "Invention"
+          ]
+        },
+        {
+          "text": "Cosmopolitan magazine mocked the entire flagpole-sitting craze as 'competitive imbecility' at its height, and one contemporary account directly blamed the fad's collapse on the 1929 stock market crash, arguing nobody wanted to look 'up' at anything while their stock portfolio was cratering.",
+          "category": "Trivia",
+          "topics": [
+            "Fads & Stunts"
+          ]
+        },
+        {
+          "text": "Shipwreck Kelly's fame collapsed as fast as it rose: arrested for public nuisance in 1935, working as a paid dance partner after his flagpole-sitting career dried up, and dying of a heart attack on a New York sidewalk in 1952 while holding a scrapbook of his own old newspaper clippings.",
+          "category": "Life/Career Advice",
+          "topics": [
+            "Fads & Stunts",
+            "History"
+          ]
+        }
+      ]
+    }
+  ]
+}

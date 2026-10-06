@@ -1,0 +1,336 @@
+{
+  "date": "2026-09-29",
+  "episodes": [
+    {
+      "show": "Planet Money",
+      "title": "Middlegarchs are the new Oligarchs",
+      "url": "https://www.npr.org/2026/09/25/nx-s1-5981194/stealthy-wealthy-everywhere-millionaires-pass-through",
+      "recap": [
+        "**Forget the oligarchs, meet the middlegarchs.** Economist Eric Zwick (a man who has named his toaster Angus MacGyver) argues we've been staring at the wrong rich people. About 3 million multimillionaire private-business owners, which he calls the stealthy wealthy, the Main Street millionaires or the middlegarchy, collectively hold more than 13 times the wealth of the Forbes 400. They aren't clustered in Silicon Valley or on Wall Street. They're in every mid-size town, and that spread is exactly why nobody notices them.",
+        "**Three 'tax ninjas' in the Treasury basement cracked it with a spreadsheet.** Starting in 2014, Zwick, Owen Zidar and Danny Yagan spent years linking millions of private businesses to their owners inside messy, siloed IRS data. The payoff: more than half the growth in the top 1% (and 0.1%) share of income came from one kind of business, the passthrough. Before this, researchers knew the rich were pulling ahead but had basically no idea which industries were doing the pulling.",
+        "**The road to the 1% is paved with car dealerships and dentists.** Expected: finance, tech and energy. Actual list: lawyers and investors at #1 and #2, car dealers at #3, restaurants at #9, fabricated metal at #13, dentists at #21 (a dental-lobby stat says dentists out-earn every pro sports league combined). Go past the storefront and the bun distributor, the sliced-cheese supplier and the toilet-paper vendor are often multimillionaires too. About 75% of these owners built their companies instead of inheriting them. Nancy Mueller made hers on frozen mini-quiches and later cruised on a 143-foot superyacht. Karen Bentlage rode tanning salons until she noticed college cheerleaders had stopped tanning, switched to waxing and sold her European Wax Center franchises for $18M.",
+        "**1986 is the plot twist: a movie star and a basketball player rewired American business.** Reagan and Senator Bill Bradley's tax reform pushed the top individual rate below the corporate rate. Structuring as a passthrough, where profits land on the owner's personal return, suddenly became the obvious move. Passthroughs went from about a fifth of US business income in 1980 to more than half by 2011, and today 95% of US businesses are passthroughs. In 2016 their average federal rate was about 20%, versus nearly 32% for traditional corporations. As Zwick puts it about the tax gap, 'It didn't hurt.'",
+        "**The middlegarchs don't just lobby Congress. They are Congress.** In 2017 the tax ninjas told lawmakers flat out not to give passthroughs another break. Congress created a deduction worth up to 20% of business income anyway (about $415B in lost revenue over a decade), and last year's One Big Beautiful Bill made it permanent. About 3% of Americans own businesses, but owners held roughly 25% of the seats on the tax-writing House Ways and Means Committee, three of them car dealers. A car-dealer congressman even secured an interest-deduction carve-out that applied only to car dealers. People worth $100M+ are 62 times overrepresented in Congress.",
+        "**Goliath vs. Goliath: the car dealers beat Elon.** State laws in places like South Carolina still force buyers through a dealership middleman, and when Tesla lobbied to sell direct, dozens of dealers showed up citing 17,000 employees and a $1.15B payroll. The dealers won. Zwick sees the same pattern in dentists fighting over who can whiten teeth, doctors limiting nurse practitioners, and beer distributors defending their cut. In his words these owners are protagonists, but 'in the same way Tony Soprano is.'"
+      ],
+      "fun_facts": [
+        "Owner-operated businesses lose about 75% of their profits when the founder dies or retires, so the owner really is the moat.",
+        "Nancy Mueller nearly named her yacht 'Abbondanza' (Italian for excess, also slang for 'fat lady') and settled on 'Andiamo' ('let's go').",
+        "Bagel Bites weren't invented until 1982. Mueller says the '70s frozen-appetizer aisle was mostly pigs in a blanket.",
+        "Zwick's team found millionaires to interview by buying yacht and private-jet registration data, not by looking at tax records."
+      ],
+      "discussion_questions": [
+        "The research shows these owners created real value (75% built their businesses) but also bent rules like dealer-only car sales. Where is the line between a business owner defending their livelihood and rent-seeking?",
+        "If owner-founders' businesses lose 75% of profits when they leave, is the passthrough tax break subsidizing productive entrepreneurship or subsidizing businesses that can't outlive their owners?"
+      ],
+      "highlights": [
+        {
+          "text": "About 3 million 'stealthy wealthy' passthrough-business owners collectively hold more than 13x the wealth of the Forbes 400 billionaires.",
+          "category": "Investing",
+          "topics": [
+            "Taxes",
+            "Wealth"
+          ]
+        },
+        {
+          "text": "Passthrough businesses send profits straight to owners' personal returns and skip corporate tax. They grew from about 1/5 of US business income in 1980 to over half by 2011, and 95% of US businesses are passthroughs today.",
+          "category": "Business Model",
+          "topics": [
+            "Taxes",
+            "Macroeconomics"
+          ]
+        },
+        {
+          "text": "Car dealers are the #3 industry launching people into the top 1%, and dentists (#21) reportedly out-earn every US pro sports league combined.",
+          "category": "Trivia",
+          "topics": [
+            "Wealth",
+            "Cars & EVs"
+          ]
+        },
+        {
+          "text": "The path to the 1% often runs through boring Main Street niches like dealerships, restaurants, metal fabrication, frozen appetizers and waxing salons, and 75% of these owners built their businesses themselves.",
+          "category": "Startup Idea",
+          "topics": [
+            "Wealth",
+            "Small Business"
+          ]
+        },
+        {
+          "text": "Watch for fading trends: a tanning-salon owner noticed cheerleaders had stopped tanning, pivoted to waxing, and sold her European Wax Center franchises for $18M.",
+          "category": "Life/Career Advice",
+          "topics": [
+            "Exits & Acquisitions",
+            "Small Business"
+          ]
+        },
+        {
+          "text": "Owner-operated businesses see profits fall about 75% when the founder dies or retires, so the owner is often the real moat.",
+          "category": "Business Model",
+          "topics": [
+            "Wealth",
+            "Small Business",
+            "Moats"
+          ]
+        },
+        {
+          "text": "Car dealers beat Tesla's direct-sales push in South Carolina by showing up en masse as local employers and Little League sponsors. Being everywhere in a community works as a lobbying moat.",
+          "category": "Marketing/Growth",
+          "topics": [
+            "Politics & Lobbying",
+            "Cars & EVs",
+            "Moats"
+          ]
+        },
+        {
+          "text": "Business owners are about 3% of Americans but held about 25% of seats on the House Ways and Means Committee, and $100M+ fortunes are 62x overrepresented in Congress.",
+          "category": "Trivia",
+          "topics": [
+            "Taxes",
+            "Politics & Lobbying"
+          ]
+        }
+      ]
+    },
+    {
+      "show": "What's Your Problem",
+      "title": "The Printing Press: The Invention Built on Debt and Sin… from Business History",
+      "url": "https://www.iheart.com/podcast/1297-whats-your-problem-93024648/episode/the-printing-press-the-invention-built-on-debt-and-sin-from-business-history-346125097",
+      "recap": [
+        "**Gutenberg was a serial hustler before he was a legend.** Johannes Gensfleisch zur Laden took his name from his mother's house, the Hof zum Gutenberg, and his first known venture was a niche play: convex mirrors that pilgrims held up to 'capture' the holy power of relics at a once-every-seven-years display. He raised money from equity investors, then got hit by the medieval version of a market crash, the plague, which pushed the pilgrimage back a year. Most of what we know about him comes from lawsuits over money. One of those suits contains the teasing phrase 'four pieces lying in the press,' which historians have argued about for centuries.",
+        "**The printing press was an obvious bottleneck waiting to be automated.** Demand for books was soaring thanks to growing bureaucracies and Renaissance collectors (Cosimo de' Medici's supplier used 55 scribes to produce about 200 books in two years). Cheap paper had also replaced pricey parchment, so labor became nearly the whole cost of a book. Goldstein's point is that high demand plus a cheaper input leaves one expensive bottleneck, and someone was going to automate it. Asia already had movable type, but thousands of pictograms made it impractical. A few dozen alphabet letters made it a game-changer in Europe.",
+        "**Why was there no simultaneous inventor? Maybe because there was no printing press yet.** The telephone, movies and calculus all had rivals racing each other. Europe's movable-type press had no known competitor. Goldstein's fun theory is that simultaneous invention depends on everyone reading about everyone else's work in journals and patent gazettes, and that information network needed the printing press to exist first.",
+        "**The first killer app was sin, not scripture.** Gutenberg started small, with a German poem and a Latin grammar book, before tackling the long, cash-hungry Bible. Then Constantinople fell in 1453 and the Church needed cash fast. Indulgences were physical receipts with a blank for the buyer's name, and scribes couldn't write them fast enough. Gutenberg printed them by the wagonload. By 1500 a Sicilian bishop ordered 130,000 in one go.",
+        "**Debt or equity? The 1455 lawsuit that looks like a modern term-sheet fight.** Johann Fust lent 800 guilders (about four houses' worth) at 6%, secured by 'the apparatus,' then put in another 800 and later sued for more than 2,000 guilders. Gutenberg's response amounted to 'the first 800 was debt, but the second was equity.' The court ruled sensibly: he had to repay with interest any money not spent on the joint project. The myth of an evil financier bankrupting a noble inventor doesn't hold up. Gutenberg kept printing (including astrological bloodletting calendars for doctors), and Fust apparently collected some of the type as collateral.",
+        "**The lender won the brand war, and the press created a million new needs.** Fust and Peter Schöffer, a talented hire from Gutenberg's shop, put their names in their 1457 Psalter, an early example of publisher branding. They expanded to Paris and printed Bibles that matched Gutenberg's word for word. Mass-produced indulgences also fed the backlash: Luther's 95 Theses became a viral list, and his short German sermons hit the streets within days. His Wittenberg printers sold more than 100,000 copies of his German Bible. A platform technology rarely fills just one need. Here it created a whole media ecosystem, and Smith draws the line straight to TikTok."
+      ],
+      "fun_facts": [
+        "The famous white-bearded 'ZZ Top' Gutenberg portrait was made about 100 years after he died. Nobody knows what he actually looked like.",
+        "The '42-line Bible' began at 40 lines per page. Squeezing in two more lines meant less paper and parchment per copy.",
+        "21 complete Gutenberg Bibles survive, including one at the New York Public Library and one J.P. Morgan bought for the Morgan Library.",
+        "Gutenberg's retirement package from the Archbishop of Mainz included court clothing, 20 bushels of grain and two large barrels of tax-free wine a year.",
+        "A Barcelona-area monastery commissioned more than 200,000 printed indulgences."
+      ],
+      "discussion_questions": [
+        "Gutenberg called the second 800 guilders equity and Fust called it a loan. How much of today's founder-investor conflict comes down to the same ambiguity, and what would a medieval SAFE have looked like?",
+        "The press made indulgences cheaper, which helped trigger the Reformation that undermined them. What current technology is scaling a business model in a way that might fund its own backlash?"
+      ],
+      "highlights": [
+        {
+          "text": "Gutenberg's press was financed by Johann Fust: 800 guilders at 6% secured by 'the apparatus,' then 800 more. Their 1455 court fight was essentially a debt-versus-equity dispute.",
+          "category": "Business Model",
+          "topics": [
+            "Fundraising",
+            "Debt & Credit",
+            "Books & Publishing"
+          ]
+        },
+        {
+          "text": "Once cheap paper replaced parchment, scribe labor became the bottleneck in bookmaking. When demand is high and inputs get cheaper, automate the expensive bottleneck.",
+          "category": "Technical Wisdom",
+          "topics": [
+            "Automation",
+            "Books & Publishing",
+            "Invention"
+          ]
+        },
+        {
+          "text": "Gutenberg's first money-maker wasn't the Bible but indulgences: single-page, generic forms with a blank for the buyer's name, printed by the wagonload. Start with short, cash-flowing products before the flagship.",
+          "category": "Startup Idea",
+          "topics": [
+            "Books & Publishing"
+          ]
+        },
+        {
+          "text": "Fust and Schöffer printed their names in the 1457 Psalter, an early case of publisher branding that Gutenberg never did, and they went on to outgrow him.",
+          "category": "Marketing/Growth",
+          "topics": [
+            "Branding",
+            "Books & Publishing"
+          ]
+        },
+        {
+          "text": "The Gutenberg Bible started at 40 lines per page before moving to 42 to save paper. 21 complete copies survive.",
+          "category": "Trivia",
+          "topics": [
+            "History",
+            "Books & Publishing"
+          ]
+        },
+        {
+          "text": "Platform technologies create many needs rather than filling one: the press drove an indulgence boom and then Luther's backlash, with more than 100,000 copies of his German Bible printed in his lifetime.",
+          "category": "Technical Wisdom",
+          "topics": [
+            "Books & Publishing",
+            "Innovation"
+          ]
+        },
+        {
+          "text": "Gutenberg's retirement pension from the Archbishop of Mainz included two large barrels of tax-free wine every year.",
+          "category": "Trivia",
+          "topics": [
+            "History"
+          ]
+        }
+      ]
+    },
+    {
+      "show": "Stuff You Should Know",
+      "title": "SYSK Gets Weird Playlist: Mermaids: Not a real thing",
+      "url": "https://www.iheart.com/podcast/1119-stuff-you-should-know-26940277/episode/sysk-gets-weird-playlist-mermaids-not-a-real-thing-345645030",
+      "recap": [
+        "**Spoiler: there are no mermaids, but there's plenty of money in them.** Josh and Chuck start with the modern mermaid economy. After a blurry 2009 'sighting,' the Israeli coastal town of Kiryat Yam offered $1 million for proof of the mermaid that supposedly appears at sunset. It's a tourism play borrowed straight from Loch Ness's standing offer. The photos look like every Bigfoot or UFO photo: a far-off blur that could be kelp.",
+        "**Mermen got there first, and the Greeks remixed everyone.** The earliest half-fish figure is Ea, a Babylonian sea god from about 4,000 years ago, a likely ancestor of Poseidon and Neptune, because, as Josh puts it, the Greeks wandered through neighboring cultures picking out their favorite parts. Pliny the Elder wrote about Nereids and sea-men who climbed aboard ships at night until one side of the vessel sank. Many of these stories were also rooted in misogyny: the beautiful woman who ruins your life, or drowns you.",
+        "**The original Little Mermaid is darker and better than Disney's.** In Hans Christian Andersen's ending, the prince marries someone else. Her sisters bring a knife and tell her that killing him will restore her tail. She can't do it, throws the knife into the sea and dissolves into sea foam. She then becomes an air spirit who can earn her way into heaven after 300 years of helping humans. Josh calls it more touching by far, and he's right.",
+        "**Mermaid myths run on duality.** Syria's Atargatis (around 1000 BCE) accidentally killed her human lover and threw herself into a lake to become a fish. She was so beautiful that the change only took on her lower half, which the guys note says a lot about how much humans value looks. West Africa's Mami Wata offered wealth through her magic mirror and comb if you stayed loyal and destruction if you didn't. Germany is landlocked but still has river-dwelling Nixes who drown men. It's also a reminder that a siren is technically half bird, not half fish.",
+        "**Explorers saw manatees and wrote 'mermaid.'** Columbus, writing about himself in the third person as 'the admiral,' logged three mermaids that were 'not as pretty as they are depicted' and looked oddly like men. The consensus is manatees. John Smith said he found one with long green hair rather appealing. Josh's explanation: at the dawn of the age of exploration, sailors raised on thousands of years of sea-monster lore were primed to see what they expected.",
+        "**A straight-faced science paper and a hit mockumentary kept the myth swimming.** In 1990 Karl Banse published a tongue-in-cheek paper in the real journal Limnology and Oceanography. It gave mermaids a biology (warm-water, flesh-eating, 'horny skinfolds'), low birth rates and an extinction story: overfishing let jellyfish boom, and the jellyfish stung blubber-less mermaids to death. Decades later, Animal Planet's mockumentary about a 'real' mermaid did so well that NOAA put out a statement saying mermaids don't exist, and the network made a sequel. People still argue online about the credentials of its fictional scientist."
+      ],
+      "fun_facts": [
+        "In 1830 villagers on Benbecula in the Outer Hebrides reported a mermaid, a boy hit it with a rock, and they later gave the body a full funeral with a coffin.",
+        "Weeki Wachee Springs' mermaid shows drew roughly half a million to a million visitors a year in the 1940s–50s, including Elvis. Professional mermaiding is a real job that takes serious swimming chops.",
+        "A 1400s legend from the Netherlands tells of a mermaid who was taken in, dressed as a girl and taught to live on land, and stayed mute for life.",
+        "During WWII, Japanese soldiers on Indonesia's Kai Islands reported a web-handed, part-human, part-fish creature on the beach."
+      ],
+      "discussion_questions": [
+        "Why do so many mermaid myths pair beauty with danger, and what does that pattern say about the cultures, mostly seafaring men, who told them?",
+        "Animal Planet's fake documentary was labeled fiction in the credits, yet it forced NOAA to respond and still fuels online debate. Where does responsibility sit when entertainment is built to be believed?"
+      ],
+      "highlights": [
+        {
+          "text": "After a 2009 'sighting,' Kiryat Yam, Israel offered $1 million for proof of its sunset mermaid, a tourism ploy modeled on Loch Ness's standing reward.",
+          "category": "Trivia",
+          "topics": [
+            "Myths & Legends",
+            "Tourism"
+          ]
+        },
+        {
+          "text": "Columbus logged three mermaids that were 'not as pretty as they are depicted.' Historians think he was looking at manatees.",
+          "category": "Trivia",
+          "topics": [
+            "Myths & Legends"
+          ]
+        },
+        {
+          "text": "A 1990 tongue-in-cheek paper in Limnology and Oceanography gave mermaids a full biology and claimed jellyfish booms caused their extinction.",
+          "category": "Trivia",
+          "topics": [
+            "Myths & Legends"
+          ]
+        },
+        {
+          "text": "Animal Planet's mermaid mockumentary drew enough ratings to prompt an official NOAA denial and a sequel. Controversy about whether content is real can drive audience.",
+          "category": "Marketing/Growth",
+          "topics": [
+            "Word of Mouth",
+            "TV & Media"
+          ]
+        },
+        {
+          "text": "Weeki Wachee Springs turned mermaid shows into a roadside attraction drawing about 0.5–1M visitors a year in the '40s and '50s.",
+          "category": "Business Model",
+          "topics": [
+            "Fads & Stunts",
+            "Tourism"
+          ]
+        },
+        {
+          "text": "Expectation shapes perception: explorers primed by millennia of sea-creature myths mistook manatees for mermaids. Check what you're primed to see.",
+          "category": "Life/Career Advice",
+          "topics": [
+            "Decision Making",
+            "Myths & Legends",
+            "Psychology"
+          ]
+        }
+      ]
+    },
+    {
+      "show": "My First Million",
+      "title": "David Rubenstein: the dollar will go down in value",
+      "url": "https://www.youtube.com/watch?v=zEB6IP-FQsY",
+      "recap": [
+        "**The 37-year-old deadline that created a $500B firm.** Rubenstein says he'd read that most people start their first company between 28 and 37, so at 37 he told himself 'if I don't do it now, I'll never do it.' He raised $5M from four investors in 1987. Carlyle now manages about $500B, and its portfolio companies employ around 1.5 million people. It's a good reminder that a slightly arbitrary deadline can be the push that gets you to jump.",
+        "**From 'bright young White House guy' to unemployable in one election.** At 27 he was Jimmy Carter's deputy domestic policy adviser. Part of his edge was knowing Carter's campaign promises better than anyone, because he'd compiled them by hand before the internet existed. When Carter lost, the people who'd promised him jobs stopped returning calls. He struggled to land at a law firm, then realized he didn't much like law. His Truman line: 'you want a friend in Washington, get a dog.'",
+        "**Being in DC was a weakness, so he pitched it as an edge.** Private equity barely had a name, and Washington wasn't New York. Rubenstein quoted Senator Everett Dirksen: when you're being run out of town, 'get out in front and pretend you're leading a parade.' The pitch became 'we understand companies heavily affected by government,' and it came with a former Secretary of Defense (Frank Carlucci), then James Baker, then George H.W. Bush and John Major as advisers. In his words, a Middle East fundraising trip goes better with Jim Baker than with the name Rubenstein alone.",
+        "**Scrappy details: deal-by-deal, a 5,000 sq ft office and the payroll scare.** Before any fund, Carlyle raised money one deal at a time. Its first fund was $100M and its second $1B. Rubenstein turned down a free option on another 5,000 square feet so he wouldn't be tempted to grow too fast (Carlyle is now the building's largest tenant). Once they spent all their cash trying to buy a company out of bankruptcy, lost, and then won it back later. His structural idea was multiple fund types (buyout, growth, real estate, debt) across Europe, Asia and Japan, with partners holding MBAs picking deals while he raised money and served as the face of the firm.",
+        "**The Amazon deal that got away.** One of Carlyle's companies owned the Books in Print bibliography, and a young Jeff Bezos offered 20% of his startup to rent it. Carlyle wanted cash instead, about $100k a year for five years. Rubenstein later flew out, saw Bezos packing books himself, and decided he wouldn't make it. He did get some stock eventually but sold it at the IPO, calling it 'stupid.' It would be worth roughly $14B now. His read on founders like Bezos, Gates and Zuckerberg: 'self-confidence that is staggering,' plus a lot of luck.",
+        "**Forever neurotic, still frugal, reading to stay sharp.** When asked when he finally felt financially safe, he said 'maybe yesterday.' Entrepreneurs always assume something bad is about to happen, whether it's a deal going sideways or the Orioles missing the playoffs. He still pays about $15 for haircuts at his neighborhood barber, wears 10-year-old suits, and plans to give most of his money away as an early Giving Pledge signer. On the macro picture, he thinks $40T of federal debt will effectively be paid back in devalued dollars, so the dollar will almost certainly lose value. He reads constantly and calls interviewing authors his 'anti-Alzheimer's device.'"
+      ],
+      "fun_facts": [
+        "Rubenstein bought the only privately owned Magna Carta in the US at auction and put it on permanent display at the National Archives. He never found out whether anyone bid against him.",
+        "Carlyle's first office had just been used to film Broadcast News with Jack Nicholson.",
+        "Chief Justice John Roberts wanted to be a history professor until a Boston cabbie told him he'd majored in American history at Harvard too.",
+        "Glenn Youngkin spent 25 years at Carlyle before running for, and winning, the Virginia governorship."
+      ],
+      "discussion_questions": [
+        "Rubenstein turned down 20% of Amazon because he wanted cash, not illiquid startup equity. In what situations is 'take the cash' the right call for an established business partnering with a startup, and how would you tell the difference?",
+        "He built credibility by recruiting famous ex-officials as advisers. For a founder today without that network, what's the modern equivalent of 'bringing Jim Baker to the meeting'?"
+      ],
+      "highlights": [
+        {
+          "text": "Rubenstein started Carlyle at 37 after reading that most founders start between 28 and 37: 'If I don't do it now, I'll never do it.' $5M in 1987 became about $500B under management.",
+          "category": "Life/Career Advice",
+          "topics": [
+            "Private Equity",
+            "Career Paths"
+          ]
+        },
+        {
+          "text": "Carlyle turned down 20% of early Amazon in exchange for about $100k/yr for 5 years to rent its Books in Print list, then sold the stock it later got at the IPO. It would be worth about $14B today.",
+          "category": "Investing",
+          "topics": [
+            "Private Equity"
+          ]
+        },
+        {
+          "text": "Carlyle's edge was structural: raising money deal by deal before its first $100M fund, then running multiple fund types (buyout, growth, real estate, debt) and globalizing across Europe, Asia and Japan.",
+          "category": "Business Model",
+          "topics": [
+            "Fundraising",
+            "Private Equity"
+          ]
+        },
+        {
+          "text": "Turn a disadvantage into positioning: a DC private-equity firm pitched 'we understand government-affected companies' and borrowed credibility from ex-officials like Carlucci, Baker and Bush.",
+          "category": "Marketing/Growth",
+          "topics": [
+            "Private Equity"
+          ]
+        },
+        {
+          "text": "Split roles by strength: Carlyle's MBA partners evaluated deals while Rubenstein raised money, recruited and served as the face of the firm.",
+          "category": "Life/Career Advice",
+          "topics": [
+            "Leadership",
+            "Private Equity"
+          ]
+        },
+        {
+          "text": "Rubenstein expects $40T of US federal debt to be paid back in devalued dollars, so the dollar will almost certainly lose value.",
+          "category": "Investing",
+          "topics": [
+            "Debt & Credit",
+            "Macroeconomics"
+          ]
+        },
+        {
+          "text": "Rubenstein bought the only privately owned Magna Carta in the US and placed it on permanent display at the National Archives.",
+          "category": "Trivia",
+          "topics": [
+            "Philanthropy"
+          ]
+        },
+        {
+          "text": "Rubenstein reads constantly and interviews authors as his 'anti-Alzheimer's device,' because active listening keeps his brain working.",
+          "category": "Life/Career Advice",
+          "topics": [
+            "Longevity",
+            "Career Paths"
+          ]
+        }
+      ]
+    }
+  ]
+}

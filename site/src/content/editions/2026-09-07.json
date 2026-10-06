@@ -1,0 +1,366 @@
+{
+  "date": "2026-09-07",
+  "episodes": [
+    {
+      "show": "My First Million",
+      "title": "7 things Bezos, MrBeast & Thiel do that you don’t",
+      "url": "https://www.youtube.com/watch?v=jZT04e4yBb0",
+      "recap": [
+        "**The option drop.** Shaan tells the story of Martin Basseri — the founder he almost invested $25K in at age 24, then chickened out, missing what became a multi-billion-dollar company (Applyboard). Catching up years later, Shaan learns Martin's management trick: whenever anyone on the team does something great, he says \"option drop\" and hands out equity on the spot, sometimes to an entire room at 10pm. Immediate, specific rewards beat any values poster on a wall.",
+        "**The friction removal service.** OpenAI reportedly runs an internal inbox — friction@openai.com — where anyone can flag anything slowing them down, triaged by a dedicated person whose job is to kill the friction. It's a permanent internal DOGE for fighting the bloat that creeps into every fast-growing company.",
+        "**One-bit communication.** The Siemens CEO reportedly replies to emails with only \"okay\" or \"no,\" forcing anything bigger into an in-person conversation. Bezos famously forwarded customer complaints with nothing but a question mark, training teams to investigate anecdotes rather than hide behind a 98% success metric.",
+        "**Peter Thiel's single-tasking rule.** At PayPal, Thiel assigned each person exactly one problem and would physically walk out of the room if anyone brought up anything else. His theory, \"focus is convex\": going from 80% to 90% focused doesn't add 10% of output, it roughly doubles it.",
+        "**Continuous culling vs. never firing.** Jack Welch ran GE on firing the bottom 10% of performers every year; Nvidia's Jensen Huang takes the opposite approach, saying he never fires anyone and just \"turns up the intensity\" until people rise to it or quit. Same Darwinian outcome, opposite philosophy.",
+        "**Give up on greatness, just \"be great.\"** Kevin Kelly told Sam he \"gave up on greatness\" (being remembered beyond one generation) to live as a dabbling \"gadfly.\" Sam counters with a more livable version: instead of chasing one giant legacy outcome, just try to be great right now — a great friend, parent, or teammate — something you can choose to do in this moment."
+      ],
+      "fun_facts": [
+        "Applyboard, the company Shaan almost invested $25K in at a $10M valuation, now reportedly does over a billion dollars a year in revenue.",
+        "The scout who first pitched Shaan on Applyboard was 13 years old.",
+        "The one-button app \"Yo\" got a real investment from Andreessen Horowitz, backed by a genuine \"one-bit communication\" thesis from Marc Andreessen.",
+        "GE under Jack Welch fired roughly the bottom 10% of employees every single year as standard policy."
+      ],
+      "discussion_questions": [
+        "Thiel's \"focus is convex\" implies the last 10% of focus matters more than the first 90% — how do you tell, in the moment, whether you're in that high-leverage last mile or just grinding on something already good enough?",
+        "If one-bit communication works for Bezos and the Siemens CEO, why does it read as disrespectful from anyone without their track record — and what does that say about how much of management style is really earned trust rather than technique?"
+      ],
+      "highlights": [
+        {
+          "text": "Immediate, specific, on-the-spot rewards (like Martin Basseri's 'option drop' equity grants) train behavior far more effectively than annual reviews or values posters.",
+          "category": "Life/Career Advice",
+          "topics": [
+            "Leadership"
+          ]
+        },
+        {
+          "text": "OpenAI runs an internal 'friction removal service' — an email inbox where anyone can flag bureaucratic drag, triaged by a dedicated person whose job is to eliminate it.",
+          "category": "Business Model",
+          "topics": [
+            "Leadership",
+            "Productivity"
+          ]
+        },
+        {
+          "text": "One-bit communication (a Siemens CEO's 'okay/no' replies, Bezos's single question-mark emails) forces teams to self-triage and investigate rather than dismissing anecdotes as noise.",
+          "category": "Life/Career Advice",
+          "topics": [
+            "Leadership"
+          ]
+        },
+        {
+          "text": "Peter Thiel's 'focus is convex': going from 80% to 90% focus on one problem doesn't add 10% of output, it roughly doubles it — most of the reward lives in the last increment of focus.",
+          "category": "Technical Wisdom",
+          "topics": [
+            "Decision Making",
+            "Productivity"
+          ]
+        },
+        {
+          "text": "Jack Welch's GE ran on two rules: be #1 or #2 in your market within a year or get fixed/sold/closed, and fire the bottom 10% of performers every year.",
+          "category": "Business Model",
+          "topics": [
+            "Leadership"
+          ]
+        },
+        {
+          "text": "Nvidia's Jensen Huang takes the opposite approach to Welch: he never fires people, he just 'turns up the intensity' until people rise to it or quit.",
+          "category": "Life/Career Advice",
+          "topics": [
+            "Leadership"
+          ]
+        },
+        {
+          "text": "MrBeast trained key early hires by having them shadow him 24/7 for six months, effectively 'cloning' his judgment so he could be in multiple places at once.",
+          "category": "Startup Idea",
+          "topics": [
+            "Hiring",
+            "Leadership"
+          ]
+        },
+        {
+          "text": "Kevin Kelly's definition of giving up on 'greatness' (being remembered beyond one generation) in favor of being a 'gadfly' who dabbles without needing ownership of any one big outcome.",
+          "category": "Life/Career Advice",
+          "topics": [
+            "Career Paths",
+            "Purpose"
+          ]
+        },
+        {
+          "text": "Instead of chasing achieving something great, try to 'be great' in the moment — a great friend, parent, or teammate — since that's available to you right now rather than gambled on a distant outcome.",
+          "category": "Life/Career Advice",
+          "topics": [
+            "Career Paths",
+            "Purpose"
+          ]
+        }
+      ]
+    },
+    {
+      "show": "Planet Money",
+      "title": "Trump drinks Venezuela’s milkshake",
+      "url": "https://www.npr.org/2026/09/04/nx-s1-5958648/us-venezuela-oil-deal-reserves-trump",
+      "recap": [
+        "**Apertura 2.0.** A week before this episode, Trump announced the U.S. would get control of \"65 billion barrels\" of Venezuelan oil reserves via a deal granting a private company exclusive 100-year rights to 17 oil fields. Third-generation Venezuelan oil man José Ángel Pereira Ruimwyk says it looks a lot like the 1990s \"apertura\" opening to foreign capital he lived through — and that opening has a well-known ending.",
+        "**The \"always be investing\" problem.** Venezuela sits on some of the largest oil reserves on Earth yet stays poor, partly because fields decline 10-11% a year without reinvestment that a debt-strapped, overstaffed PDVSA couldn't provide. Foreign capital filled that gap in the 1990s, nearly doubling production within a decade.",
+        "**How it fell apart last time.** As the apertura enriched a new oil elite, Hugo Chávez rose to power partly on a promise to take the wealth back. A 2002 national strike meant to squeeze him out instead got 20,000 oil workers fired and the foreign contracts torn up; PDVSA ballooned into a patronage machine paid \"because it's like a political party\" rather than for output.",
+        "**The cautionary epilogue.** Pereira's own story turns dark: as CEO of Citgo he got caught between U.S. sanctions and Maduro's government, was accused of treason on a routine Caracas trip, and spent nearly five years imprisoned, ten months of it in solitary, losing 100 pounds before a prisoner swap freed him.",
+        "**Why this deal looks shakier.** Unlike the negotiated 1990s opening, this one follows a U.S. military strike, a removed president, and a widely-seen-as-installed government — and even Pereira, who thinks renewed investment could help ordinary Venezuelans, says he has no interest in going back himself."
+      ],
+      "fun_facts": [
+        "Pereira met his wife in the state oil company's chorus — she was a mezzo-soprano, he was a baritone.",
+        "Venezuela sent Pereira's family to the University of Tulsa in the 1960s to train engineers before nationalizing its oil industry.",
+        "Venezuela's heavy crude is so tar-like it has to be diluted into a \"smoothie\" consistency just to move through a pipeline.",
+        "Chevron is the only major American oil company that never fully left Venezuela."
+      ],
+      "discussion_questions": [
+        "If the \"can't live with them, can't live without them\" cycle with foreign oil capital has repeated at least twice in Venezuela, what would actually have to change to break the pattern a third time?",
+        "Pereira argues the deal could help ordinary Venezuelans even under bad terms — at what point does \"some benefit under bad terms\" stop being better than no deal at all?"
+      ],
+      "highlights": [
+        {
+          "text": "Venezuela's 1990s 'apertura' opening to foreign oil capital nearly doubled production within a decade by bringing in technology to process heavy tar-like crude.",
+          "category": "Investing",
+          "topics": [
+            "Oil"
+          ]
+        },
+        {
+          "text": "Oil fields decline 10-11% in production per year without constant reinvestment — the 'always be investing' rule that explains why cash-starved state oil companies stagnate.",
+          "category": "Business Model",
+          "topics": [
+            "Oil"
+          ]
+        },
+        {
+          "text": "PDVSA swelled to five times its prior headcount after nationalization, paid 'because it's like a political party' rather than for productivity.",
+          "category": "Trivia",
+          "topics": [
+            "Oil",
+            "Labor & Work"
+          ]
+        },
+        {
+          "text": "A new US-Venezuela oil deal grants a private company exclusive 100-year rights to 17 oil fields in exchange for a promised $100 billion in new investment.",
+          "category": "Investing",
+          "topics": [
+            "Oil"
+          ]
+        },
+        {
+          "text": "A third-generation Venezuelan oil executive was imprisoned for nearly five years and lost 100 pounds after getting caught between US sanctions and Maduro's government — a reminder that political risk in resource extraction can become personal, not just financial.",
+          "category": "Life/Career Advice",
+          "topics": [
+            "Oil"
+          ]
+        }
+      ]
+    },
+    {
+      "show": "What's Your Problem",
+      "title": "Using Satellites to Prevent Famines",
+      "url": "https://www.iheart.com/podcast/1297-whats-your-problem-93024648/episode/using-satellites-to-prevent-famines-343027141",
+      "recap": [
+        "**The problem isn't data, it's persuasion.** Catherine Nakalembe's real mission isn't just satellite prediction, it's getting leaders to act on evidence before people starve. As a grad student in Uganda in 2015, she brought drought photos to the prime minister's office during a severe drought; food trucks were dispatched within two or three days.",
+        "**Photos beat maps, and maps beat models.** Raw photographs of dead crops moved decision-makers faster than statistical models ever did — a former NASA administrator reportedly used her field photos in presentations instead of the underlying data, because \"people believe what they see.\"",
+        "**Why U.S. crop-mapping tech doesn't transfer to Africa.** American crop maps work because U.S. farms are large and single-crop; in East Africa the average plot is under 2.5 hectares, so a single satellite pixel can span four different farmers' intercropped fields with no clean boundaries.",
+        "**Turning GoPros into a training-data pipeline.** Catherine's team mounted GPS-tagged GoPros on cars and motorcycles across Kenya, Uganda, and Tanzania, collecting over 2 million geolocated images to train crop-identification AI — essentially \"face detection, but for crops.\"",
+        "**The half-page memo is the real product.** A minister will never read an F1 score, but will act on a three-paragraph memo stating a threshold's been hit and funding will release on a specific day — the whole ML pipeline exists just to produce that one legible document."
+      ],
+      "fun_facts": [
+        "Catherine estimates she has personally taken over 300,000 field photos over her career.",
+        "A single team in Uganda collected over 2 million GoPro images during a COVID-era data-collection sprint.",
+        "Rwanda has three growing seasons a year, meaning any nationwide crop survey has to track three separate cycles at once.",
+        "Her \"kill it to learn it\" approach to problem-solving came from watching her father take apart and rebuild car engines and radios."
+      ],
+      "discussion_questions": [
+        "If photographic evidence persuades leaders faster than statistically superior data, are other data-driven fields over-investing in rigor and under-investing in legibility?",
+        "If crop-type AI requires massive geolocated training photos to work in a new region, does this approach risk leaving the least-resourced regions permanently under-modeled?"
+      ],
+      "highlights": [
+        {
+          "text": "Raw photographs of dead crops persuaded government leaders to act faster than statistical models or satellite maps — evidence only works if it's legible to the person who has to act on it.",
+          "category": "Marketing/Growth",
+          "topics": [
+            "Agriculture",
+            "Decision Making",
+            "Satellites"
+          ]
+        },
+        {
+          "text": "US crop-mapping AI (built for large, single-crop farms) fails in East Africa, where a single satellite pixel can span four different farmers' intercropped, differently-shaped plots.",
+          "category": "Technical Wisdom",
+          "topics": [
+            "AI",
+            "Agriculture",
+            "Satellites"
+          ]
+        },
+        {
+          "text": "Mounting GoPros with GPS tagging on cars and motorcycles to mass-collect geolocated training photos, turning a low-tech data collection method into an AI training pipeline — essentially 'face detection, but for crops.'",
+          "category": "Startup Idea",
+          "topics": [
+            "AI",
+            "Agriculture",
+            "Satellites"
+          ]
+        },
+        {
+          "text": "A famine-prediction system evolved from one blunt regional drought threshold into a hyper-local, zip-code-level model that forecasts risk three months in advance using only satellite rainfall, temperature, and vegetation data.",
+          "category": "Business Model",
+          "topics": [
+            "Agriculture",
+            "Climate",
+            "Satellites"
+          ]
+        },
+        {
+          "text": "The real bottleneck to solving hunger wasn't better data — it was distilling that data into a three-paragraph memo simple enough for a minister to read and act on immediately.",
+          "category": "Life/Career Advice",
+          "topics": [
+            "Agriculture",
+            "Decision Making"
+          ]
+        }
+      ]
+    },
+    {
+      "show": "Masters of Scale",
+      "title": "How to build breakout products",
+      "url": "https://mastersofscale.com/how-to-build-breakout-products/",
+      "recap": [
+        "**Trust your instincts, not your ideas.** Mark Pincus's core claim, from his new book, is that gut instincts about what's broken are usually right while the specific fix you first think of is usually wrong — treat the idea as a signal to test cheaply, not a plan to fall in love with.",
+        "**The Proven, Better, New framework.** \"Proven\" is what works elsewhere and should be copied faithfully (the best builders have the least ego about copying); \"Better\" is a simple, obvious improvement any existing user would instantly recognize; \"New\" is your risky, likely-to-fail novel bet, which should be isolated rather than baked into the foundation.",
+        "**Consumer AI is stuck in a pre-platform moment.** Neither Pincus nor Reid Hoffman think AI has become a true consumer platform yet — no dominant \"front door\" the way Google or the browser were — comparing it directly to the underrated \"internet nuclear winter\" of 2002-2003 right before the consumer internet took off.",
+        "**Ruthlessly copy the Zynga testing machine.** Test more ideas in a week than your industry tests in a year, starting with nothing more than a landing page and an ad link before building the real product — and aim for conviction, not just \"viable.\"",
+        "**Parenting screen time from inside the industry.** Pincus held off giving his twins smartphones until 16 and says he doesn't blame the apps for kids' screen addiction any more than he'd blame cigarette companies while modeling the same behavior as a parent himself — his recommended replacement for passive screen time: coding tools like Claude Code."
+      ],
+      "fun_facts": [
+        "Zynga scaled to 300 million monthly active users at its peak, largely on Facebook.",
+        "Pincus and Hoffman both wrote early checks into Friendster purely to prove the consumer internet thesis, not because they expected it to succeed as a business.",
+        "Pincus's daughter interned at Niantic on Pokémon Go's first-time user experience at age 14.",
+        "Pincus's least favorite \"new and improved\" example is Hasbro's plastic-piece, Roman-numeral redesign of the board game Risk."
+      ],
+      "discussion_questions": [
+        "Pincus argues the best builders copy proven mechanics with the least ego — where's the line between healthy humility about \"proven\" and just building an uninspired clone?",
+        "If we're heading toward \"one-person founder teams\" building at the speed of play, what happens to the traditional venture-backed, multi-year startup model?"
+      ],
+      "highlights": [
+        {
+          "text": "The Proven, Better, New framework: copy what's proven faithfully, make one obvious improvement everyone would recognize, and isolate your one genuinely novel bet since it's the part most likely to fail.",
+          "category": "Startup Idea",
+          "topics": [
+            "Product Development",
+            "Innovation"
+          ]
+        },
+        {
+          "text": "Test more ideas in a week than your industry tests in a year — build a testing/failure machine at the very top of the funnel (a landing page and ad link) before building the real product.",
+          "category": "Business Model",
+          "topics": [
+            "Product Development",
+            "Innovation"
+          ]
+        },
+        {
+          "text": "'Viable' is a weak word: real ambition means being willing to be wrong for a long time in pursuit of being very right, rather than settling for being a little bit right every day.",
+          "category": "Life/Career Advice",
+          "topics": [
+            "Product Development",
+            "Innovation"
+          ]
+        },
+        {
+          "text": "The best product builders copy proven mechanics with the least ego; amateurs insist on changing everything and fail for the wrong reasons.",
+          "category": "Marketing/Growth",
+          "topics": [
+            "Product Development",
+            "Innovation"
+          ]
+        },
+        {
+          "text": "AI hasn't become a true consumer platform yet (no dominant 'front door' the way Google or the browser were) — a moment the hosts compare to the underrated opportunity hiding in the 2002-2003 internet nuclear winter.",
+          "category": "Investing",
+          "topics": [
+            "AI",
+            "Consumer AI"
+          ]
+        },
+        {
+          "text": "A tech founder who helped build engagement-optimized products for a living held off giving his own kids smartphones until 16, and argues parents shouldn't blame apps for screen addiction while modeling the same behavior themselves.",
+          "category": "Life/Career Advice",
+          "topics": [
+            "Social Media"
+          ]
+        }
+      ]
+    },
+    {
+      "show": "Stuff You Should Know",
+      "title": "Selects: Blacksmiths? You got that right!",
+      "url": "https://www.iheart.com/podcast/1119-stuff-you-should-know-26940277/episode/selects-blacksmiths-you-got-that-right-343215251",
+      "recap": [
+        "**Every \"Smith\" in the phone book is a receipt.** Blacksmithing was so universal for roughly 2,000 years that \"Smith\" became the most common U.S. surname — every town needed at least one, and a sick blacksmith could stall a whole community for a week.",
+        "**Bronze first, and the \"Iron Age\" was actually a step down.** The shift from bronze to iron was initially a cultural regression; early iron was so rare (sourced only from meteorites) that King Tut's iron dagger outranked his gold in prestige.",
+        "**From bloom to pig iron to wrought iron.** Early bloomeries produced rough \"bloom\" iron; blast furnaces with bellows later produced purer \"pig iron,\" which still needed repeated heating and hammering to become usable wrought iron — labor so intense that a 13th-century plague-driven labor shortage pushed smiths toward water-powered hammers.",
+        "**Iron types are just a carbon-content dial.** Wrought iron needs careful hammering to avoid brittleness; steel's higher carbon content forms a hard crystalline structure without that fuss; cast iron is so brittle at 2%+ carbon it's poured molten into molds instead of hammered at all.",
+        "**The anvil is a system of trick features.** A rounded face avoids creasing the workpiece, a round \"pritchel hole\" punches clean holes, and a square \"hardy hole\" accepts swappable tool attachments like a Dremel accepts bits — traditionally bolted to a buried tree stump so the whole assembly becomes part of the earth."
+      ],
+      "fun_facts": [
+        "Wrought iron production for railings and staircases largely disappeared right around the fall of disco.",
+        "Hot iron color is diagnostic: red-hot is about 1,400°F, white-hot (the hottest smiths typically use) is around 2,550°F.",
+        "Coke, a coal derivative, burns even hotter than raw coal by having its impurities pre-burned out.",
+        "\"Smite\" and \"smith\" are believed to share the same etymological root."
+      ],
+      "discussion_questions": [
+        "A genuinely essential trade can nearly vanish within a couple of generations once a cheaper industrial alternative shows up — what's a similarly \"load-bearing\" trade today quietly on the same path?",
+        "Wrought iron requires more finesse to work than steel, yet steel won out anyway because it performs better once made — how often does \"harder to make well\" lose to \"better once made\"?"
+      ],
+      "highlights": [
+        {
+          "text": "'Smith' is the most common surname in the US, a direct legacy of how universal blacksmithing was for roughly 2,000 years — every community needed at least one.",
+          "category": "Trivia",
+          "topics": [
+            "History"
+          ]
+        },
+        {
+          "text": "The shift from the Bronze Age to the Iron Age was initially a cultural regression, not an improvement — many bronze-age societies collapsed around the same time, likely from climate change and drought.",
+          "category": "Trivia",
+          "topics": [
+            "History",
+            "Climate"
+          ]
+        },
+        {
+          "text": "Iron purification runs through stages of increasing purity: bloom (from a bloomery), then pig iron (from a hotter blast furnace with bellows), then wrought iron (pig iron repeatedly heated and hammered to drive out impurities).",
+          "category": "Technical Wisdom",
+          "topics": [
+            "History",
+            "Materials Science",
+            "Invention"
+          ]
+        },
+        {
+          "text": "All iron types are just a carbon-content dial: wrought iron (~0.08% carbon, needs careful hammering), steel (higher carbon, forms a hard crystalline structure), and cast iron (2%+ carbon, too brittle to hammer, must be cast molten).",
+          "category": "Technical Wisdom",
+          "topics": [
+            "Materials Science"
+          ]
+        },
+        {
+          "text": "Blacksmiths traditionally bolt their anvil to a buried tree stump so the whole assembly becomes structurally part of the earth, absorbing hammer-blow energy downward instead of back at the smith.",
+          "category": "Trivia",
+          "topics": [
+            "Materials Science"
+          ]
+        },
+        {
+          "text": "A modern advanced blacksmith can hand-forge about one nail per minute; historical blacksmiths reportedly made 10-12 a minute, each requiring a custom tool just to shape the head.",
+          "category": "Trivia",
+          "topics": [
+            "Materials Science"
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,316 @@
+{
+  "date": "2026-08-26",
+  "episodes": [
+    {
+      "show": "Planet Money",
+      "title": "Who decides what big box sells? Our GAME got us answers",
+      "url": "https://www.npr.org/2026/08/21/nx-s1-5940897/buyer-boardgame-bigbox-target-walmart",
+      "recap": [
+        "**Getting into big-box stores is basically a reality-TV pitch competition, minus the cameras.** Planet Money spent a year building a board game called Sell Me a Sasquatch with Exploding Kittens, mostly as an excuse to sneak inside \"line review\" — the twice-a-year ritual where retail buyers decide what makes it onto shelves at places like Target and Walmart. Erika Beras got an actual seat in the room, and the numbers are brutal: of roughly 5,000 new board games pitched to retailers a year, only 3 to 6 out of every 30 that reach a meeting actually get ordered.",
+        "**Buyers aren't really listening to your pitch — they're evaluating you.** After Erika's nerve-wracking pitch, the buyers had almost no questions about the game itself. A former Target buyer explained why: buyers can't reliably predict what sells, so in ambiguous cases they bet on the person in the room, not the spreadsheet.",
+        "**Setting a price is a one-way door, so retailers agonize over it.** The team landed on $19.99 instead of $9.99, then plowed the extra margin back into production quality — better cards, a nicer box, and a Pantone-matched purple that cost three cents more per unit but visibly outshone every neighboring box on a real shelf.",
+        "**The economics of a licensing deal reveal who's actually taking the risk.** Planet Money's royalty lands in the standard 3–7% of net revenue range, escalating past 200,000 units sold — but Exploding Kittens absorbed all the prototyping, development, and manufacturing risk up front.",
+        "**The whole project raced a factory calendar most shoppers never think about.** Once both retailers said yes, the team had 36 days to lock every design file before the Chinese Lunar New Year factory shutdown — miss it, and you miss the holiday season entirely."
+      ],
+      "fun_facts": [
+        "81% of U.S. retail spending in 2026 still happens in physical stores, not online, per Capital One.",
+        "The Pantone purple ink cost $0.03 extra per unit but stood out even in shadowed shelf spots.",
+        "The game includes listener-submitted creatures like \"the Veblen,\" \"the Laffer,\" the Ogopogo, and Australia's Drop Bear.",
+        "Big-box buyers plan shelf space using blueprints called \"planograms\" — described as playing \"retail Tetris.\""
+      ],
+      "discussion_questions": [
+        "Buyers said they \"bet on the person\" pitching more than the product — does that dynamic scale fairly for creators without a built-in audience?",
+        "The team spent the price markup on product quality rather than profit — when does that bet pay off, and when does it backfire?"
+      ],
+      "highlights": [
+        {
+          "text": "Line review — only 3 to 6 out of every 30 pitched product lines make it onto a big-box retailer's actual shelves, and most of the ~5,000 board games submitted annually never even get a meeting.",
+          "category": "Business Model",
+          "topics": [
+            "Retail"
+          ]
+        },
+        {
+          "text": "Buyers admit they can't reliably predict which products will sell, so in ambiguous pitches they 'bet on the person' — evidence that founder credibility and follow-through often outweigh the product itself in high-stakes sales.",
+          "category": "Life/Career Advice",
+          "topics": [
+            "Retail",
+            "Sales",
+            "Decision Making"
+          ]
+        },
+        {
+          "text": "Retail buyers watch physical tells (checking phones, distraction) during pitch meetings as a leading indicator of whether they'll pass — attentiveness is a signal, not just etiquette.",
+          "category": "Marketing/Growth",
+          "topics": [
+            "Retail",
+            "Sales",
+            "Psychology"
+          ]
+        },
+        {
+          "text": "Pricing anchors are nearly irreversible — once a retail price is set, raising it looks predatory and lowering it looks like a fire sale, so the launch price is a one-shot decision worth obsessing over.",
+          "category": "Business Model",
+          "topics": [
+            "Retail",
+            "Pricing"
+          ]
+        },
+        {
+          "text": "Retailers running 'line review' twice a year is a structural bottleneck for physical-goods founders — missing a review cycle can cost 6+ months, so timeline planning around factory shutdowns like Lunar New Year matters as much as the pitch itself.",
+          "category": "Startup Idea",
+          "topics": [
+            "Retail"
+          ]
+        },
+        {
+          "text": "Royalty deals in board games run 3-7% of net revenue, with the manufacturer/publisher absorbing nearly all production and prototyping risk — explaining why the creator's cut looks small despite doing much of the creative work.",
+          "category": "Business Model",
+          "topics": [
+            "IP & Royalties"
+          ]
+        },
+        {
+          "text": "A small production upgrade (Pantone-matched purple packaging, ~$0.03/unit extra) was judged worth it after a literal on-shelf test showed it visually outcompeting neighboring products — physical shelf testing before mass production cheaply de-risks packaging decisions.",
+          "category": "Marketing/Growth",
+          "topics": [
+            "Retail",
+            "Pricing"
+          ]
+        },
+        {
+          "text": "Despite years of 'retail is dying' narratives, 81% of U.S. retail spending in 2026 still happens in physical stores, per Capital One data.",
+          "category": "Trivia",
+          "topics": [
+            "Retail",
+            "Consumer Behavior"
+          ]
+        }
+      ]
+    },
+    {
+      "show": "Stuff You Should Know",
+      "title": "Rope, yeah ROPE!",
+      "url": "https://www.iheart.com/podcast/1119-stuff-you-should-know-26940277/episode/rope-yeah-rope-341745444/",
+      "recap": [
+        "**Rope might be the most underrated invention in human history.** Without it, we don't get sailing, the Age of Discovery, musical instruments, undersea internet cables, or bows and arrows — it's a technology so ubiquitous it became invisible.",
+        "**The engineering trick behind rope's strength is opposing tension.** Twist fibers in opposing directions under tension and you get torsional stability strong enough to hold its shape through constant knotting and yanking.",
+        "**One 18th-century inventor quietly solved rope's biggest failure mode.** Joseph Hutter's \"forming plate\" made outer fibers travel a longer path than inner ones, equalizing tension across the rope so it wouldn't fray — still the underlying principle used today.",
+        "**Material history tracks industrial history almost perfectly.** Wire rope showed up in 1830s German mining; nylon rope arrived almost by accident when DuPont's 1939 toothbrush-bristle material got repurposed once WWII material shortages forced the switch.",
+        "**Different jobs demand wildly different rope personalities.** Climbing ropes use \"kernmantle\" construction (load-bearing core plus protective shell), lariats are deliberately stiff, and bungee cords are vulcanized rubber strands that stretch to about 130% of their length."
+      ],
+      "fun_facts": [
+        "A \"cord\" is technically any rope under 3/16 inch thick; rope-makers \"lay\" rope, they don't \"make\" it.",
+        "The oldest surviving rope walk is in Karlskrona, Sweden — about 1,000 feet long, reportedly the country's longest building.",
+        "The U.S. rope market was worth $3.5 billion in 2025, projected to nearly double to $6 billion by 2033.",
+        "Herodotus recorded Xerxes's army bridging roughly a kilometer of water using rope and ships."
+      ],
+      "discussion_questions": [
+        "What other everyday objects hide a similarly elegant, non-obvious structural fix that most people never notice?",
+        "Rope-making was independently invented by cultures with zero contact — which technologies are \"inevitable\" once a need arises, versus dependent on a lucky spark?"
+      ],
+      "highlights": [
+        {
+          "text": "Rope gets its strength from twisting fiber strands in opposing directions under tension, which creates torsional stability — a design principle (opposing forces held in tension) that shows up across engineering far beyond cordage.",
+          "category": "Technical Wisdom",
+          "topics": [
+            "Materials Science"
+          ]
+        },
+        {
+          "text": "18th-century inventor Joseph Hutter solved rope fraying by inventing the 'forming plate' — a disc that makes outer fiber strands travel a longer path than inner ones, equalizing tension across the whole rope so it doesn't fray from uneven stress.",
+          "category": "Technical Wisdom",
+          "topics": [
+            "History",
+            "Materials Science",
+            "Invention"
+          ]
+        },
+        {
+          "text": "Nylon rope exists by accident of repurposing — DuPont invented nylon in 1939 for toothbrush bristles, and it only became a rope material once people realized long nylon filaments were stronger and stretchier than natural fiber.",
+          "category": "Trivia",
+          "topics": [
+            "History",
+            "Materials Science",
+            "Invention"
+          ]
+        },
+        {
+          "text": "Climbing ropes use 'kernmantle' construction — a load-bearing nylon core (kern) wrapped in a protective braided shell (mantle) — so a damaged outer sheath doesn't necessarily mean catastrophic rope failure.",
+          "category": "Technical Wisdom",
+          "topics": [
+            "Materials Science"
+          ]
+        },
+        {
+          "text": "Wartime material scarcity can accelerate adoption of new materials — nylon rope's breakout moment came when WWII cut off access to raw fiber materials, forcing manufacturers to scale up the synthetic alternative.",
+          "category": "Trivia",
+          "topics": [
+            "History",
+            "Materials Science"
+          ]
+        },
+        {
+          "text": "Simple materials businesses can be durable moats — the Samson Cordage Company has made the same cotton 'spot cord' rope for about 150 years, still a category staple in hardware stores.",
+          "category": "Business Model",
+          "topics": [
+            "Moats"
+          ]
+        }
+      ]
+    },
+    {
+      "show": "What's Your Problem",
+      "title": "Can We Slow Down Aging?",
+      "url": "https://www.iheart.com/podcast/1297-whats-your-problem-93024648/episode/can-we-slow-down-aging-341017014/",
+      "recap": [
+        "**Aging causes disease — not the other way around.** Nir Barzilai's reframe: we intuitively think diseases cause old age, but biological aging itself is what makes those diseases possible, meaning targeting aging directly could reduce risk across many diseases at once.",
+        "**Four boring habits keep coming up because they hit the same cellular target.** Exercise, diet, sleep, and social connection all measurably improve autophagy, the cell's garbage-disposal system — and time-restricted eating extended rat lifespan more than the same calorie cut spread through the day.",
+        "**Several cheap, already-approved drugs might be quietly slowing aging — but nobody wants to fund the definitive trial.** Metformin and SGLT2 inhibitors cut cardiovascular disease, kidney decline, and mortality by around 40% in trial data, yet nobody will fund a proper aging trial because the drugs are cheap and generic.",
+        "**The \"anti-aging\" label is the enemy, not the friend, of legitimate aging science.** The field hired a branding agency after realizing thirty scattered terms were diluting recognition, settling on \"geroscience\" to distance itself from supplement grifters.",
+        "**Genetics, not clean living, decides most extreme longevity cases.** Centenarians experience \"compression of morbidity\" — healthy almost to the very end — and one 110-year-old subject smoked for 95 years and outlived four doctors who told her to quit."
+      ],
+      "fun_facts": [
+        "The geroscience field is reportedly spending around $20,000 just to get a Wikipedia page approved.",
+        "People who die past 100 have roughly a third of the medical costs in their final two years versus people who die around 70.",
+        "A 110-year-old research subject smoked for 95 years and credited cigarettes for her longevity.",
+        "SGLT2 inhibitors, a diabetes drug, cut cardiovascular disease, kidney decline, and mortality by ~40% each in one study."
+      ],
+      "discussion_questions": [
+        "Genetics explains extreme-longevity outliers, yet lifestyle factors extend healthy years for everyone else — how should that tension shape public health messaging?",
+        "When does a scientific field's need for a distinct public image start to look like marketing spin itself?"
+      ],
+      "highlights": [
+        {
+          "text": "The four lifestyle levers every longevity researcher agrees on are exercise, diet, sleep, and social connection — not because they're trendy, but because each measurably improves cellular repair processes tied to the twelve recognized 'hallmarks of aging.'",
+          "category": "Life/Career Advice",
+          "topics": [
+            "Longevity"
+          ]
+        },
+        {
+          "text": "Aging researchers reframe the causality most people assume: diseases don't cause old age, biological aging causes disease susceptibility — meaning targeting the aging process itself, not individual diseases, is the higher-leverage intervention.",
+          "category": "Technical Wisdom",
+          "topics": [
+            "Longevity"
+          ]
+        },
+        {
+          "text": "Several existing generic drugs (metformin, SGLT2 inhibitors) show anti-aging-adjacent effects (up to 40% reductions in cardiovascular disease, kidney decline, and mortality) in already-completed trials, but there's little financial incentive to fund the definitive aging trial because the drugs are cheap and off-patent.",
+          "category": "Investing",
+          "topics": [
+            "Longevity",
+            "Drug Discovery"
+          ]
+        },
+        {
+          "text": "Multi-supplement stacking is associated with increased mortality, likely because individually-fine compounds interact antagonistically when combined — despite users often being otherwise health-conscious people.",
+          "category": "Life/Career Advice",
+          "topics": [
+            "Longevity"
+          ]
+        },
+        {
+          "text": "A scientific field can be undermined by fragmented branding — the aging-research community hired a branding agency and discovered thirty different terms (healthspan, longevity, rejuvenation, immortality) were diluting recognition versus adopting one term, 'geroscience.'",
+          "category": "Marketing/Growth",
+          "topics": [
+            "Longevity",
+            "Branding"
+          ]
+        },
+        {
+          "text": "Centenarians tend to have dramatically lower end-of-life medical costs than people who die at 70, because they experience 'compression of morbidity' — staying healthy almost until the very end rather than living a long time with chronic disease.",
+          "category": "Trivia",
+          "topics": [
+            "Longevity"
+          ]
+        },
+        {
+          "text": "Time-restricted eating research began with rats: cutting caloric intake 40% while concentrating meals into a shorter window extended lifespan more than the same calorie cut spread throughout the day — suggesting the fasting window itself, not just calories, drives the benefit via improved autophagy.",
+          "category": "Technical Wisdom",
+          "topics": [
+            "Longevity"
+          ]
+        }
+      ]
+    },
+    {
+      "show": "Masters of Scale",
+      "title": "Know which rules to break",
+      "url": "https://mastersofscale.com/know-which-rules-to-break/",
+      "recap": [
+        "**Break cultural rules, never legal ones — that's Freston's entire playbook.** When cable operators refused to carry MTV, the network went around them with the \"I Want My MTV\" campaign, turning viewers into a demand machine that forced distributors to fall in line.",
+        "**MTV's secret weapon was hiring people who knew nothing about television.** Without industry conventions to fall back on, a team pulled from radio, music, and teaching had no choice but to invent entirely new formats.",
+        "**Legacy media saw the internet coming and still couldn't act on it.** Viacom offered Zuckerberg $1.5 billion for Facebook (he said no) and later sued YouTube instead of partnering — ceding the entire user-generated video category to a company now worth roughly $600 billion.",
+        "**Scaling culture without diluting it comes down to who you hire.** Freston's rule: \"B players hire C players, A players hire A players\" — a single bad hire compounds over time.",
+        "**Before MTV, Freston's actual first business got wiped out by geopolitics — and that shaped everything after.** A Carter-era embargo collapsed his India/Afghanistan apparel business; he responded by smuggling three tons of clothing into Canada, calling it an early lesson in improvisation."
+      ],
+      "fun_facts": [
+        "Freston smuggled three tons of clothing across the Saint Lawrence Seaway after a Carter-era import embargo.",
+        "MTV's only real dress code rule early on was \"no frontal nudity.\"",
+        "Viacom offered $1.5 billion for Facebook when it had just $9 million in revenue; Zuckerberg turned it down.",
+        "Freston credits his career pivot to reading \"What Color Is Your Parachute?\" — the only self-help book he's ever bought."
+      ],
+      "discussion_questions": [
+        "Where's the real line between disruptive-but-legitimate business tactics and disruption that crosses into recklessness?",
+        "What organizational conditions make it structurally hard for an incumbent to act on a platform shift even when leadership sees it coming?"
+      ],
+      "highlights": [
+        {
+          "text": "MTV broke its cable-operator distribution logjam not through negotiation but by going straight to consumers with the 'I Want My MTV' campaign, engineering direct audience demand that forced reluctant distributors to carry the channel.",
+          "category": "Marketing/Growth",
+          "topics": [
+            "Word of Mouth",
+            "TV & Media"
+          ]
+        },
+        {
+          "text": "MTV deliberately hired people with zero television experience — a 'no money forces innovation' strategy that worked because outsiders had to invent new formats rather than default to industry convention.",
+          "category": "Life/Career Advice",
+          "topics": [
+            "Hiring",
+            "TV & Media"
+          ]
+        },
+        {
+          "text": "Viacom's board treated YouTube as a 'copyright infringement machine' and sued rather than partnered; the company that structurally couldn't tolerate liability risk ceded the entire user-generated video category to a competitor now worth roughly $600 billion.",
+          "category": "Business Model",
+          "topics": [
+            "TV & Media"
+          ]
+        },
+        {
+          "text": "Viacom offered $1.5 billion for Facebook when it had only $9 million in revenue — a reminder that even sophisticated acquirers can badly misjudge a company's future value in either direction (the deal fell through when Zuckerberg refused).",
+          "category": "Investing",
+          "topics": [
+            "Exits & Acquisitions",
+            "TV & Media"
+          ]
+        },
+        {
+          "text": "Freston's advice to young people uncertain about their career path: 'step off the conveyor belt' and travel or take unconventional risks before settling into a traditional career track, arguing it builds empathy and resilience that make candidates more attractive later, not less.",
+          "category": "Life/Career Advice",
+          "topics": [
+            "Career Paths"
+          ]
+        },
+        {
+          "text": "A simple hiring heuristic for preserving culture while scaling: 'B players hire C players, A players hire A players' — meaning a single bad hire can compound and erode a company's talent bar over time if left unaddressed.",
+          "category": "Life/Career Advice",
+          "topics": [
+            "Hiring",
+            "Leadership"
+          ]
+        },
+        {
+          "text": "Freston prioritized 'consumer first, second, and third' over advertisers, distributors, or internal politics as the central strategic filter at MTV — arguing that a strong direct bond with the audience makes every other stakeholder relationship easier to solve.",
+          "category": "Business Model",
+          "topics": [
+            "TV & Media",
+            "Customer Obsession"
+          ]
+        }
+      ]
+    }
+  ]
+}

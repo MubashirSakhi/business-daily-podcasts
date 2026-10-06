@@ -1,0 +1,336 @@
+{
+  "date": "2026-08-27",
+  "episodes": [
+    {
+      "show": "My First Million",
+      "title": "How a $5B founder is using AI (3 tutorials)",
+      "url": "https://www.youtube.com/watch?v=TVpLs0F1zpA",
+      "recap": [
+        "**Wade built himself a robot executive staff, and he's basically living the presidential-briefing life.** Every morning at 6 a.m., an AI agent hooked into his calendar, email, and to-do list sends him a Slack briefing, and a nightly \"Scribe\" agent loops over meeting notes and drafts follow-ups on its own — shrinking his end-of-day catch-up from two hours to fifteen minutes.",
+        "**He deliberately built an AI that argues back with him instead of flattering him.** His \"War Council\" skill spins up seven AI personas — a standing wartime COO, a ruthless CFO, a contrarian board member, plus four dynamic ones — to pressure-test big decisions like hires or pricing moves before he commits.",
+        "**Zapier's whole AI pitch rests on being boring and reliable rather than flashy and agentic.** Deterministic, code-based workflows beat agents that \"guess\" and burn tokens — and Wade thinks the next competitive battleground for software is personality, not raw model intelligence.",
+        "**AI quietly made Zapier's hiring decisions better, in a way Wade didn't expect.** Its pattern-matched write-ups against thousands of past candidates proved more persuasive to hiring panels than his own gut checks.",
+        "**For someone worth billions, Wade's actual money philosophy is almost defiantly plain.** He credits a narrow, clear picture of \"winning\" — family first, no interest in flash — for staying grounded and avoiding what he calls being a \"one-dimensional winner.\""
+      ],
+      "fun_facts": [
+        "Zapier's name accidentally works two ways: they couldn't afford the second \"p\" domain, and only later realized \"API\" was hiding inside the name.",
+        "Zapier reportedly reached a ~$5 billion valuation on around $1 million of total primary capital ever raised.",
+        "Wade's go-to daily AI tool is a coding agent (Cursor), which he treats as an employee he delegates to rather than a chatbot."
+      ],
+      "discussion_questions": [
+        "If an AI agent can already argue back with better data than most human executives manage, at what point does \"AI as decision-maker\" stop being a thought experiment — and would you trust it with a call that could cost you a key relationship?",
+        "Is Wade's clarity about what \"winning\" means to him something you can find before you've made your money, or is it a luxury that mostly shows up after?"
+      ],
+      "highlights": [
+        {
+          "text": "Zapier pitches deterministic, code-based workflows over 'agentic guessing' as its edge versus generic AI agent builders — reliability and lower token cost, not raw intelligence, is the moat.",
+          "category": "Business Model",
+          "topics": [
+            "AI",
+            "Automation",
+            "Moats"
+          ]
+        },
+        {
+          "text": "Wade's daily automation stack (an AI-drafted morning brief plus an evening 'Scribe' wrap-up that actually drafts follow-ups) cut his end-of-day catch-up time from two hours to fifteen minutes.",
+          "category": "Life/Career Advice",
+          "topics": [
+            "AI",
+            "Automation",
+            "Productivity"
+          ]
+        },
+        {
+          "text": "Wade's 'War Council' skill spins up seven AI personas (a standing wartime COO, ruthless CFO, and contrarian board member, plus four dynamically generated) to pressure-test big decisions before he acts on them.",
+          "category": "Life/Career Advice",
+          "topics": [
+            "AI",
+            "Decision Making"
+          ]
+        },
+        {
+          "text": "Wade argues that as software gets cheap to build, 'personality' — not just features or price — becomes the new axis of competition, the same way people pick one shoe brand over a functionally identical one.",
+          "category": "Marketing/Growth",
+          "topics": [
+            "AI",
+            "Branding",
+            "Moats"
+          ]
+        },
+        {
+          "text": "Zapier reached its roughly $5 billion valuation (per a 2021 secondary sale) on about $1 million of total primary capital ever raised — a 'seedstrap' story rather than a VC-fueled one.",
+          "category": "Investing",
+          "topics": [
+            "Enterprise Tech",
+            "Bootstrapping",
+            "Fundraising"
+          ]
+        },
+        {
+          "text": "Zapier's name accidentally works two ways: the founders just couldn't afford the second 'p' domain when they started, and only later realized 'API' was hiding inside the name the whole time.",
+          "category": "Trivia",
+          "topics": [
+            "Enterprise Tech",
+            "Invention"
+          ]
+        }
+      ]
+    },
+    {
+      "show": "Planet Money",
+      "title": "The continent nobody owns & everyone benefits from (Summer School)",
+      "url": "https://www.npr.org/2026/08/26/nx-s1-5943609/summer-school-antarctica",
+      "recap": [
+        "**Antarctica has no owner, no market, and no money — and an economist has still priced it at $180 billion a year.** Natalie Stoeckl argues that if something doesn't have a number attached, decision-makers treat it as invisible, so she tallied tourism, fisheries, and the continent's \"ecosystem service\" value (ice reflecting heat, oceans absorbing carbon) into one annual figure.",
+        "**The whole system runs on trust instead of contracts, and that's the actual point.** Forty-six countries follow the Antarctic Treaty with no army enforcing it — just collective monitoring, a rare example of low-drama cooperation at scale.",
+        "**McMurdo Station's tiny general store ran on a completely different kind of scarcity.** With food and lodging already free, the store's only real product was entertainment — manager Liz Walters drip-fed new merchandise one item at a time to manufacture a sense of discovery.",
+        "**Listener-submitted economics ideas closed out the season, and Brazil's consorcio system stood out.** A bank-run rotating credit pool charges a one-time 10-20% fee instead of compounding interest, with a lottery draw adding a psychological hook that keeps people paying in.",
+        "**Tokyo's parking rules and Vienna's social housing both showed government-designed trade-offs.** Tokyo requires proof of a parking spot before you can register a car; Vienna's nonprofit housing supply is estimated to pull private rents down roughly 5% for every 10% increase in that supply."
+      ],
+      "fun_facts": [
+        "NPR's 1979 Antarctica dispatches — including a reporter interviewing penguins — are credited as part of what put the young NPR on the map.",
+        "McMurdo's store once stocked novelty underwear reading \"the coldest place on earth\"; Walters pulled it from shelves.",
+        "Stoeckl's estimate: tourism ~$820 million/year, fisheries ~$370 million/year, total value ~$180 billion/year."
+      ],
+      "discussion_questions": [
+        "Does putting a $180 billion/year price tag on Antarctica protect it, or does it just create a tempting number for someone to eventually try to cash in?",
+        "Tokyo's parking-proof rule keeps streets clear but adds a real barrier to car ownership — worth it, or does it just price out the people who need a car most?"
+      ],
+      "highlights": [
+        {
+          "text": "Antarctica has no private ownership or markets, yet economist Natalie Stoeckl values its 'ecosystem services' (ice reflecting heat, oceans absorbing carbon) alongside tourism and fisheries at roughly $180 billion a year.",
+          "category": "Business Model",
+          "topics": [
+            "Tourism",
+            "Economic Development",
+            "Climate"
+          ]
+        },
+        {
+          "text": "McMurdo Station's tiny Navy store thrived not by stocking more, but by rationing new inventory item-by-item and rearranging displays weekly to manufacture a sense of discovery in a bored, captive population.",
+          "category": "Marketing/Growth",
+          "topics": [
+            "Retail",
+            "Consumer Behavior"
+          ]
+        },
+        {
+          "text": "A consorcio in Brazil (a bank-run rotating credit pool) charges a one-time 10-20% fee instead of compounding interest, making big purchases cheaper than a ~25% APR loan while adding a lottery-like hook that keeps people paying in.",
+          "category": "Business Model",
+          "topics": [
+            "Pricing",
+            "Debt & Credit",
+            "Personal Finance"
+          ]
+        },
+        {
+          "text": "Tokyo requires proof of an off-street parking space before the police will let you register a car, which is why the city has almost no on-street parking.",
+          "category": "Trivia",
+          "topics": [
+            "Regulation"
+          ]
+        },
+        {
+          "text": "Vienna's heavy investment in nonprofit/social housing is estimated to pull private rents down about 5% for every 10% increase in nonprofit housing supply, since it directly competes with private landlords.",
+          "category": "Investing",
+          "topics": [
+            "Housing & Mortgages",
+            "Regulation"
+          ]
+        }
+      ]
+    },
+    {
+      "show": "Stuff You Should Know",
+      "title": "Selects: How Narcolepsy Works",
+      "url": "https://www.iheart.com/podcast/1119-stuff-you-should-know-26940277/episode/selects-how-narcolepsy-works-341969833/",
+      "recap": [
+        "**Narcolepsy isn't about sleeping too much — it's about sleep landing in the wrong place.** Over 24 hours, patients sleep roughly the same total hours as anyone else; the problem is that sleep debt forces its way out as irresistible daytime \"attacks\" instead of consolidating at night.",
+        "**The disorder comes down to the destruction of a tiny, oddly vulnerable cluster of brain cells.** People with Type 1 narcolepsy lose 90-95% of the roughly 100,000-200,000 hypocretin-producing neurons (out of 86 billion total) that maintain wakefulness — all clustered in one small, exposed spot in the hypothalamus.",
+        "**The leading theory is that narcolepsy is actually an autoimmune disease.** A specific HLA gene variant raises risk, and elevated strep antibodies around onset suggest the immune system mistakenly destroys those neurons after an infection, the same basic mechanism as Crohn's or rheumatoid arthritis.",
+        "**A 2009-2011 vaccine turned this genetic theory into a genuinely heavy story.** Finland's Pandemrix H1N1 vaccine rollout was linked to an 8-12x jump in childhood narcolepsy diagnoses; every one of the affected kids carried the same HLA risk variant, pointing toward pre-vaccination genetic screening as a real safeguard going forward."
+      ],
+      "fun_facts": [
+        "The term comes from Greek narke (numbness) + lepsis (attack); first named in 1880 after a patient reporting ~200 micro-sleeps a day.",
+        "Prevalence is about 1 in 2,000 people, officially a rare disease.",
+        "Cataplexy (sudden muscle-tone loss while fully conscious) tends to get milder with age."
+      ],
+      "discussion_questions": [
+        "If a cheap DNA test could flag narcolepsy risk before vaccination, why isn't that kind of personalized genetic screening standard practice for other vaccines and drugs?",
+        "Cataplexy is often triggered by laughter and joy rather than fear — what does that suggest about how tightly emotion and muscle control are wired together in everyone?"
+      ],
+      "highlights": [
+        {
+          "text": "Narcolepsy patients sleep roughly the same total hours in 24 hours as anyone else — the sleep is just badly redistributed across the day instead of concentrated at night, which is why daytime 'attacks' happen at all.",
+          "category": "Technical Wisdom",
+          "topics": [
+            "Sleep"
+          ]
+        },
+        {
+          "text": "Narcolepsy traces to the near-total loss (90-95%) of a tiny cluster of just 100,000-200,000 hypocretin-producing neurons out of the brain's 86 billion — a single vulnerable 'on/off switch' for wakefulness.",
+          "category": "Technical Wisdom",
+          "topics": [
+            "Sleep"
+          ]
+        },
+        {
+          "text": "The leading theory holds narcolepsy is an autoimmune disease, in the same family as Crohn's or rheumatoid arthritis, where the immune system mistakenly destroys wakefulness neurons — possibly triggered by a prior strep infection.",
+          "category": "Technical Wisdom",
+          "topics": [
+            "Healthcare"
+          ]
+        },
+        {
+          "text": "After Finland and other countries rolled out the Pandemrix H1N1 vaccine in 2009-2011, childhood narcolepsy diagnoses jumped 8-12x, with 50 of 54 diagnosed Finnish kids having received the vaccine.",
+          "category": "Trivia",
+          "topics": [
+            "Healthcare",
+            "Vaccines"
+          ]
+        },
+        {
+          "text": "Every one of those 50 Finnish vaccine-linked narcolepsy cases carried the same HLA gene variant, opening the door to pre-vaccination genetic screening to catch at-risk kids before exposure.",
+          "category": "Technical Wisdom",
+          "topics": [
+            "Healthcare",
+            "Vaccines"
+          ]
+        },
+        {
+          "text": "The Americans with Disabilities Act allows scheduled workplace naps as a reasonable accommodation for narcolepsy, and researchers note the disorder roughly doubles a person's risk of accidental injury or death versus the general population.",
+          "category": "Life/Career Advice",
+          "topics": [
+            "Sleep",
+            "Healthcare",
+            "Labor & Work"
+          ]
+        }
+      ]
+    },
+    {
+      "show": "What's Your Problem",
+      "title": "The Quantum Shift in Biomedical Discovery (Smart Talks with IBM)",
+      "url": "https://www.iheart.com/podcast/1297-whats-your-problem-93024648/episode/the-quantum-shift-in-biomedical-discovery-341733383/",
+      "recap": [
+        "**Quantum computing failed at the first real problem Cleveland Clinic threw at it — and that was the most useful lesson of the partnership.** The team's first instinct was using quantum as a faster way to crunch huge health-record datasets; it \"failed miserably\" because quantum hardware is currently bottlenecked by noise and error correction, not data volume.",
+        "**It excels instead at small, well-defined simulation problems — especially rare diseases.** Modeling how a drug compound's physical properties interact with a target protein doesn't depend on a large historical dataset, which is exactly where AI struggles most.",
+        "**In April 2026, the team simulated a 12,600-atom enzyme — a jump that seemed impossible 18 months earlier** (the ceiling was just 10 atoms in October 2024), by treating quantum and classical/AI computing as teammates rather than rivals.",
+        "**Cleveland Clinic put its quantum computer in the middle of the staff cafeteria on purpose,** so all 3,000 researchers would see it daily and feel motivated to change their thinking — and it worked, turning early adopters into internal cheerleaders."
+      ],
+      "fun_facts": [
+        "The quantum computer sits in an 11-foot glass cube built with the same type of glass that protects the Mona Lisa.",
+        "Serotonin — foundational to modern psychiatry — was originally discovered at Cleveland Clinic.",
+        "Drug discovery still takes 10-13 years from lab compound to pharmacy shelf."
+      ],
+      "discussion_questions": [
+        "Quantum computing failed at the first thing Cleveland Clinic tried it on and only became useful once they stopped treating it like \"a faster AI\" — what does that suggest about how other organizations might be misapplying quantum hype right now?",
+        "How much does visibility and workplace culture (like putting a quantum computer in the cafeteria) actually matter to getting people to adopt genuinely new tools?"
+      ],
+      "highlights": [
+        {
+          "text": "Cleveland Clinic initially assumed quantum computing would just be a faster way to crunch huge electronic health record datasets — it 'failed miserably' at that, because quantum hardware is currently limited by noise and error correction, not raw data volume.",
+          "category": "Technical Wisdom",
+          "topics": [
+            "Quantum Computing",
+            "Healthcare"
+          ]
+        },
+        {
+          "text": "Quantum computing excels at smaller, well-defined simulation problems like modeling how a drug compound's physical properties interact with a target protein — work that doesn't depend on large historical datasets, making it especially suited to rare diseases.",
+          "category": "Technical Wisdom",
+          "topics": [
+            "Quantum Computing",
+            "Drug Discovery"
+          ]
+        },
+        {
+          "text": "In April 2026, IBM and Cleveland Clinic simulated the electrical properties of a 12,600-atom enzyme — up from a ceiling of just 10 atoms as recently as October 2024 — by treating quantum and classical/AI computing as teammates ('quantum-centric supercomputing') rather than competitors.",
+          "category": "Business Model",
+          "topics": [
+            "Quantum Computing",
+            "Drug Discovery"
+          ]
+        },
+        {
+          "text": "The Discovery Accelerator partnership was motivated by drug discovery still taking 10-13 years from lab compound to pharmacy shelf, with the bet that better computational simulation can meaningfully close that gap.",
+          "category": "Investing",
+          "topics": [
+            "Healthcare",
+            "Drug Discovery"
+          ]
+        },
+        {
+          "text": "Cleveland Clinic deliberately installed its quantum computer in the staff cafeteria (a glass cube built with the same glass that protects the Mona Lisa) so all 3,000 of its researchers would see it daily and feel motivated to use it.",
+          "category": "Trivia",
+          "topics": [
+            "Quantum Computing",
+            "Invention"
+          ]
+        }
+      ]
+    },
+    {
+      "show": "Masters of Scale",
+      "title": "How Barnes & Noble made a comeback",
+      "url": "https://mastersofscale.com/how-barnes-noble-made-a-comeback/",
+      "recap": [
+        "**Daunt's whole turnaround philosophy is built on deliberately ignoring the data.** Centralized data pushes chains toward bland uniformity in shelf allocation; \"driving out the data\" and empowering local stores to curate for their actual neighborhood is what he says data-driven retail gets backwards in books.",
+        "**He ran the identical playbook twice — Waterstones, then Barnes & Noble — because the diagnosis was the same both times.** Both chains looked like a loss-of-confidence problem more than an Amazon problem: stores had gotten bad, and booksellers had stopped believing they could run good ones.",
+        "**He sold the Kindle inside his own bookstores, on purpose, to kill booksellers' fear of it.** The goal wasn't Kindle revenue — it was demystifying the device so staff would stop believing customers were using stores as an Amazon showroom.",
+        "**Barnes & Noble has zero marketing department and zero marketing dollars, and Daunt considers that a feature.** BookTok success comes entirely from booksellers posting organically about their own local stores — the moment head office tries to amplify it, it stops being authentic."
+      ],
+      "fun_facts": [
+        "Daunt spent 21 years on the bookstore shop floor before running large chains.",
+        "His Waterstones buyout financing came together after a chance introduction over a bike ride and a cup of tea with a Russian entrepreneur.",
+        "Barnes & Noble's private-equity owner is reportedly readying an IPO for the combined Barnes & Noble/Waterstones business."
+      ],
+      "discussion_questions": [
+        "Daunt says centralized, data-driven uniformity \"is the death knell\" for bookstores even though it works in almost every other retail category — what is it about books specifically that makes local curation beat data at scale?",
+        "Would Barnes & Noble's hands-off, no-marketing-department strategy work in other retail categories, or does it only work because book discovery is inherently personal?"
+      ],
+      "highlights": [
+        {
+          "text": "James Daunt's central bookselling philosophy is to 'drive out the data' at the store level — centralized data pushes chains toward bland uniformity, while local judgment about space allocation is what actually drives sales.",
+          "category": "Business Model",
+          "topics": [
+            "Retail",
+            "Books & Publishing"
+          ]
+        },
+        {
+          "text": "Barnes & Noble runs with zero marketing department and zero marketing budget, instead letting individual booksellers organically drive BookTok trends store by store — a strategy Daunt says only stays authentic because head office keeps its hands off it.",
+          "category": "Marketing/Growth",
+          "topics": [
+            "Social Media",
+            "Word of Mouth",
+            "Books & Publishing"
+          ]
+        },
+        {
+          "text": "Daunt intentionally sold the Kindle inside Waterstones stores not primarily for the revenue, but to 'demystify' it and stop booksellers from fearing customers were using the store as a showroom for Amazon purchases.",
+          "category": "Life/Career Advice",
+          "topics": [
+            "Retail",
+            "Books & Publishing"
+          ]
+        },
+        {
+          "text": "Daunt financed the Waterstones buyout after a private equity contact introduced him to a Russian entrepreneur over tea; the deal for the whole chain reportedly cost roughly what one Premier League football transfer went for at the time.",
+          "category": "Investing",
+          "topics": [
+            "Private Equity",
+            "Books & Publishing"
+          ]
+        },
+        {
+          "text": "Daunt flattens management hierarchies deliberately and treats bad decisions with zero blame ('it was idiotic, move on') specifically to make it safe for junior staff to challenge choices and take initiative.",
+          "category": "Life/Career Advice",
+          "topics": [
+            "Leadership"
+          ]
+        }
+      ]
+    }
+  ]
+}

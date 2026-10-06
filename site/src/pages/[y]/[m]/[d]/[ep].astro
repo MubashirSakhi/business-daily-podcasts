@@ -1,0 +1,46 @@
+---
+import Base from '../../../../layouts/Base.astro';
+import Episode from '../../../../components/Episode.astro';
+import { getEditions, prettyDate, SHOW_BADGE, url } from '../../../../lib';
+
+export async function getStaticPaths() {
+  return (await getEditions()).flatMap((ed) => {
+    const [y, m, d] = ed.date.split('-');
+    return ed.episodes.map((ep) => ({ params: { y, m, d, ep: ep.slug }, props: { ep, ed } }));
+  });
+}
+const { ep, ed } = Astro.props;
+const i = ed.episodes.findIndex((e) => e.slug === ep.slug);
+const next = ed.episodes[i + 1] ?? ed.episodes[0];
+const others = ed.episodes.length - 1;
+---
+<Base title={ep.title} description={ep.highlights[0].text}>
+  <div data-pagefind-body>
+    <span data-pagefind-meta="date" hidden>{prettyDate(ed.date)}</span>
+    <Episode ep={ep} full />
+  </div>
+  {others > 0 && (
+    <nav class="up-next" aria-label="More from this edition">
+      <a class:list={['next', SHOW_BADGE[next.show]]} href={url(next.path)}>
+        <span class="lbl">{i + 1 < ed.episodes.length ? 'Next in this edition' : 'Back to the first episode'}</span>
+        <span class="t">{next.title}</span>
+        <span class="s"><i />{next.show}</span>
+      </a>
+      <a class="all" href={url(ed.path)}>All {ed.episodes.length} episodes from {prettyDate(ed.date)}</a>
+    </nav>
+  )}
+</Base>
+
+<style>
+  .up-next { display: grid; gap: 12px; margin-top: 8px; }
+  .next { display: grid; gap: 6px; padding: 22px 24px; border-radius: 24px; text-decoration: none; background: var(--card);
+    border: 1px solid rgb(28 36 51 / 0.08); box-shadow: 0 1px 2px rgb(28 36 51 / 0.05), 0 10px 28px -16px rgb(28 36 51 / 0.22);
+    transition: border-color 0.3s, box-shadow 0.3s, transform 0.3s; }
+  .next:hover { transform: translateY(-2px); border-color: rgb(47 74 122 / 0.45); box-shadow: 0 2px 4px rgb(28 36 51 / 0.05), 0 22px 44px -18px rgb(47 74 122 / 0.35); }
+  .lbl { font: 600 13px var(--sans); color: var(--muted); }
+  .t { font: 700 1.3rem/1.2 var(--sans); letter-spacing: -0.02em; }
+  .s { display: inline-flex; align-items: center; gap: 6px; font: 500 13px var(--sans); color: var(--muted); }
+  .s i { width: 8px; height: 8px; border-radius: 50%; background: var(--show); }
+  .all { font: 600 14px var(--sans); justify-self: start; text-underline-offset: 4px; }
+  @media (prefers-reduced-motion: reduce) { .next { transition: none; } .next:hover { transform: none; } }
+</style>
