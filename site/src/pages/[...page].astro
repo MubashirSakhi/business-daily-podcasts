@@ -1,125 +1,85 @@
 ---
 import type { GetStaticPaths } from 'astro';
 import Base from '../layouts/Base.astro';
-import EditionBento from '../components/EditionBento.astro';
-import { getEditions, SHOW_BADGE, url } from '../lib';
+import Home from '../components/Home.astro';
+import { getEditions, url } from '../lib';
 
-export const getStaticPaths = (async ({ paginate }) => paginate(await getEditions(), { pageSize: 12 })) satisfies GetStaticPaths;
+// Page 1 is the homepage: today's edition plus the 6 before it. Older pages hold 12 each.
+export const getStaticPaths = (async () => {
+  const eds = await getEditions();
+  const chunks = [eds.slice(0, 7)];
+  for (let i = 7; i < eds.length; i += 12) chunks.push(eds.slice(i, i + 12));
+  return chunks.map((data, k) => ({ params: { page: k ? String(k + 1) : undefined }, props: { data, currentPage: k + 1, lastPage: chunks.length } }));
+}) satisfies GetStaticPaths;
 
-const { page } = Astro.props;
+const { data, currentPage, lastPage } = Astro.props;
 const day = (date: string, opts: Intl.DateTimeFormatOptions) =>
   new Date(date + 'T12:00:00Z').toLocaleDateString('en-US', { ...opts, timeZone: 'UTC' });
-const first = page.currentPage === 1;
-const past = first ? page.data.slice(1) : page.data;
+const first = currentPage === 1;
+const past = first ? data.slice(1) : data;
 const pageUrl = (n: number) => url(n === 1 ? '' : `${n}/`);
 ---
-<Base wide title={first ? undefined : `Editions, page ${page.currentPage}`}>
-  {first ? <EditionBento latest={page.data[0]} /> : <h1 class="visually-hidden">Editions, page {page.currentPage}</h1>}
-  {past.length > 0 && <h2 class="past-title">{first ? 'Past editions' : `Editions, page ${page.currentPage}`}</h2>}
-  <ol class="editions">
-    {past.map((ed, i) => {
-      const shows = [...new Set(ed.episodes.map((ep) => ep.show))];
-      const tags = [...ed.episodes.flatMap((ep) => ep.highlights.map((h) => h.category))
-        .reduce((m, t) => m.set(t, (m.get(t) ?? 0) + 1), new Map<string, number>())].sort((x, y) => y[1] - x[1]).slice(0, 2);
-      const words = ed.episodes.flatMap((ep) => [...ep.recap, ...ep.fun_facts, ...ep.discussion_questions]).join(' ').split(/\s+/).length;
-      const n = ed.episodes.length;
-      return (
-        <li style={`--i:${Math.min(i, 8)}`}>
-          <a class="ed" href={url(ed.path)}>
-            <div class="cover dots" aria-hidden="true">
-              <div class="stripes">{ed.episodes.map((ep) => <span class={SHOW_BADGE[ep.show]} />)}</div>
-              <span class="dd">{day(ed.date, { day: 'numeric' })}</span>
-              <div class="glass-tags">{tags.map(([t]) => <span class="glass">{t}</span>)}</div>
-              <div class="veil"><span class="read"><svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 7v14M3 18a1 1 0 0 1-1-1V4a1 1 0 0 1 1-1h5a4 4 0 0 1 4 4 4 4 0 0 1 4-4h5a1 1 0 0 1 1 1v13a1 1 0 0 1-1 1h-6a3 3 0 0 0-3 3 3 3 0 0 0-3-3z"/></svg>Read the edition</span></div>
-            </div>
-            <div class="body">
-              <h3>{day(ed.date, { weekday: 'long', month: 'long', day: 'numeric' })}</h3>
-              <ul class="ed-eps">
-                {ed.episodes.slice(0, 3).map((ep) => <li>{ep.title}</li>)}
-                {n > 3 && <li class="more">+{n - 3} more</li>}
-              </ul>
-              <div class="foot">
-                <span class="who">
-                  <span class="stack" aria-hidden="true">{shows.map((sh) => <i class={SHOW_BADGE[sh]} />)}</span>
-                  <span><b>{n} episodes</b><br />{day(ed.date, { month: 'short', day: 'numeric', year: 'numeric' })}</span>
-                </span>
-                <span class="time"><svg viewBox="0 0 24 24" width="13" height="13" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><circle cx="12" cy="12" r="10"/><path d="M12 6v6l4 2"/></svg>{Math.max(1, Math.round(words / 230))} min read</span>
-              </div>
-            </div>
-          </a>
-        </li>
-      );
-    })}
-  </ol>
+<Base wide title={first ? undefined : `Editions, page ${currentPage}`}>
+  {first ? <Home latest={data[0]} /> : <h1 class="visually-hidden">Editions, page {currentPage}</h1>}
+  <section class="past">
+    {past.length > 0 && <h2>{first ? 'Past editions' : `Editions, page ${currentPage}`}</h2>}
+    <ol class="editions">
+      {past.map((ed) => {
+        const tags = [...ed.episodes.flatMap((ep) => ep.highlights.map((h) => h.category))
+          .reduce((m, t) => m.set(t, (m.get(t) ?? 0) + 1), new Map<string, number>())].sort((x, y) => y[1] - x[1]).slice(0, 2);
+        const words = ed.episodes.flatMap((ep) => [...ep.recap, ...ep.fun_facts, ...ep.discussion_questions]).join(' ').split(/\s+/).length;
+        const n = ed.episodes.length;
+        return (
+          <li>
+            <a class="ed" href={url(ed.path)}>
+              <span class="top">
+                <span class="when">{day(ed.date, { weekday: 'long', month: 'long', day: 'numeric' })}</span>
+                <span class="meta">{n} episode{n === 1 ? '' : 's'} · {Math.max(1, Math.round(words / 230))} min read</span>
+              </span>
+              <span class="tags">{tags.map(([t]) => <span>{t}</span>)}</span>
+              <ul>{ed.episodes.slice(0, 3).map((ep) => <li>{ep.title}</li>)}</ul>
+              <span class="go">{n > 3 && `+${n - 3} more · `}Read the edition →</span>
+            </a>
+          </li>
+        );
+      })}
+    </ol>
 
-  {page.lastPage > 1 && (
-    <nav class="pager" aria-label="Editions pages">
-      {page.url.prev ? <a href={page.url.prev}>Newer</a> : <span />}
-      <ol>
-        {Array.from({ length: page.lastPage }, (_, k) => k + 1).map((n) => (
-          <li>{n === page.currentPage
-            ? <span aria-current="page">{n}</span>
-            : <a href={pageUrl(n)}>{n}</a>}</li>
-        ))}
-      </ol>
-      {page.url.next ? <a href={page.url.next}>Older</a> : <span />}
-    </nav>
-  )}
+    {first ? lastPage > 1 && <a class="older" href={pageUrl(2)}>Older editions →</a> : (
+      <nav class="pager" aria-label="Editions pages">
+        {currentPage > 1 ? <a href={pageUrl(currentPage - 1)}>Newer</a> : <span />}
+        <ol>
+          {Array.from({ length: lastPage }, (_, k) => k + 1).map((n) => (
+            <li>{n === currentPage
+              ? <span aria-current="page">{n}</span>
+              : <a href={pageUrl(n)}>{n}</a>}</li>
+          ))}
+        </ol>
+        {currentPage < lastPage ? <a href={pageUrl(currentPage + 1)}>Older</a> : <span />}
+      </nav>
+    )}
+  </section>
 </Base>
 
 <style>
-  .past-title { font: 700 1.6rem var(--sans); letter-spacing: -0.02em; margin: 56px 0 20px; }
-  .editions { list-style: none; padding: 0; margin: 0; display: grid; grid-template-columns: repeat(auto-fill, minmax(min(100%, 20rem), 1fr)); gap: 20px; }
-  .editions > li { min-width: 0; animation: rise 0.4s ease-out backwards; animation-delay: calc(var(--i) * 60ms); }
-  @keyframes rise { from { opacity: 0; transform: translateY(20px); } }
+  .past { margin-top: clamp(56px, 8vw, 88px); }
+  .past h2 { font: 700 clamp(22px, 2.6vw, 28px)/1.2 var(--sans); margin: 0 0 16px; }
+  .editions { list-style: none; padding: 0; margin: 0; display: grid; grid-template-columns: repeat(auto-fill, minmax(min(100%, 360px), 1fr)); gap: 14px; }
+  .editions > li { min-width: 0; }
 
-  .ed { display: flex; flex-direction: column; height: 100%; overflow: hidden; border-radius: 20px; text-decoration: none;
-    background: rgb(255 255 255 / 0.7); border: 1px solid rgb(28 36 51 / 0.08);
-    box-shadow: 0 1px 2px rgb(28 36 51 / 0.05), 0 10px 28px -16px rgb(28 36 51 / 0.2);
-    transition: border-color 0.3s, box-shadow 0.3s; }
-  .ed:hover, .ed:focus-visible { border-color: rgb(47 74 122 / 0.45);
-    box-shadow: 0 2px 4px rgb(28 36 51 / 0.05), 0 22px 44px -18px rgb(47 74 122 / 0.35); }
+  .ed { display: flex; flex-direction: column; gap: 12px; height: 100%; padding: 22px; border-radius: 28px; text-decoration: none;
+    background: var(--card); box-shadow: 0 0 0 1px var(--rule); font-family: var(--sans); }
+  .ed:hover { box-shadow: 0 0 0 1px var(--border); color: var(--ink); }
+  .top { display: flex; justify-content: space-between; align-items: baseline; gap: 12px; }
+  .when { font-size: 18px; font-weight: 700; }
+  .meta { font-size: 13px; color: var(--muted); white-space: nowrap; }
+  .tags { display: flex; flex-wrap: wrap; gap: 6px; }
+  .tags span { padding: 3px 10px; border-radius: 999px; background: #26301a; color: #d9f99d; font-size: 12px; font-weight: 600; }
+  .ed ul { list-style: none; margin: 0; padding: 0; display: flex; flex-direction: column; gap: 6px; font-size: 15px; line-height: 1.35; text-wrap: pretty; }
+  .go { margin-top: auto; font-size: 14px; font-weight: 600; color: var(--accent); }
 
-  .cover { position: relative; aspect-ratio: 16 / 9; overflow: hidden; }
-  .stripes { position: absolute; inset: 0; display: flex; transition: transform 0.5s ease-out; }
-  .stripes span { flex: 1; background: var(--show); }
-  .cover.dots::after { content: ''; position: absolute; inset: 0; pointer-events: none;
-    background: radial-gradient(rgb(28 36 51 / 0.1) 1px, transparent 1.4px) 0 0 / 11px 11px; }
-  .ed:hover .stripes, .ed:focus-visible .stripes { transform: scale(1.1); }
-  .dd { position: absolute; top: 14px; left: 18px; z-index: 1; font: 800 4.2rem/0.9 var(--sans); letter-spacing: -0.05em; color: var(--ink); }
-
-  .glass-tags { position: absolute; left: 12px; bottom: 12px; z-index: 1; display: flex; gap: 6px; flex-wrap: wrap; }
-  .glass { font: 600 12px/1 var(--sans); padding: 6px 10px; border-radius: 999px; color: var(--ink);
-    background: rgb(255 255 255 / 0.5); backdrop-filter: blur(6px); -webkit-backdrop-filter: blur(6px); border: 1px solid rgb(255 255 255 / 0.6); }
-
-  .veil { position: absolute; inset: 0; z-index: 2; display: grid; place-items: center; opacity: 0; transition: opacity 0.3s;
-    background: rgb(246 245 241 / 0.25); backdrop-filter: blur(3px); -webkit-backdrop-filter: blur(3px); }
-  .ed:hover .veil, .ed:focus-visible .veil { opacity: 1; }
-  .read { display: inline-flex; align-items: center; gap: 8px; padding: 11px 22px; border-radius: 999px; background: var(--ink); color: #fff;
-    font: 700 14px var(--sans); box-shadow: 0 8px 20px -6px rgb(28 36 51 / 0.45); transform: scale(0.94); transition: transform 0.3s; }
-  .ed:hover .read, .ed:focus-visible .read { transform: scale(1); }
-
-  .body { display: flex; flex-direction: column; gap: 12px; padding: 18px 20px 16px; flex: 1; }
-  .body h3 { font: 700 1.25rem/1.2 var(--sans); letter-spacing: -0.02em; text-transform: none; margin: 0; color: var(--ink); transition: color 0.3s; }
-  .ed:hover h3, .ed:focus-visible h3 { color: var(--accent); }
-  .ed-eps { list-style: none; padding: 0; margin: 0; font: 400 15px/1.4 var(--serif); color: var(--muted); }
-  .ed-eps li { overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
-  .ed-eps .more { font: 600 12px/1.8 var(--sans); }
-
-  .foot { margin-top: auto; padding-top: 14px; border-top: 1px solid var(--rule); display: flex; align-items: center; justify-content: space-between; gap: 8px;
-    font: 500 12px/1.35 var(--sans); color: var(--muted); }
-  .foot b { color: var(--ink); font-weight: 600; }
-  .who { display: flex; align-items: center; gap: 10px; }
-  .stack { display: flex; }
-  .stack i { width: 26px; height: 26px; border-radius: 50%; background: var(--show); border: 2px solid #fff; margin-left: -9px; }
-  .stack i:first-child { margin-left: 0; }
-  .time { display: inline-flex; align-items: center; gap: 5px; white-space: nowrap; }
-
-  @media (prefers-reduced-motion: reduce) {
-    .editions > li { animation: none; }
-    .stripes, .read, .veil { transition: none; }
-    .ed:hover .stripes, .ed:focus-visible .stripes { transform: none; }
-  }
+  .older { display: inline-flex; align-items: center; margin-top: 18px; min-height: 44px; padding: 0 20px; border-radius: 999px;
+    border: 1.5px solid var(--border); font: 600 15px var(--sans); text-decoration: none; }
 
   .pager { display: flex; justify-content: space-between; align-items: center; gap: 12px; margin-top: 40px;
     padding-top: 16px; border-top: 1px solid var(--rule); font: 500 14px var(--sans); }
@@ -127,7 +87,6 @@ const pageUrl = (n: number) => url(n === 1 ? '' : `${n}/`);
   .pager ol a, .pager ol span { display: inline-block; min-width: 2em; padding: 4px 6px; text-align: center; text-decoration: none; }
   .pager [aria-current] { background: var(--ink); color: var(--paper); border-radius: 999px; }
   .pager > a { text-decoration: none; color: var(--muted); }
-  .pager > a:hover, .pager ol a:hover { color: var(--ink); text-decoration: underline; }
 
   .visually-hidden { position: absolute; width: 1px; height: 1px; overflow: hidden; clip-path: inset(50%); white-space: nowrap; }
 </style>

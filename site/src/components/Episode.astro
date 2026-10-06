@@ -58,7 +58,7 @@ const words = [...ep.recap, ...ep.fun_facts, ...ep.discussion_questions].join(' 
 
 <style>
   .episode { margin: 0 0 56px; }
-  .ep-head { background-color: var(--show); border-radius: 28px; padding: 28px 32px 32px; margin-bottom: 32px;
+  .ep-head { --ink: var(--on-dark); color: var(--ink); background-color: var(--show); border-radius: 28px; padding: 28px 32px 32px; margin-bottom: 32px;
     background-image: radial-gradient(rgb(28 36 51 / 0.09) 1px, transparent 1.4px); background-size: 11px 11px; }
   .ep-meta { display: flex; flex-wrap: wrap; align-items: center; gap: 8px 14px; margin: 0 0 18px; font: 600 13px var(--sans); }
   .ep-meta a { text-decoration: none; } .ep-meta a:hover { text-decoration: underline; }
@@ -75,6 +75,7 @@ const words = [...ep.recap, ...ep.fun_facts, ...ep.discussion_questions].join(' 
   .listen-btn { display: inline-flex; align-items: center; gap: 8px; padding: 12px 20px; border-radius: 999px; background: var(--ink); color: #fff;
     font: 700 14px var(--sans); text-decoration: none; box-shadow: 0 8px 20px -8px rgb(28 36 51 / 0.5); transition: transform 0.2s; }
   .listen-btn:hover { transform: translateY(-1px); }
+  .ep-head a:not(.listen-btn):hover { color: inherit; }
 
   .prose p { margin: 0 0 1.1em; }
   .prose :global(strong) { font-family: var(--sans); font-weight: 700; font-size: 0.92em; letter-spacing: -0.01em; }
@@ -84,7 +85,7 @@ const words = [...ep.recap, ...ep.fun_facts, ...ep.discussion_questions].join(' 
   .facts .sec { margin-top: 22px; }
   .facts ul, .questions ol { margin: 0; padding-left: 1.2em; }
   .facts li, .questions li { margin-bottom: 10px; }
-  .facts li::marker { color: rgb(28 36 51 / 0.45); }
+  .facts li::marker { color: var(--muted); }
   .questions li::marker { font: 800 0.9em var(--sans); }
 
   .quotes { list-style: none; margin: 0; padding: 0; display: grid; gap: 12px; }

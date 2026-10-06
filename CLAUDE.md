@@ -66,6 +66,8 @@ whatever the skill produced). Turn it into `site/src/content/editions/YYYY-MM-DD
 ```
 
 - `recap` paragraphs support `**bold**` only; everything else is escaped.
+- Optional `lead_headline` / `lead_dek` (top-level, beside `date`) fill the homepage "Today's read"
+  card. Without them it shows the first episode's title and no dek. Write them only if the user asks.
 - `category` is exactly one of the 7 categories above (these are the site's **tags**).
 - `topics`: 1–3 per highlight from `site/src/data/topics.json`. Reuse an existing topic (check
   names and `aliases`) before adding a new one. Add new ones to the registry (keep it sorted

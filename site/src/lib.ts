@@ -32,7 +32,7 @@ export async function getEditions() {
       const topics = [...new Set(ep.highlights.flatMap((h) => h.topics))];
       return { ...ep, slug: s, path: path + s + '/', date: ed.date, tags, topics };
     });
-    return { date: ed.date, path, episodes };
+    return { ...ed, path, episodes };
   });
 }
 
