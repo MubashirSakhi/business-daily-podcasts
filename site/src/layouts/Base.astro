@@ -20,6 +20,17 @@ const fullTitle = title ? `${title} · Podcast Daily` : 'Podcast Daily';
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+  {import.meta.env.PROD && (
+    <>
+      <script is:inline async src="https://www.googletagmanager.com/gtag/js?id=G-QTT4X2T69W"></script>
+      <script is:inline>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+        gtag('config', 'G-QTT4X2T69W');
+      </script>
+    </>
+  )}
   <slot name="head" />
 </head>
 <body class:list={{ wide }}>
