@@ -1,0 +1,464 @@
+{
+  "date": "2026-10-29",
+  "episodes": [
+    {
+      "show": "What's Your Problem",
+      "title": "Can a Robot Build Better, Cheaper Houses?",
+      "url": "https://www.iheart.com/podcast/1297-whats-your-problem-93024648/episode/can-a-robot-build-better-cheaper-houses-347674727",
+      "recap": [
+        "**Builders say \"fast, cheap, good: pick two.\" Ballard refused to pick.** Food and clean water have gotten dramatically cheaper over the last century, but building a house looks roughly the way it did 70 years ago: lumber, nails, drywall. Ballard made a spreadsheet of every alternative he could find (SIP panels, prefab, shipping containers, even houses grown from fungus) and 3D-printed concrete was the only option where faster, cheaper, sturdier and better-looking could all be true at once. Nobody had ever printed a house people could live in, so ICON's first one, a permitted home in a friend's Austin backyard, was finished with less than an hour to spare before South by Southwest 2018. The concrete was hand-mixed and poured into the printer, which the team now jokingly calls \"artisan 3D printed.\"",
+        "**The hard part is the concrete, not the robot.** Picture a giant toothpaste tube squeezing out one layer of wall at a time. If the mix flows too freely you get a puddle, and if it sets too fast you get a brick stuck in the nozzle. Ready-mix concrete is designed for a narrow few-hour weather window, so ICON's breakthrough was continuous batch mixing: the system reads temperature, humidity and sunlight and adjusts the formula about every 15 minutes. That lets a printer run all day in nearly any weather using only cheap, widely available ingredients, with no graphene or other \"fairy dust.\"",
+        "**Curves cost the same as corners.** A house shaped like a Fibonacci spiral costs the same to print as a rectangle with the same square footage, which turns the economics of architecture upside down. Ballard compares it to steel bridges, which weren't just copies of wooden bridges: a new material brings its own design language. That's why ICON homes have rounded corners and visible layer lines. They lean into what the printer can do instead of imitating a stick-built house.",
+        "**The 100-home test in Georgetown, Texas.** Homebuyers worry about leaks and about resale, so ICON and Lennar built a whole neighborhood of printed homes and sold them at normal entry-level prices. Lennar used the savings to add metal roofs and solar panels rather than to fatten its margin. It became Lennar's best-selling community in Texas that year, with its lowest warranty claims, and resold homes have appreciated above market, some by more than $200,000. Buyers included SpaceX engineers, retirees and young families, not just early-adopter tech types.",
+        "**Writing the building code, partly for defense.** Instead of fighting regulators, ICON first proved its walls met the existing codes for masonry block and tilt-wall concrete. In parallel it helped write 3D-printing rules into the International Residential Code, ACI standards, mortgage guidance and insurance underwriting. The motive was partly defensive: if a competitor's printed house fell down, every printed house would take the blame. ICON has spent more than $30 million on third-party fire, wind and seismic testing.",
+        "**Cost, then robots: the two bottlenecks.** In 2018 printing cost more than $300 a square foot, and it needed to get under $30. ICON crossed that line about 18 months ago, and the constraint became how many printers it can build. Its second-generation Titan, a multi-story robotic-arm system, is 40% cheaper and seven times faster than conventional construction (the first generation was 10–15% cheaper). The business model is printers and ink: builders buy or lease the robot, then buy ICON's tested concrete mix, BuildOS software and field engineers who work like an F1 pit crew.",
+        "**Why prefab never took over.** Ballard's critique of modular housing has three parts. Factories need a million people to want the same house, shipping a house eats the savings from automation, and the design ends up optimized for a truck instead of the people living in it. ICON flips this: ship the factory, not the house. A 3D printer is a bespoke housing factory that drives to the job site and leaves the design open.",
+        "**The moon base helps people on Earth.** ICON holds NASA's contract for a lunar construction system that melts moon dust with a laser into a ceramic, since water is too valuable in space to use for concrete. The lunar printer exceeded NASA's stretch goals for compressive and tensile strength by 2x in a \"dirty thermal vacuum chamber.\" The connection to Earth is direct: Titan's architecture and ICON's fleet-control software were first developed for space. The first homes Titan will print are for Community First Village, an Austin program for formerly homeless people where ICON has already built more than 110 homes."
+      ],
+      "fun_facts": [
+        "Ballard was accepted to seminary and nearly became a priest. A bishop told him to pursue housing instead because he could hear \"a fire in your belly.\"",
+        "His favorite verse is from Psalm 126/127: \"Unless the Lord builds the house, those who build it labor in vain.\"",
+        "Concrete is, as Ballard puts it, the only material humanity forgot how to make during the Dark Ages.",
+        "His earlier company, Treehouse, was \"Whole Foods took over Home Depot.\"",
+        "Ballard has never lived in a 3D-printed house, but plans to print his own, with domes, vaults and a printed roof, co-designed with his daughter."
+      ],
+      "discussion_questions": [
+        "ICON's Georgetown homes appreciated faster than their stick-built neighbors. Is that a sign of better construction, or a novelty premium that disappears once printed homes are common?",
+        "Ballard argues 3D printing works best when something is \"slow, expensive, and bespoke.\" What industry besides housing fits that test and hasn't been printed yet?"
+      ],
+      "highlights": [
+        {
+          "text": "Ballard spreadsheeted every alternative to stick-built housing (SIP panels, prefab, shipping containers, fungus) and 3D-printed concrete was the only one where faster, cheaper, sturdier and better-looking could all be true at once.",
+          "category": "Startup Idea",
+          "topics": [
+            "Housing & Mortgages",
+            "Robotics"
+          ]
+        },
+        {
+          "text": "The hard part of printing houses is the concrete, not the robot. ICON's continuous batch mixing reads temperature, humidity and sunlight and adjusts the formula about every 15 minutes, so printers run all day in nearly any weather.",
+          "category": "Technical Wisdom",
+          "topics": [
+            "Materials Science",
+            "Robotics"
+          ]
+        },
+        {
+          "text": "A curved house costs the same to print as a rectangle of the same square footage. A new material brings its own design language, just as steel bridges weren't copies of wooden ones.",
+          "category": "Technical Wisdom",
+          "topics": [
+            "Housing & Mortgages",
+            "Innovation"
+          ]
+        },
+        {
+          "text": "ICON and Lennar's 100 printed homes in Georgetown, Texas sold at normal entry-level prices and became Lennar's best-selling Texas community that year, with its lowest warranty claims.",
+          "category": "Marketing/Growth",
+          "topics": [
+            "Housing & Mortgages"
+          ]
+        },
+        {
+          "text": "ICON helped write 3D-printing rules into building codes partly as defense: if a competitor's printed house fell down, every printed house would take the blame.",
+          "category": "Business Model",
+          "topics": [
+            "Regulation",
+            "Moats"
+          ]
+        },
+        {
+          "text": "ICON sells printers and ink: builders buy or lease the robot, then buy ICON's tested concrete mix, software and field engineers.",
+          "category": "Business Model",
+          "topics": [
+            "Robotics",
+            "Pricing"
+          ]
+        },
+        {
+          "text": "Prefab fails three ways: factories need a million people to want the same house, shipping eats the savings, and the design ends up optimized for a truck. ICON's fix is to ship the factory, not the house.",
+          "category": "Startup Idea",
+          "topics": [
+            "Housing & Mortgages",
+            "Product Development"
+          ]
+        },
+        {
+          "text": "ICON's NASA lunar printer melts moon dust into ceramic with a laser, because water is too valuable in space to use for concrete.",
+          "category": "Trivia",
+          "topics": [
+            "Space",
+            "Materials Science"
+          ]
+        }
+      ]
+    },
+    {
+      "show": "Masters of Scale",
+      "title": "How to get better at money",
+      "url": "https://mastersofscale.com/how-to-get-better-at-money/",
+      "recap": [
+        "**Money = math + feelings, and the feelings are usually what hold people back.** Grimes has talked with thousands of people as a union organizer and now stays in touch by text, email and phone with WorkMoney's nine million members. Her conclusion is that most people stall on the emotional side, not the arithmetic. She gives the example of going to Target for a prescription and leaving with peanut-butter pretzels, a throw pillow and a solar lantern. That isn't a moral failure. It's a signal worth reading, like \"I had a joyless week,\" or \"I avoid my bank balance because I can't stand more evidence that I'm bad at this.\" That's why the first chapter of her book is about your \"money story,\" and the budgeting comes later.",
+        "**A $100 loan that started a budgeting habit.** She arrived for her first union job in Ohio with holes in her shoes, a dying car named Moe, and plans for ramen at a Red Roof Inn. Her new boss bought her dinner and handed her $100 for shoes. She hated owing him so much that she sat in the motel room and wrote out every dollar coming in and going out so she could pay him back. That became her method ever since: here's what you have, here's where the extra goes. Paying him back changed how she saw herself. She'd been acting like someone bad at money because she believed she was, and once she decided she could be good at it, she went on to clear her credit card and build an emergency fund.",
+        "**Being short on money is usually a math problem, not a character flaw.** Grimes says plainly that most people's money problem is not having enough of it. You still play the hand you're dealt, and framing a choice as \"I choose to\" rather than \"I have to\" helped her. But she warns against turning that framing into a weapon against people who are simply underpaid. Berman adds his own memory of waiting for Safeway's triple-coupon hour on a $29,500 public defender's salary.",
+        "**Fear makes a life smaller.** Grimes's mother, a card shark and devoted Cubs fan, spent her last years living on Diet Coke, cheese and crackers. She skipped doctor visits and medication because she didn't know how much money she had. Grimes believes a single conversation 10 or 20 years earlier could have changed that: in-home help, a budget, a plan for the end of her life. That's the emotional engine behind WorkMoney, which aims to catch people long before they reach that point.",
+        "**Scaling by staying broad when startup rules say narrow down.** WorkMoney began in 2020 as a website answering questions about stimulus checks and PPP loans. The real test came after the pandemic, and signups kept growing because middle-class budgets stayed tight. Instead of picking one problem such as car insurance, WorkMoney chose to be a front door for any money question. It answers fast and passes people to vetted partners like the Upside gas-discount app, with honest caveats about each one. Grimes says the hardest scaling moment was personal: learning to hand work to a team when the Zoom grid grew past one screen.",
+        "**Five kinds of power for the middle class.** Grimes says she thinks about \"right and wrong,\" not left and right, and describes five levers: market power (bargaining together for cheaper goods, eventually healthcare), constituent power, audience power (deciding which sources to trust and making your own content), entrepreneurial power, and ideas. The first concrete product is MoneyFinder, a bill-negotiation service for cable, internet and phone bills. It charges at most $75 and only if it saves you money, and the average saving has been about $400.",
+        "**The worst money advice, and the simple order to follow instead.** Ignore shame-based advice. It doesn't build lasting habits, any more than a heckler in the fourth row helps a batter hit. Skip \"cowboy\" investing in crypto or day trading until you've maxed out your 401(k), 403(b) or IRA. Her order is a $1,000 emergency fund, then pay off credit cards (no investment will reliably beat their interest), then three to six months of expenses, then investing. And nobody else gets to define what your money is for. That's the \"joy\" in the book's title."
+      ],
+      "fun_facts": [
+        "WorkMoney grew from zero to more than 9 million members in about five years and is still fully remote.",
+        "Grimes hated union organizing for her first 90 days, because good organizing means listening and she liked to talk.",
+        "She went to Northern Illinois University and was a history major.",
+        "Her late mother lived long enough to see the Cubs win the World Series.",
+        "Berman recommends reading The Joy of Money alongside Morgan Housel's The Psychology of Money."
+      ],
+      "discussion_questions": [
+        "Grimes says \"choose to, not have to\" helped her, but warns it can be used against people who don't have enough money. Where's the line between empowering advice and blaming advice?",
+        "WorkMoney grew by being broad instead of picking one narrow problem. When does that beat the classic startup advice to focus, and when does it backfire?"
+      ],
+      "highlights": [
+        {
+          "text": "Money is math plus feelings, and the feelings usually hold people back. An impulse haul at Target is a signal worth reading, not a moral failure.",
+          "category": "Life/Career Advice",
+          "topics": [
+            "Personal Finance",
+            "Psychology"
+          ]
+        },
+        {
+          "text": "Grimes's budgeting method started with writing out every dollar in and out so she could repay a $100 loan for shoes. Repaying it changed how she saw herself with money.",
+          "category": "Life/Career Advice",
+          "topics": [
+            "Personal Finance",
+            "Debt & Credit"
+          ]
+        },
+        {
+          "text": "For most people, being short on money is a math problem, not a character flaw. \"Choose to, not have to\" framing helps, but shouldn't be used against people who are simply underpaid.",
+          "category": "Life/Career Advice",
+          "topics": [
+            "Personal Finance"
+          ]
+        },
+        {
+          "text": "WorkMoney grew to 9 million members by staying broad: a front door for any money question that answers fast and routes people to vetted partners.",
+          "category": "Business Model",
+          "topics": [
+            "Personal Finance",
+            "Marketplaces"
+          ]
+        },
+        {
+          "text": "MoneyFinder negotiates cable, internet and phone bills, charges at most $75 and only if it saves you money. The average saving is about $400.",
+          "category": "Startup Idea",
+          "topics": [
+            "Personal Finance",
+            "Pricing"
+          ]
+        },
+        {
+          "text": "Grimes's order: a $1,000 emergency fund, then pay off credit cards, then three to six months of expenses, then invest. Skip crypto and day trading until retirement accounts are maxed.",
+          "category": "Investing",
+          "topics": [
+            "Personal Finance",
+            "Debt & Credit"
+          ]
+        }
+      ]
+    },
+    {
+      "show": "Planet Money",
+      "title": "Wanna slow down AI? These biologists can help.",
+      "url": "https://www.npr.org/2026/10/14/nx-s1-6002910/ai-scientific-regulation-conference-asilomar",
+      "recap": [
+        "**AI's strange puzzle is a textbook collective action problem.** Many AI leaders say publicly that someone should make them slow down, yet none of them slows down alone, because whoever pauses risks losing the race. Planet Money's answer is to look at history. In the 1970s, biologists faced a technology that could transform life or wreck it, and they managed to slow themselves down.",
+        "**One grad student's thesis set it off.** In 1971 Janet Mertz, a Stanford PhD student in Paul Berg's lab, described her plan to Bob Pollack's summer course: clone recombinant DNA containing a tumor-causing virus inside E. coli. Pollack panicked. E. coli lives in the human gut, so if the bacteria escaped, \"you could give the world cancer.\" He called Berg, who first replied with something like \"who the heck are you?\" Berg then polled colleagues, became convinced, and shut down Mertz's experiment. Meanwhile gene splicing kept getting easier, until in Mertz's words \"a bright high school student\" could do it.",
+        "**The 1974 moratorium and Asilomar.** Berg and other leading lab heads published a letter pausing their own research, which a Rolling Stone reporter called \"a first in the history of science.\" In February 1975, about 140 mostly male scientists met for four days at Asilomar, a former YWCA camp near Monterey. They argued in a chapel by the ocean. The irony was that the scientists mostly wanted to present their own research, the payphones had lines of people calling their labs to say \"get this experiment ready,\" and a Russian attendee photographed every slide. The safety conference was turning into a super-spreader event.",
+        "**The lawyers changed the room.** On the last night, Alex Capron and other lawyers spoke about liability and regulation. Their message was that freedom of thought doesn't include freedom to hurt people, and that if scientists didn't write their own rules, Congress would. That turned a shared, abstract risk into a personal one, and organizers stayed up all night drafting guardrails. James Watson argued for \"common sense\" and personal lawsuits as the only check, but the next morning all but a few attendees voted for the rules.",
+        "**What the guardrails actually were.** Experiments were sorted by risk, with dangerous ones confined to high-containment labs, and scientists had to use weakened strains of E. coli that couldn't survive outside the lab. The most important design choice was that the scientists wrote the rules but handed enforcement to the NIH, which controlled most research funding. Follow the guidelines or lose your grants. Mertz notes the problem for AI: you can't threaten to cut funding when companies raise money through IPOs.",
+        "**Four lessons for an \"AI-silomar.\"** Limit the scope: Asilomar addressed safety only, not whether gene editing was ethical at all. Keep discussions in the room: no tweeting, no texting your CFO. Make the stakes personal, because liability focuses attention. And accept that someone loses. For AI, the episode mentions taxes on compute or on replaced labor, hardware kill switches, and third-party audits before release as possible enforcement tools.",
+        "**There's always someone who pays.** Mertz says the moratorium \"hurt my career enormously.\" Without it, she believes she would have been the first person to clone. She is still a little bitter, but she says it was worth it for everyone else. That's the hard part of solving any collective action problem: the costs don't fall evenly."
+      ],
+      "fun_facts": [
+        "One early recombinant-DNA enthusiast imagined growing pork chops on trees.",
+        "Two of Mertz's grad school classmates went on to win Nobel Prizes, and she knows \"a lot more than three\" laureates personally.",
+        "The Asilomar debates were recorded, and the National Academies archives still holds the tapes.",
+        "Rolling Stone's reporter at Asilomar wore a leather vest and long hair because his editor made him cover science instead of rock stars.",
+        "Planet Money's suggested name for an AI summit is \"AI-silomar.\""
+      ],
+      "discussion_questions": [
+        "Asilomar worked because the NIH controlled the money. Who has comparable leverage over AI labs today: chip suppliers, cloud providers, insurers, or app stores?",
+        "The episode says limiting scope helped Asilomar reach agreement. Would an AI safety summit that ignored jobs, copyright and misinformation be more likely to succeed, or would it lose public legitimacy?"
+      ],
+      "highlights": [
+        {
+          "text": "AI leaders say someone should slow them down, but none pause alone because whoever pauses loses the race. That's a textbook collective action problem.",
+          "category": "Technical Wisdom",
+          "topics": [
+            "AI",
+            "Regulation"
+          ]
+        },
+        {
+          "text": "In 1974 leading biologists published a letter pausing their own recombinant-DNA research, which a Rolling Stone reporter called \"a first in the history of science.\"",
+          "category": "Trivia",
+          "topics": [
+            "History",
+            "Regulation"
+          ]
+        },
+        {
+          "text": "Lawyers changed Asilomar's outcome by making risk personal: if scientists didn't write their own rules, liability lawsuits and Congress would.",
+          "category": "Life/Career Advice",
+          "topics": [
+            "Regulation",
+            "Decision Making"
+          ]
+        },
+        {
+          "text": "Asilomar's key design choice: scientists wrote the rules but the NIH enforced them through grants. AI companies funded by IPOs don't have an equivalent lever.",
+          "category": "Business Model",
+          "topics": [
+            "Regulation",
+            "AI"
+          ]
+        },
+        {
+          "text": "Lessons for an \"AI-silomar\": limit the scope to safety, keep talks in the room, make the stakes personal, and accept that someone loses.",
+          "category": "Technical Wisdom",
+          "topics": [
+            "AI",
+            "Regulation"
+          ]
+        },
+        {
+          "text": "Janet Mertz says the moratorium hurt her career and likely cost her being the first person to clone, but it was worth it. Collective action costs never fall evenly.",
+          "category": "Life/Career Advice",
+          "topics": [
+            "Career Paths",
+            "History"
+          ]
+        }
+      ]
+    },
+    {
+      "show": "What's Your Problem",
+      "title": "Solving the Trust Problem in AI Shopping",
+      "url": "https://www.iheart.com/podcast/1297-whats-your-problem-93024648/episode/solving-the-trust-problem-in-ai-shopping-348165215/",
+      "recap": [
+        "**Shoppers trust AI to research, but not yet to buy.** Hosanagar already has language models write deep-research reports on electric vehicles and on payroll vendors for his 12-person startup, then turn them into comparison tables. Search engines collect information and leave the synthesis to you. AI does the synthesis, often down to a shortlist of three brands. What people still won't hand over is the final purchase. Goldstein compares this to the 1990s, when typing a credit card number into a website felt reckless.",
+        "**Trust will arrive one category at a time, as e-commerce did.** Online shopping started with books (\"a book is a book\"), moved on to electronics and then clothing. Hosanagar's candidate for agentic AI's \"books\" is groceries: low stakes, repeat purchases, and an Instacart shopper already makes substitution decisions for you. His rule: if it works three times, he'll use it forever. Next could be research-heavy purchases like car insurance, where an agent fills in every quote form and the human just approves. He also recalls telling his students who started Warby Parker that people would always want to try glasses on. Their solution, mailing home try-on pairs, is his reminder that someone eventually solves the trust problem.",
+        "**Someone has to accept the liability.** The step that will make agentic buying mainstream isn't better AI. It's a guarantor. Credit cards won consumers by promising they wouldn't pay for fraud, and whoever wins agentic shopping, whether Meta's Muse, the startup Instinct or someone else, will have to promise to reimburse you if the agent strays from what you asked for. Merchants don't want to be on the hook, so the agent platform probably will be.",
+        "**One old Reddit post erased a brand from ChatGPT.** A London vintage-clothing seller, the UK's top seller in its niche, couldn't understand why it never appeared in ChatGPT or Gemini recommendations. The cause was an old Reddit thread saying the brand was shutting down, posted when the previous owner was trying to sell it. AI makers won't run a support desk for every misrepresented brand, so Hosanagar's advice is to treat AI agents as a new customer. You have to inform them and persuade them, as you would people.",
+        "**Misconception 1: there will always be a human at the end.** Some purchases will run on standing orders, like telling an agent \"buy two Coldplay tickets nearby under $X the moment they appear.\" In those cases the agent is the one who gets informed and persuaded, and no human reads your landing page.",
+        "**Misconception 2: letting AI crawlers read your site is enough.** It's necessary but not sufficient. Models also take in third-party reviews, Reddit threads and, increasingly, YouTube videos, so influencer strategy now shapes Gemini's answers. Persuading people relies on known quirks like $9.99 pricing, scarcity and social proof, but nobody yet knows an AI agent's biases. One early finding: present comparisons as tables rather than paragraphs and models seem to respond to them more. Hosanagar notes this could change with the next model.",
+        "**Misconception 3: AI is just another channel.** Movie studios treated Netflix as one more distribution channel, and Netflix then trained viewers in new habits and started making its own content. If shopping moves to third-party agents, power moves to them too. That's why Amazon keeps its full product feed away from ChatGPT and is building its own shopping agent, Rufus. Smaller brands have to make a strategic choice: build an experience so luxurious that humans want to show up in person, or set up a team focused on winning AI agents as customers. Hosanagar's new startup, Bodium Labs, works on that second problem.",
+        "**Agents are already shopping in B2B.** People building online stores with Claude Code or Lovable let the coding agent choose the payment processor and other basic trust infrastructure. Hosanagar expects a whole \"AI economy\" to develop, with services that help brands sell to AI and services that help AI buy well on people's behalf."
+      ],
+      "fun_facts": [
+        "Warby Parker's business plan started as a term paper in Hosanagar's Wharton course. He didn't get equity.",
+        "Hosanagar offered on air to send Goldstein an invite to the invite-only shopping agent Instinct.",
+        "He went to both the Coldplay and Taylor Swift concerts. His daughter chose the second.",
+        "The episode is a PayPal-sponsored special, the final installment of a Pushkin series on trust."
+      ],
+      "discussion_questions": [
+        "If agent platforms end up bearing liability for bad purchases, how will that change which products they're willing to recommend?",
+        "Hosanagar says language models \"love tables.\" What happens to the open web if every brand starts writing for machine readers instead of human ones?"
+      ],
+      "highlights": [
+        {
+          "text": "Shoppers already trust AI to research and shortlist products but not to buy. Trust will arrive one category at a time, as e-commerce went from books to electronics to clothing.",
+          "category": "Marketing/Growth",
+          "topics": [
+            "Consumer AI",
+            "Retail"
+          ]
+        },
+        {
+          "text": "Groceries may be agentic AI's \"books\": low stakes, repeat purchases, and shoppers already accept Instacart substitutions.",
+          "category": "Startup Idea",
+          "topics": [
+            "Consumer AI",
+            "Food & Beverage"
+          ]
+        },
+        {
+          "text": "Agentic shopping goes mainstream when someone guarantees it, the way credit cards promised you wouldn't pay for fraud. The agent platform will probably carry the liability.",
+          "category": "Business Model",
+          "topics": [
+            "Consumer AI",
+            "Debt & Credit"
+          ]
+        },
+        {
+          "text": "An old Reddit post claiming a London vintage seller was shutting down kept it out of ChatGPT and Gemini recommendations. Treat AI agents as customers you have to inform and persuade.",
+          "category": "Marketing/Growth",
+          "topics": [
+            "Consumer AI",
+            "Branding"
+          ]
+        },
+        {
+          "text": "Letting AI crawlers read your site isn't enough. Models also learn from reviews, Reddit and YouTube, and they seem to respond better to comparison tables than paragraphs.",
+          "category": "Marketing/Growth",
+          "topics": [
+            "Consumer AI",
+            "Social Media"
+          ]
+        },
+        {
+          "text": "AI isn't just another channel. Like Netflix with movie studios, agents that own shopping take the power, which is why Amazon keeps its feed from ChatGPT and builds Rufus.",
+          "category": "Business Model",
+          "topics": [
+            "Consumer AI",
+            "Moats"
+          ]
+        }
+      ]
+    },
+    {
+      "show": "Stuff You Should Know",
+      "title": "Asteroooooid De-FENSE!",
+      "url": "https://www.iheart.com/podcast/1119-stuff-you-should-know-26940277/episode/asteroooooid-de-fense-347521342/",
+      "recap": [
+        "**What asteroids are, and which ones to worry about.** Asteroids are leftovers: planetesimals that never became planets, or pieces of planets that were smashed apart. Most stay in the belt between Mars and Jupiter, where Jupiter's gravity keeps them in pieces. There are more than 1.8 million known asteroids, but the ones that matter are about 25,000 near-Earth asteroids, with roughly 1,100 new ones found every year. The real watch list is the \"potentially hazardous asteroids\": bigger than about 140 meters (460 feet) and with orbits that come within about 4.6 million miles of Earth.",
+        "**The search started as a math puzzle.** In the 1770s Johann Bode's numerical pattern for planetary distances suggested something was missing between Mars and Jupiter. In 1801 Giuseppe Piazzi found Ceres, which is about 620 miles across and holds roughly a third of the asteroid belt's mass. Asteroids are dark and reflect little visible light, which is why NASA now looks for them with infrared telescopes: NEOWISE for decades, and the upcoming NEO Surveyor.",
+        "**Scale changes the stakes quickly.** Hosts estimate a house-sized rock at 30,000 mph equals the Hiroshima bomb, flattening concrete buildings within half a mile. A 20-story-sized rock would release 20 to 50 megatons, as much as the Tsar Bomba. A mile-wide asteroid would be about a million megatons. \"Extinction-class\" asteroids are wider than about 10 km (6.2 miles), and four of them are on the hazardous list. Apophis, about 375 meters across, will pass within roughly 20,000 miles of Earth on April 13, 2029, closer than some satellites, though NASA says it poses no meaningful impact risk for a century.",
+        "**What happened to the dinosaurs.** In 1978, oil-company geologists surveying off Mexico's Yucatán found an arc on the seafloor: the Chicxulub crater, 112 to 124 miles wide. An iridium-rich layer of rock worldwide, dated to 66 million years ago, points to an asteroid rather than a comet. The impactor was about 8.7 miles wide and released around 100 million megatons. It set off a 15-mile-high tsunami within seconds, a heat pulse from falling debris, a hundredfold jump in ocean acidity and a long impact winter. About 75% of species died, Earth took about 30,000 years to recover, and mammals, including eventually us, filled the empty niches.",
+        "**Why \"just nuke it\" is a bad plan.** Blowing up a dangerous asteroid could leave several chunks that are each still dangerous. NASA's 2007 report to Congress rejected surface or buried bombs. The one explosive option experts support is a standoff detonation: set off nukes near one side so the blast vaporizes surface rock and the escaping material pushes the asteroid like a rocket exhaust.",
+        "**Gentler ways to push.** Most serious options aren't explosive. A kinetic impactor works like a cue ball sent into an eight ball. The ESA's Don Quijote concept pairs a scout spacecraft, which studies the target first, with an impactor that hits it in the best spot. Mirror arrays could focus sunlight on the surface like an Archimedes death ray, so vaporizing rock acts as tiny thrusters. A gravity tractor just parks a probe nearby, and a 20-ton probe could nudge a 60-million-ton asteroid in under a year. All of these are slow, which is why scientists want 10 to 30 years of warning.",
+        "**We've already shown it works.** NASA's NEAR Shoemaker reached the asteroid Eros in 2000, orbited it for a year and then landed, the first spacecraft to orbit a small body. Its data showed we can study a target before trying to move it. In 2022, DART slammed into the asteroid Dimorphos at 4.1 miles per second and measurably changed its orbit. The change was tiny, about 11.7 microns per second, but it adds up to roughly 360 meters a year. Josh calls this one of the great \"amazing time to be alive\" facts: for the first time in Earth's history, life has a plan for incoming asteroids."
+      ],
+      "fun_facts": [
+        "A 400-meter-plus asteroid hits Earth about once every 160,000 years: not a question of if, but when.",
+        "Killing every bacterium on Earth would take an asteroid about 60 miles (96 km) wide.",
+        "Josh hadn't seen Armageddon or Deep Impact, then realized he had seen the one where Morgan Freeman is president.",
+        "Chuck compares DART's nudge to Obama's line about turning a big ship by just a few degrees.",
+        "The 2005 congressional mandate for NASA to plan asteroid deflection is, according to the hosts, what happens after Congress watches Armageddon."
+      ],
+      "discussion_questions": [
+        "Standoff nuclear detonations are the only explosive option scientists endorse. Who should have authority to launch one, and would a planetary-defense exception erode nuclear treaties?",
+        "Deflection takes 10 to 30 years of warning, while elections happen every few years. How do you keep funding steady for a threat that probably won't show up in any politician's lifetime?"
+      ],
+      "highlights": [
+        {
+          "text": "The asteroid watch list is \"potentially hazardous asteroids\": bigger than about 140 meters with orbits within about 4.6 million miles of Earth.",
+          "category": "Trivia",
+          "topics": [
+            "Space"
+          ]
+        },
+        {
+          "text": "Asteroids are dark, so NASA hunts them with infrared telescopes like NEOWISE and the upcoming NEO Surveyor.",
+          "category": "Technical Wisdom",
+          "topics": [
+            "Space",
+            "Satellites"
+          ]
+        },
+        {
+          "text": "Oil-company geologists found the Chicxulub crater off the Yucatán in 1978. The dinosaur-killing impactor was about 8.7 miles wide and wiped out about 75% of species.",
+          "category": "Trivia",
+          "topics": [
+            "Space",
+            "History"
+          ]
+        },
+        {
+          "text": "Blowing up an asteroid can leave several dangerous chunks. The one explosive option experts support is a standoff detonation that vaporizes surface rock to push it.",
+          "category": "Technical Wisdom",
+          "topics": [
+            "Space",
+            "Physics"
+          ]
+        },
+        {
+          "text": "A gravity tractor just parks a probe nearby: a 20-ton probe could nudge a 60-million-ton asteroid in under a year. All deflection methods need 10–30 years of warning.",
+          "category": "Technical Wisdom",
+          "topics": [
+            "Space",
+            "Physics"
+          ]
+        },
+        {
+          "text": "DART changed Dimorphos's orbit by only about 11.7 microns per second in 2022, but that adds up to roughly 360 meters a year.",
+          "category": "Trivia",
+          "topics": [
+            "Space"
+          ]
+        }
+      ]
+    },
+    {
+      "show": "Planet Money",
+      "title": "Charles Ponzi's scheme (plus a new scam)",
+      "url": "https://www.npr.org/2026/10/07/nx-s1-5992800/charles-ponzis-scheme-plus-a-new-scam",
+      "recap": [
+        "**The man behind the word.** Only a few people become words, like Elbridge Gerry (gerrymander) and Adolphe Sax (saxophone), and Charles Ponzi is one of them. He was an Italian immigrant, 5'2\" (he claimed 5'3\"), who arrived in 1903 and spent 15 years working as a bank clerk, translator, mining-camp nurse, sign painter, dishwasher, librarian and more. Zuckoff, a former Boston Globe banking reporter, didn't know Ponzi had been based in Boston until a state treasurer mentioned it in passing. He then read thousands of court documents and found a record of every victim.",
+        "**The skin graft that complicates the villain.** At an Appalachian mining camp, a nurse named Pearl was badly burned and gangrene was setting in. No one would donate skin, so Ponzi volunteered. Doctors took 72 square inches from his thighs and later 50 more from his back, and Pearl lived. Zuckoff expected to write about a snake and ended up with \"the stirrings of empathy\" for a man who took huge, figure-it-out-later risks for good and bad ends alike.",
+        "**The idea was real arbitrage.** In August 1919 an international reply coupon fell out of a letter. These prepaid vouchers let someone abroad redeem them for a local stamp. After World War I, European currencies had collapsed but coupon prices hadn't been adjusted, so a dollar bought more than three times as many coupons in Italy as in the US. On paper, he could make $2.30 per dollar. The problem was the details he never worked out: how to turn bulk stamps back into cash, and how to ship them at scale.",
+        "**The scam began when he started selling the idea without a working plan.** Ponzi registered the \"Securities Exchange Company\" (yes, the SEC, 15 years before the real one) and promised 50% in 90 days when banks paid 2–3% a year. He called the missing pieces \"proprietary.\" He never bought coupons with investor money. Early investors were paid out of new investors' deposits, robbing Peter to pay Paul. At its peak in July 1920 he took in nearly $6.5 million from 20,000 investors in a single month, and two-thirds of the Boston police force had invested. Some officers even sold for him.",
+        "**Fountain's red-flag rhymes.** Secret sauce? \"Get lost.\" Steady, guaranteed returns? \"You're going to get burned,\" because real investments have good and bad years. Stories of instant riches everywhere: the Roaring Twenties papers were full of rags-to-riches front-page stories. Unregulated corners: \"If you're in the sticks, be careful with your picks.\" Postal arbitrage was so obscure that the first state examiner concluded Ponzi was the opposite of a loan shark and left. And the last one: \"Fear of missing out? Don't forget to doubt.\"",
+        "**The plan to rob his own bank.** A lawsuit froze some of Ponzi's accounts and started a run. He calmed the crowd in person and paid everyone who asked. Then regulators demanded an audit. Ponzi's plan was to take millions from the vault of the Hanover Trust, a bank he partly owned, show it to the auditor, and put it back. Massachusetts' bank commissioner put the bank under watch, saw Ponzi's people withdrawing, and declared him hopelessly insolvent: about $7 million owed against roughly $4 million on hand. Ponzi spent much of the 1920s in prison and died in a Brazilian charity ward with $75, enough to pay for his burial.",
+        "**The 2026 twist: scammers posing as podcasters.** Fraudsters are pretending to be Planet Money and Indicator staff and inviting people, often crypto holders, to be guests. On the video \"interview\" they ask the guest to install recording software, send them off to fix the lighting or put on a jacket, and empty their crypto wallets while they're away. Real NPR emails always end in npr.org, never .com, and real producers will never ask for remote access or money."
+      ],
+      "fun_facts": [
+        "The episode opens with news that prosecutors named Travis Kelce as a victim in a $35 million Ponzi scheme.",
+        "Ponzi's first sales pitch went to people in his community, and his salesmen included Boston police officers.",
+        "Ponzi bought into legitimate businesses with investor money, including stakes in several banks.",
+        "Zuckoff traveled to Italy to find Ponzi's birth records."
+      ],
+      "discussion_questions": [
+        "Ponzi's arbitrage was real on paper. At what exact point does an overconfident entrepreneur with an unproven plan become a fraudster?",
+        "The new scam targets people's vanity about being invited on a podcast. Which other \"flattery invitations\" (awards, speaking slots, press features) are likely next?"
+      ],
+      "highlights": [
+        {
+          "text": "Ponzi's idea was real arbitrage: post-WWI currency collapses meant a dollar bought over three times as many international reply coupons in Italy as in the US.",
+          "category": "Investing",
+          "topics": [
+            "Fraud",
+            "History"
+          ]
+        },
+        {
+          "text": "The scam began when Ponzi sold the idea without a working plan, calling the missing pieces \"proprietary\" and paying early investors with new deposits.",
+          "category": "Business Model",
+          "topics": [
+            "Fraud"
+          ]
+        },
+        {
+          "text": "Ponzi named his firm the \"Securities Exchange Company\" and promised 50% in 90 days when banks paid 2–3% a year. In July 1920 he took in nearly $6.5 million in a month.",
+          "category": "Trivia",
+          "topics": [
+            "Fraud",
+            "History"
+          ]
+        },
+        {
+          "text": "Red flags: secret sauce, steady guaranteed returns, instant-riches stories everywhere, unregulated corners, and fear of missing out.",
+          "category": "Investing",
+          "topics": [
+            "Fraud",
+            "Personal Finance"
+          ]
+        },
+        {
+          "text": "Scammers are posing as Planet Money producers, inviting crypto holders on as guests and emptying their wallets during the fake interview. Real NPR emails end in npr.org.",
+          "category": "Life/Career Advice",
+          "topics": [
+            "Fraud"
+          ]
+        },
+        {
+          "text": "A few people become words: Elbridge Gerry (gerrymander), Adolphe Sax (saxophone) and Charles Ponzi.",
+          "category": "Trivia",
+          "topics": [
+            "History"
+          ]
+        }
+      ]
+    }
+  ]
+}
